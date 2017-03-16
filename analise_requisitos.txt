@@ -1,0 +1,22 @@
+ANÁLISE DE REQUISITOS
+
+* REQUISITOS FUNCIONAIS
+	São assuntos de importância fundamental ou essencial ao produto.
+	Eles descrevem o que o produto tem de fazer ou que ações processuais deve tomar.
+	
+* REQUISITOS NÃO FUNCIONAIS
+	São as propriedades que as funções devem ter, tais como desempenho e usabilidade.
+	Estes requisitos são tão importantes quanto as exigências funcionais, para o sucesso
+	do produto.
+	
+* RESTRIÇÕES DO PROJETO
+	São as limitações no produto devido ao orçamento ou ao tempo disponível para construí-lo.
+	
+* RESTRIÇÕES DE DESENHO
+	Impõem limitações de como o produto deve ser desenhado.
+	
+* DIRETIVAS DO PROJETO
+	São as forças relacionadas ao negócio.
+	
+* TEMAS DO PROJETO
+	Definem as condições nas quais o projeto será realizado.
