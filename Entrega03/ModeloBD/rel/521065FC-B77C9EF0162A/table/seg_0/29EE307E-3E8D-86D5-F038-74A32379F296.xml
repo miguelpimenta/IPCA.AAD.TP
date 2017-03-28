@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="29EE307E-3E8D-86D5-F038-74A32379F296" name="Acessov1">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 20:20:20 UTC</createdTime>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Utente_IdUtente" id="4B4BB974-56B6-3AE9-7F67-63396A88F98E">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 20:20:20 UTC</createdTime>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55499636-7B21-EE07-1EB8-B7E56C2A4C12" referredColumn="388E2222-AF60-A0AC-6307-CB1BE52B8DA8"/>
+</associations>
+</Column>
+<Column name="Acessos_IdAcesso" id="B6A86686-943E-7534-F629-AC8EC01B3BF9">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 20:20:20 UTC</createdTime>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="114525B0-1DFA-9351-EE1D-F37BB945E811" referredColumn="69498D6F-76CC-C683-4B05-F15874AE1FFE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CDB55A01-AEFD-EAF3-9F3F-0C4A151B5C5C" name="Acessov1_PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 20:20:20 UTC</createdTime>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B4BB974-56B6-3AE9-7F67-63396A88F98E"/>
+<colUsage columnID="B6A86686-943E-7534-F629-AC8EC01B3BF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="134A5110-BE60-0820-9EBB-6933011FF076" name="FK_ASS_3">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 20:20:20 UTC</createdTime>
+<generatorID>104AC6D6-0421-9B7B-3D43-DCAEE3F25EA6</generatorID>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B4BB974-56B6-3AE9-7F67-63396A88F98E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2BB68C19-D4F3-DD69-3CEE-70B8E8DA7A02" name="FK_ASS_4">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 20:20:20 UTC</createdTime>
+<generatorID>104AC6D6-0421-9B7B-3D43-DCAEE3F25EA6</generatorID>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6A86686-943E-7534-F629-AC8EC01B3BF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

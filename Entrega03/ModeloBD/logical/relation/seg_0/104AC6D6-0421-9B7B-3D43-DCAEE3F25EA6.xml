@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Acesso" directorySegmentName="seg_0" id="104AC6D6-0421-9B7B-3D43-DCAEE3F25EA6">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 20:15:44 UTC</createdTime>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<sourcePk>9936CA6A-3F7F-24E5-6C41-0C82087D5425</sourcePk>
+<targetPk>9936CA6A-3F7F-24E5-6C41-0C82087D5425</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>AEABC334-2738-F8E4-AFB7-99A357956189</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7C633652-802A-FB8A-3CFD-FCB22A5F4EDA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

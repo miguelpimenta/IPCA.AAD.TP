@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ModeloBD" id="95B0838D-769D-670B-3C76-493826839DA8" version="3.5">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-24 21:19:55 UTC</createdTime>
+<ownerDesignName>DATAMODELER</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>95B0838D-769D-670B-3C76-493826839DA8</designId>
+</OSDM_Design>

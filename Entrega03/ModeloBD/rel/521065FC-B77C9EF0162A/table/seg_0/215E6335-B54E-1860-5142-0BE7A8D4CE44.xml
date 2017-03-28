@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="215E6335-B54E-1860-5142-0BE7A8D4CE44" name="Acesso">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 20:20:20 UTC</createdTime>
+<generatorID>FBF71DF0-E7E1-72FD-CC8A-B6CBCE5B594A</generatorID>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<abbreviation>Acesso</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="E12AD2C3-3E0C-2FFB-875C-7CDB54139E34">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 20:20:20 UTC</createdTime>
+<generatorID>A04B8A3D-B57D-E88F-E1BD-2C41DD74A006</generatorID>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date" id="FB512746-166B-C7AB-4B51-E4C076C027B0">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 20:20:20 UTC</createdTime>
+<generatorID>C1398221-EEC0-CA53-DDF8-5F66AB5429CE</generatorID>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="41DFE2E2-EB95-D678-0C58-5BB82D26D238" name="Acesso_PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 20:20:20 UTC</createdTime>
+<generatorID>24BF9FA9-898F-5CB9-DCCE-5E91B38649E9</generatorID>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E12AD2C3-3E0C-2FFB-875C-7CDB54139E34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
