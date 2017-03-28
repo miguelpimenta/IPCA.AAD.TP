@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7C633652-802A-FB8A-3CFD-FCB22A5F4EDA" name="Acessos">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E0C20B0D-D6CC-9C2E-FEF2-6E047D495E15" name="EstCivil">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-27 21:02:41 UTC</createdTime>
+<createdTime>2017-03-28 21:22:59 UTC</createdTime>
+<generatorID>4F69A141-731A-E947-487E-88F80F50EBBF</generatorID>
 <ownerDesignName>ModeloBD</ownerDesignName>
 <engineerTo>
 <item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
@@ -14,11 +15,11 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<shortName>Acessos</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="IdAcesso" id="509F28A4-3753-7520-3827-1832797F64B3">
+<Attribute name="IdEstCivil" id="356EE973-D30F-E9C5-0D82-FF742AC8087D">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-27 21:03:29 UTC</createdTime>
+<createdTime>2017-03-28 21:22:59 UTC</createdTime>
+<generatorID>E1D64A97-6E29-4156-D380-7A6401188FE6</generatorID>
 <ownerDesignName>ModeloBD</ownerDesignName>
 <engineerTo>
 <item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
@@ -28,9 +29,10 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DataHora" id="B82C32F9-6A67-2061-FBBC-DB8915D63225">
+<Attribute name="EstCivil" id="3FA5E297-6B57-3952-CFC1-F0A6E4A90F7A">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-28 20:27:40 UTC</createdTime>
+<createdTime>2017-03-28 21:22:59 UTC</createdTime>
+<generatorID>73081C5F-72D7-3325-0B6C-8FD12D886151</generatorID>
 <ownerDesignName>ModeloBD</ownerDesignName>
 <engineerTo>
 <item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
@@ -38,22 +40,23 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="9936CA6A-3F7F-24E5-6C41-0C82087D5425" name="Acessos PK">
+<identifier id="076D5F35-5580-D5A3-B053-B8EEF67935E9" name="EstCivil PK">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-27 21:03:49 UTC</createdTime>
+<createdTime>2017-03-28 21:22:59 UTC</createdTime>
+<generatorID>971FA831-B94A-612C-CBE4-3CFC884C4F57</generatorID>
 <ownerDesignName>ModeloBD</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="false"/>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>509F28A4-3753-7520-3827-1832797F64B3</attributeRef>
+<attributeRef>356EE973-D30F-E9C5-0D82-FF742AC8087D</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

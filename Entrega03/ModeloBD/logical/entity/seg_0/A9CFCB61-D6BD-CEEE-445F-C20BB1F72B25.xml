@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7C633652-802A-FB8A-3CFD-FCB22A5F4EDA" name="Acessos">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A9CFCB61-D6BD-CEEE-445F-C20BB1F72B25" name="Freguesias">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-27 21:02:41 UTC</createdTime>
+<createdTime>2017-03-28 20:41:03 UTC</createdTime>
+<generatorID>D14C4E69-81E2-18FE-513D-6C6772278224</generatorID>
 <ownerDesignName>ModeloBD</ownerDesignName>
 <engineerTo>
 <item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
@@ -14,11 +15,11 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<shortName>Acessos</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="IdAcesso" id="509F28A4-3753-7520-3827-1832797F64B3">
+<Attribute name="IdFreguesia" id="4EE9958E-D8BE-67C9-645D-69F6B93AD440">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-27 21:03:29 UTC</createdTime>
+<createdTime>2017-03-28 20:41:03 UTC</createdTime>
+<generatorID>66400E9F-1A80-A829-D45D-2DE107CE6327</generatorID>
 <ownerDesignName>ModeloBD</ownerDesignName>
 <engineerTo>
 <item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
@@ -28,9 +29,10 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DataHora" id="B82C32F9-6A67-2061-FBBC-DB8915D63225">
+<Attribute name="Freguesia" id="A9E22F5F-720B-B66F-61D5-2983FC286B26">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-28 20:27:40 UTC</createdTime>
+<createdTime>2017-03-28 20:41:03 UTC</createdTime>
+<generatorID>39C0119F-F686-DB27-A3D8-41859B995C2C</generatorID>
 <ownerDesignName>ModeloBD</ownerDesignName>
 <engineerTo>
 <item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
@@ -38,14 +40,16 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>254 CHAR</dataTypeSize>
+<ownDataTypeParameters>254 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="9936CA6A-3F7F-24E5-6C41-0C82087D5425" name="Acessos PK">
+<identifier id="3F9FEC9D-A8B2-AEC9-CB1C-72361E395C8C" name="Freguesias PK">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-27 21:03:49 UTC</createdTime>
+<createdTime>2017-03-28 20:41:03 UTC</createdTime>
+<generatorID>359EC599-B13A-4180-FA28-A2B71D37B327</generatorID>
 <ownerDesignName>ModeloBD</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
@@ -53,7 +57,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>509F28A4-3753-7520-3827-1832797F64B3</attributeRef>
+<attributeRef>4EE9958E-D8BE-67C9-645D-69F6B93AD440</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AEABC334-2738-F8E4-AFB7-99A357956189" name="Utente">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AEABC334-2738-F8E4-AFB7-99A357956189" name="Utentes">
 <createdBy>Miguel Pimenta</createdBy>
 <createdTime>2017-03-27 20:24:34 UTC</createdTime>
 <ownerDesignName>ModeloBD</ownerDesignName>
@@ -189,14 +189,57 @@
 <dataTypeSize>11 CHAR</dataTypeSize>
 <ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Freguesias IdFreguesia" id="C77C961E-5C83-31C9-4B90-7ED52B119525">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:22:59 UTC</createdTime>
+<generatorID>94CF1B6D-70AA-98C0-C481-B78DF67E13A6</generatorID>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<referedAttribute>4EE9958E-D8BE-67C9-645D-69F6B93AD440</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Concelhos IdConcelho" id="7933E933-A587-38C3-C46F-93F68D80397F">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:22:59 UTC</createdTime>
+<generatorID>B0AEFB85-48B6-B800-B95C-6787FF5D0A4F</generatorID>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<referedAttribute>69F2C827-B826-A931-08C1-484D75FFF21E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Distritos IdDistrito" id="3B54A16F-0447-0612-D5AA-68E430A5B486">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:22:59 UTC</createdTime>
+<generatorID>4EB9E602-3E32-E7E7-36FE-6120D51E305C</generatorID>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<referedAttribute>1260CCAA-E14B-DF6C-5560-6A839A193F97</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="E54EF7D2-DC8C-56AC-7112-A1AE4B481CDE" name="Utente PK">
 <createdBy>Miguel Pimenta</createdBy>
 <createdTime>2017-03-27 20:28:10 UTC</createdTime>
 <ownerDesignName>ModeloBD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

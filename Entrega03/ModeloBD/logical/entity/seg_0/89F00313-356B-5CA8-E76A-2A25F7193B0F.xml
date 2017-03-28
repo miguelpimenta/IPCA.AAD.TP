@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7C633652-802A-FB8A-3CFD-FCB22A5F4EDA" name="Acessos">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="89F00313-356B-5CA8-E76A-2A25F7193B0F" name="HabLiterarias">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-27 21:02:41 UTC</createdTime>
+<createdTime>2017-03-28 21:22:59 UTC</createdTime>
+<generatorID>E0576DAE-CE03-8EA4-1044-22694A223CB1</generatorID>
 <ownerDesignName>ModeloBD</ownerDesignName>
 <engineerTo>
 <item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
@@ -14,23 +15,22 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<shortName>Acessos</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="IdAcesso" id="509F28A4-3753-7520-3827-1832797F64B3">
+<Attribute name="IdHabLiteraria" id="A5230D0C-E58E-2D96-0ED3-582A8FC6924C">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-27 21:03:29 UTC</createdTime>
+<createdTime>2017-03-28 21:22:59 UTC</createdTime>
+<generatorID>3D7D89A0-7B11-070C-04C0-43148465FB6D</generatorID>
 <ownerDesignName>ModeloBD</ownerDesignName>
 <engineerTo>
 <item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DataHora" id="B82C32F9-6A67-2061-FBBC-DB8915D63225">
+<Attribute name="HabLiteraria" id="2DD331ED-9A36-1695-8118-E4F5E553DFF3">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-28 20:27:40 UTC</createdTime>
+<createdTime>2017-03-28 21:22:59 UTC</createdTime>
+<generatorID>AFE3065B-1981-05BD-C823-8AC263511101</generatorID>
 <ownerDesignName>ModeloBD</ownerDesignName>
 <engineerTo>
 <item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
@@ -38,22 +38,23 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>254 CHAR</dataTypeSize>
+<ownDataTypeParameters>254 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="9936CA6A-3F7F-24E5-6C41-0C82087D5425" name="Acessos PK">
+<identifier id="12632BD6-B74C-5A18-8721-D7B9EBDE08BE" name="HabLiterarias PK">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-27 21:03:49 UTC</createdTime>
+<createdTime>2017-03-28 21:22:59 UTC</createdTime>
+<generatorID>1CFE5630-BADD-3F9B-0FC1-796C1CD3F63A</generatorID>
 <ownerDesignName>ModeloBD</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="false"/>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>509F28A4-3753-7520-3827-1832797F64B3</attributeRef>
+<attributeRef>A5230D0C-E58E-2D96-0ED3-582A8FC6924C</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

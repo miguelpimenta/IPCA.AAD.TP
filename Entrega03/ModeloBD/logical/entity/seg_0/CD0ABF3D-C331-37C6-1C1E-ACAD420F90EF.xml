@@ -1,0 +1,320 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CD0ABF3D-C331-37C6-1C1E-ACAD420F90EF" name="Colaboradores">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 20:41:03 UTC</createdTime>
+<generatorID>5A928F3C-DF8B-5790-B63E-6C4B128EEADB</generatorID>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdColaborador" id="0BA34256-C5AA-0122-DCB5-FDFE29041CD7">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 20:41:03 UTC</createdTime>
+<generatorID>3985240E-A490-AB50-9681-2E1942ABC71D</generatorID>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="1BD43C3F-969C-703D-3738-F2F79C1BB340">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 20:41:03 UTC</createdTime>
+<generatorID>A40E50C7-1F52-BEFA-B715-DCE3A1F2EEED</generatorID>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DataNasc" id="2718149E-88CD-3C6E-A8E5-F740F34625E1">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 20:41:03 UTC</createdTime>
+<generatorID>1462677F-B920-6C7D-EA64-83743692BC60</generatorID>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Morada" id="B3BF9758-7738-0CAF-2D3D-150414D1D278">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 20:41:03 UTC</createdTime>
+<generatorID>245DA7DC-4078-4BB4-6CB1-4FCAA7A1523D</generatorID>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>254 CHAR</dataTypeSize>
+<ownDataTypeParameters>254 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdFreguesia" id="67FC5A4B-428A-D596-B41D-58DE69C94973">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 20:41:03 UTC</createdTime>
+<generatorID>AC801F15-CD05-FF04-8028-2032FBD6F439</generatorID>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Freguesias IdFreguesia" id="49759769-0D90-BDFA-FADC-83275EF15691">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 20:48:25 UTC</createdTime>
+<generatorID>F9AE807A-DB3D-AD90-FD6C-5B2825EF8F3C</generatorID>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<referedAttribute>4EE9958E-D8BE-67C9-645D-69F6B93AD440</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Concelhos IdConcelho" id="A098C246-117B-A5EB-3A59-6960BDE52F72">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:01:39 UTC</createdTime>
+<generatorID>37D03F78-09D2-F04E-A169-E3D83D6758E1</generatorID>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<referedAttribute>69F2C827-B826-A931-08C1-484D75FFF21E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Distritos IdDistrito" id="BC7FEC4E-A2C8-777E-2801-A4E8D8E85D2C">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:01:39 UTC</createdTime>
+<generatorID>954DA92F-D274-4687-6DD0-B981939B59F4</generatorID>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<referedAttribute>1260CCAA-E14B-DF6C-5560-6A839A193F97</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Conjugue" id="E505864C-4DF1-E498-2644-73657D81609B">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:22:59 UTC</createdTime>
+<generatorID>1FB3289A-D2DD-8A12-5DC7-B08139A7C827</generatorID>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telef" id="1A089AC2-0A16-72C6-3B67-46E1FB8EA759">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:22:59 UTC</createdTime>
+<generatorID>B12031C7-CAC0-7528-EA57-5D4720792887</generatorID>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tlm" id="6567C266-DC62-F356-A5FB-0CFF2AD5CFF6">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:22:59 UTC</createdTime>
+<generatorID>44C55B4D-6D88-3F8E-8021-1C8C39814AEC</generatorID>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="AEEA4A47-8294-389E-59C0-A80C909D4080">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:22:59 UTC</createdTime>
+<generatorID>BC79F0E6-B37A-ACAC-D1C8-80C7F12670A2</generatorID>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>254 CHAR</dataTypeSize>
+<ownDataTypeParameters>254 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NumCC" id="D5121ACE-3A7E-E1D0-302D-6DD10A8020DA">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:22:59 UTC</createdTime>
+<generatorID>1879DA16-54D4-43F1-07DC-172E936D3B1B</generatorID>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DtValCC" id="AE45C6CD-8399-C72D-F351-F017D8D548B1">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:22:59 UTC</createdTime>
+<generatorID>3BA07F5F-2589-A6E7-F0AA-C9F73803FFE9</generatorID>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NIF" id="204DEE27-D338-415B-0B5A-8AF43F64A23F">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:22:59 UTC</createdTime>
+<generatorID>D8C2AE48-F613-3F06-E83D-5895C2945A17</generatorID>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NISS" id="2D8D2BDB-0020-EB0D-8896-0053D3C09210">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:22:59 UTC</createdTime>
+<generatorID>DA333850-3BD7-3085-A4FA-B20C4F478F43</generatorID>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nacionalidades IdNacionalidade" id="4CD500A4-1307-FF40-0CA1-62398A5AD666">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:22:59 UTC</createdTime>
+<generatorID>F80E9743-5051-08EA-E1F2-A95FFD2DD9E2</generatorID>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<referedAttribute>379980FF-06C2-CAA2-3C67-39C4DB8778FD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EstCivil IdEstCivil" id="EC0A38B8-0B5A-4FCE-7803-E1D803584B9D">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:22:59 UTC</createdTime>
+<generatorID>EEEE9780-01EC-5CF9-AC43-024B3BBF0FA2</generatorID>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<referedAttribute>356EE973-D30F-E9C5-0D82-FF742AC8087D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Funcoes IdFuncao" id="5BDACE3C-06ED-6235-52D2-FB8413AD611F">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:22:59 UTC</createdTime>
+<generatorID>6A37E4CB-3F5F-E183-4868-F4C34FB02CC5</generatorID>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<referedAttribute>2BCF7AF2-E5DA-55BE-0E1E-ECE30803FD80</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HabLiterarias IdHabLiteraria" id="CBE31790-D7E0-D26F-E897-5241ECA45714">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:22:59 UTC</createdTime>
+<generatorID>511C9D65-DA09-6799-AAC8-470150515D8A</generatorID>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<referedAttribute>A5230D0C-E58E-2D96-0ED3-582A8FC6924C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DB0D8D01-6D9C-6C37-103B-C728273B71CF" name="Colaboradores PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 20:41:03 UTC</createdTime>
+<generatorID>F1004177-9AE2-42BC-0B92-E17666F9E354</generatorID>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0BA34256-C5AA-0122-DCB5-FDFE29041CD7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

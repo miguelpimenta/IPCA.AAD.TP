@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Utente_Freguesias_FK" directorySegmentName="seg_0" id="94CF1B6D-70AA-98C0-C481-B78DF67E13A6">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:22:59 UTC</createdTime>
+<generatorID>39B84EF1-7A6A-2B16-CEA2-A1B6D5A72972</generatorID>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<sourcePk>3F9FEC9D-A8B2-AEC9-CB1C-72361E395C8C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A9CFCB61-D6BD-CEEE-445F-C20BB1F72B25</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AEABC334-2738-F8E4-AFB7-99A357956189</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

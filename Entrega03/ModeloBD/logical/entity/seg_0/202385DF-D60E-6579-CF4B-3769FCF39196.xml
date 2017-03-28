@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7C633652-802A-FB8A-3CFD-FCB22A5F4EDA" name="Acessos">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="202385DF-D60E-6579-CF4B-3769FCF39196" name="Distritos">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-27 21:02:41 UTC</createdTime>
+<createdTime>2017-03-28 21:01:39 UTC</createdTime>
+<generatorID>D00C3C8C-8AC0-947D-8738-C00B99C390E9</generatorID>
 <ownerDesignName>ModeloBD</ownerDesignName>
 <engineerTo>
 <item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
@@ -14,11 +15,11 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<shortName>Acessos</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="IdAcesso" id="509F28A4-3753-7520-3827-1832797F64B3">
+<Attribute name="IdDistrito" id="1260CCAA-E14B-DF6C-5560-6A839A193F97">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-27 21:03:29 UTC</createdTime>
+<createdTime>2017-03-28 21:01:39 UTC</createdTime>
+<generatorID>1974FD50-23A9-46DF-7A79-FE6770F8D221</generatorID>
 <ownerDesignName>ModeloBD</ownerDesignName>
 <engineerTo>
 <item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
@@ -28,9 +29,10 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DataHora" id="B82C32F9-6A67-2061-FBBC-DB8915D63225">
+<Attribute name="Distrito" id="5EBCB06B-C653-277E-D4AA-0F14E8879AF1">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-28 20:27:40 UTC</createdTime>
+<createdTime>2017-03-28 21:01:39 UTC</createdTime>
+<generatorID>52BF9AB3-B3FB-C975-E15B-357892ECBDE3</generatorID>
 <ownerDesignName>ModeloBD</ownerDesignName>
 <engineerTo>
 <item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
@@ -38,14 +40,16 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="9936CA6A-3F7F-24E5-6C41-0C82087D5425" name="Acessos PK">
+<identifier id="ED7EB1A7-D59D-9085-6BEC-D59BEFF8C926" name="Distritos PK">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-27 21:03:49 UTC</createdTime>
+<createdTime>2017-03-28 21:01:39 UTC</createdTime>
+<generatorID>ECD62E39-B924-A195-E705-B6E4B8BC87E8</generatorID>
 <ownerDesignName>ModeloBD</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
@@ -53,7 +57,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>509F28A4-3753-7520-3827-1832797F64B3</attributeRef>
+<attributeRef>1260CCAA-E14B-DF6C-5560-6A839A193F97</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

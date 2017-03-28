@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7C633652-802A-FB8A-3CFD-FCB22A5F4EDA" name="Acessos">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8A88709D-A316-6A37-97CE-01813AAB1583" name="Nacionalidades">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-27 21:02:41 UTC</createdTime>
+<createdTime>2017-03-28 21:22:59 UTC</createdTime>
+<generatorID>92A0CDBA-94AA-6596-AC9E-7148F304C4D0</generatorID>
 <ownerDesignName>ModeloBD</ownerDesignName>
 <engineerTo>
 <item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
@@ -14,11 +15,11 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<shortName>Acessos</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="IdAcesso" id="509F28A4-3753-7520-3827-1832797F64B3">
+<Attribute name="IdNacionalidade" id="379980FF-06C2-CAA2-3C67-39C4DB8778FD">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-27 21:03:29 UTC</createdTime>
+<createdTime>2017-03-28 21:22:59 UTC</createdTime>
+<generatorID>2F4966ED-49DD-6AB4-26E4-6BD8257F46B8</generatorID>
 <ownerDesignName>ModeloBD</ownerDesignName>
 <engineerTo>
 <item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
@@ -28,9 +29,10 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DataHora" id="B82C32F9-6A67-2061-FBBC-DB8915D63225">
+<Attribute name="Nacionalidade" id="05964C07-C511-59D6-982E-32276ED886EA">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-28 20:27:40 UTC</createdTime>
+<createdTime>2017-03-28 21:22:59 UTC</createdTime>
+<generatorID>BF687951-6FCC-B138-DE8B-F7968930EDEF</generatorID>
 <ownerDesignName>ModeloBD</ownerDesignName>
 <engineerTo>
 <item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
@@ -38,22 +40,23 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="9936CA6A-3F7F-24E5-6C41-0C82087D5425" name="Acessos PK">
+<identifier id="5E07DFDB-A847-487C-372F-796EF3EEED42" name="Nacionalidades PK">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-27 21:03:49 UTC</createdTime>
+<createdTime>2017-03-28 21:22:59 UTC</createdTime>
+<generatorID>1EFBDBC5-02DC-CD0E-B295-ACB5CC6157A5</generatorID>
 <ownerDesignName>ModeloBD</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="false"/>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>509F28A4-3753-7520-3827-1832797F64B3</attributeRef>
+<attributeRef>379980FF-06C2-CAA2-3C67-39C4DB8778FD</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

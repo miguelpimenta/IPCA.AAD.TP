@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FE4BA65A-66A5-B0E8-CC8D-DA8071699DA8" name="CodPostal">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:01:39 UTC</createdTime>
+<generatorID>20DE62AE-5259-5FAF-65F5-9BD9FC9BF63D</generatorID>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CodPostal" id="270D671B-6F62-FA4A-06D3-BCA65B22EF67">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:01:39 UTC</createdTime>
+<generatorID>3F44B504-B422-44BF-2CCE-9195039A0E7A</generatorID>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Column 2" id="4745C6D0-AE49-50E5-C1DE-21FF6B4BAB12">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:01:39 UTC</createdTime>
+<generatorID>34C59831-78D1-049E-FE32-1CA4789A3E19</generatorID>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rua" id="6C615480-ED94-B5AF-978E-92109FB67FD1">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:22:59 UTC</createdTime>
+<generatorID>870731A7-7BDB-DCF2-DA99-1D3A5FB8F737</generatorID>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>254 CHAR</dataTypeSize>
+<ownDataTypeParameters>254 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8AB0DB26-BB99-8A54-5740-9DC43FA91223" name="CodPostal PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:01:39 UTC</createdTime>
+<generatorID>350EF8AF-C407-910B-1B3B-FBE23C37E83C</generatorID>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>270D671B-6F62-FA4A-06D3-BCA65B22EF67</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

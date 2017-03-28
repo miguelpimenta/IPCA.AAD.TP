@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Utente_Concelhos_FK" directorySegmentName="seg_0" id="B0AEFB85-48B6-B800-B95C-6787FF5D0A4F">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:22:59 UTC</createdTime>
+<generatorID>91CC27EC-F5FD-1CC5-6210-A7C357D39CB0</generatorID>
+<ownerDesignName>ModeloBD</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<sourcePk>2A109B68-B455-6176-08FD-927FF57C6943</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6C83614C-FF23-4BCC-B9D3-6F651468C781</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AEABC334-2738-F8E4-AFB7-99A357956189</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
