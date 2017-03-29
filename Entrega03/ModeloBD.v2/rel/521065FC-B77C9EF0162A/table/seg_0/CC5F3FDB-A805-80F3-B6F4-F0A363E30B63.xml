@@ -1,0 +1,180 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CC5F3FDB-A805-80F3-B6F4-F0A363E30B63" name="Utentes">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 20:34:31 UTC</createdTime>
+<generatorID>AEABC334-2738-F8E4-AFB7-99A357956189</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<ordsAlias>utente</ordsAlias>
+<abbreviation>Utentes</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdUtente" id="97BB51BD-BC9D-70AB-EB07-31B3945A686A">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 20:34:31 UTC</createdTime>
+<generatorID>D53B1874-C84B-E2D5-4F36-0ACF01C6B02F</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="13A437F4-BCBD-E799-C4CB-1CF77F17E1C6">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 20:34:31 UTC</createdTime>
+<generatorID>6C37C7AB-2B37-B55F-EBB3-C18E29C044FB</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataNasc" id="12E9B818-15E7-18FB-E946-BA4563F597E6">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 20:34:31 UTC</createdTime>
+<generatorID>C768BDB3-3A69-26A2-39CA-4DAFBCB35C91</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telef" id="C4309163-8A51-A7D7-AC48-25917AC4561C">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 20:34:31 UTC</createdTime>
+<generatorID>8C5213DB-3575-7A63-E103-0ABB3ADD8BC9</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tlm" id="0103354A-58FB-9789-50CC-A64C57DFBAC5">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 20:34:31 UTC</createdTime>
+<generatorID>416BC552-9DBF-DBBC-28EE-7C35C34F0902</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="E142B0C0-6131-BED7-FD42-5BD441EA9011">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 20:34:31 UTC</createdTime>
+<generatorID>E8A9B529-07C0-12A7-B427-C1CFF496389D</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>254 CHAR</dataTypeSize>
+<ownDataTypeParameters>254 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Morada" id="A99D372C-927E-4191-86CF-60672830B2C1">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 20:34:31 UTC</createdTime>
+<generatorID>C264167B-5140-F13E-8A45-EF7ED5692712</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>254 CHAR</dataTypeSize>
+<ownDataTypeParameters>254 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CC" id="02C47983-30F8-6C57-F3D1-4C1396519701">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 20:34:31 UTC</createdTime>
+<generatorID>E5BD6F27-EBC3-6444-5CC2-9FB7C084DDF3</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NIF" id="655EB713-0B1D-EE05-1BBA-F0D9E762D739">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 20:34:31 UTC</createdTime>
+<generatorID>CDEA9B75-3E07-C444-A2A5-F7D3762B578A</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9 CHAR</dataTypeSize>
+<ownDataTypeParameters>9 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NISS" id="5183190E-512C-752D-697F-AFCC2A7C4DEE">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 20:34:31 UTC</createdTime>
+<generatorID>975C9B2F-1A86-A87A-1A3C-2B40EEEE7DC8</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CodPostal_CodPostal" id="0FFD57E5-0243-321A-FF53-402B0F599AF4">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 16:33:59 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="05B1A7C3-72FB-F54A-FACE-236CD9D41C42" referredColumn="3F44B504-B422-44BF-2CCE-9195039A0E7A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5F9A6020-C102-B5E2-5F90-26BA39843339" name="Utentes_PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 20:34:31 UTC</createdTime>
+<generatorID>E54EF7D2-DC8C-56AC-7112-A1AE4B481CDE</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97BB51BD-BC9D-70AB-EB07-31B3945A686A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="90C8807B-A368-60D1-3EBA-F4ABD0C8DC80" name="Utentes_CodPostal_FK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 16:33:59 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FFD57E5-0243-321A-FF53-402B0F599AF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

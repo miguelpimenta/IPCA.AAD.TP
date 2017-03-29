@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="B7564036-A569-5761-8E05-91329088B925" name="vw Utentes">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 16:36:23 UTC</createdTime>
+<generatorID>70AA142A-B07B-93A4-8D82-E1295E3EC86B</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL>SELECT Utentes.Nome,&lt;br/&gt;  Utentes.DataNasc,&lt;br/&gt;  (DATEDIFF(DAY, Utentes.DataNasc, GETDATE()) / 365.25),&lt;br/&gt;  Utentes.Telef,&lt;br/&gt;  Utentes.Tlm,&lt;br/&gt;  Utentes.Email,&lt;br/&gt;  Utentes.Morada,&lt;br/&gt;  Utentes.CC,&lt;br/&gt;  Utentes.NIF,&lt;br/&gt;  Utentes.NISS&lt;br/&gt;FROM Utentes</userDefinedSQL>
+<validSQL>false</validSQL>
+<parsed>true</parsed>
+<viewType>EntityView</viewType>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="(DATEDIFF(DAY, Utentes.DataNasc, GETDATE()) / 365.25)" id="B7A3D3C6-DCAA-3F11-7ECB-6A01C49C557D">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 16:36:23 UTC</createdTime>
+<generatorID>88909CE0-34F6-C232-DC73-8B19C707542C</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>(DATEDIFF(DAY, Utentes.DataNasc, GETDATE()) / 365.25)</expression>
+<reference>false</reference>
+<viewID>B7564036-A569-5761-8E05-91329088B925</viewID>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="5725763B-7B42-C422-C1E1-BDAF7D5ACD1E">
+<container>true</container>
+<tableName>Utentes</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="F0FD8047-DFFA-12DB-B4A1-5C0CA8210013">
+<columnName>Nome</columnName>
+<tableName>Utentes</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="0F8DE2E0-A132-2853-2B80-577C175ED74D">
+<columnName>DataNasc</columnName>
+<tableName>Utentes</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="F8BF0FC8-52DF-03D5-1074-69F591E5408B">
+<columnName>Telef</columnName>
+<tableName>Utentes</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="74B08646-6F5E-4AA4-5D51-DD3B6D09ABF0">
+<columnName>Tlm</columnName>
+<tableName>Utentes</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="F0C48CB8-E6A1-E61B-8C89-7064489D678A">
+<columnName>Email</columnName>
+<tableName>Utentes</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="5019F9CA-40D9-00E0-B3FF-2973C0DD8665">
+<columnName>Morada</columnName>
+<tableName>Utentes</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="A7A5C01E-8523-ED47-494B-B94E41B73E67">
+<columnName>CC</columnName>
+<tableName>Utentes</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="8BBA805E-D15F-6AD8-262C-C728B909B286">
+<columnName>NIF</columnName>
+<tableName>Utentes</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="AF2585B2-BBC5-FFAA-CBEC-B093A6026446">
+<columnName>NISS</columnName>
+<tableName>Utentes</tableName>
+</UsedObject>
+</usedObjects>
+</EntityView>

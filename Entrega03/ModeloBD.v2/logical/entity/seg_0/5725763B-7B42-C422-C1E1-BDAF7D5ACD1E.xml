@@ -1,0 +1,198 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5725763B-7B42-C422-C1E1-BDAF7D5ACD1E" name="Utentes">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 16:36:46 UTC</createdTime>
+<generatorID>CC5F3FDB-A805-80F3-B6F4-F0A363E30B63</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Utentes</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdUtente" id="7FCF9C0C-B0E0-C42F-651D-C8070091B4E5">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 16:36:46 UTC</createdTime>
+<generatorID>97BB51BD-BC9D-70AB-EB07-31B3945A686A</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="F0FD8047-DFFA-12DB-B4A1-5C0CA8210013">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 16:36:46 UTC</createdTime>
+<generatorID>13A437F4-BCBD-E799-C4CB-1CF77F17E1C6</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DataNasc" id="0F8DE2E0-A132-2853-2B80-577C175ED74D">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 16:36:46 UTC</createdTime>
+<generatorID>12E9B818-15E7-18FB-E946-BA4563F597E6</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telef" id="F8BF0FC8-52DF-03D5-1074-69F591E5408B">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 16:36:46 UTC</createdTime>
+<generatorID>C4309163-8A51-A7D7-AC48-25917AC4561C</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tlm" id="74B08646-6F5E-4AA4-5D51-DD3B6D09ABF0">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 16:36:46 UTC</createdTime>
+<generatorID>0103354A-58FB-9789-50CC-A64C57DFBAC5</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="F0C48CB8-E6A1-E61B-8C89-7064489D678A">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 16:36:46 UTC</createdTime>
+<generatorID>E142B0C0-6131-BED7-FD42-5BD441EA9011</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>254 CHAR</dataTypeSize>
+<ownDataTypeParameters>254 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Morada" id="5019F9CA-40D9-00E0-B3FF-2973C0DD8665">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 16:36:46 UTC</createdTime>
+<generatorID>A99D372C-927E-4191-86CF-60672830B2C1</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>254 CHAR</dataTypeSize>
+<ownDataTypeParameters>254 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CC" id="A7A5C01E-8523-ED47-494B-B94E41B73E67">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 16:36:46 UTC</createdTime>
+<generatorID>02C47983-30F8-6C57-F3D1-4C1396519701</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NIF" id="8BBA805E-D15F-6AD8-262C-C728B909B286">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 16:36:46 UTC</createdTime>
+<generatorID>655EB713-0B1D-EE05-1BBA-F0D9E762D739</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9 CHAR</dataTypeSize>
+<ownDataTypeParameters>9 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NISS" id="AF2585B2-BBC5-FFAA-CBEC-B093A6026446">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 16:36:46 UTC</createdTime>
+<generatorID>5183190E-512C-752D-697F-AFCC2A7C4DEE</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CodPostal CodPostal" id="7DFE71CC-29E0-FB66-B7D2-BF1AF6A290A5">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 16:36:46 UTC</createdTime>
+<generatorID>6A56785F-F364-1BE9-9CD1-F9D2D864314D</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<referedAttribute>53DD6ABC-5C59-FD2B-F811-842D9634A262</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B38C6880-DFB2-78BE-585A-F5E156E25749" name="Utentes_PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 16:36:46 UTC</createdTime>
+<generatorID>5F9A6020-C102-B5E2-5F90-26BA39843339</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7FCF9C0C-B0E0-C42F-651D-C8070091B4E5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

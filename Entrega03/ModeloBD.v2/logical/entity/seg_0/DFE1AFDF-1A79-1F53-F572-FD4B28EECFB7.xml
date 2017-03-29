@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DFE1AFDF-1A79-1F53-F572-FD4B28EECFB7" name="Funcoes">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 16:36:46 UTC</createdTime>
+<generatorID>E470A1B9-B82F-7F25-3D4F-0DA8B88B6EEC</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdFuncao" id="CF3C3CAD-966F-61C8-FC72-0FAEEB4C8F23">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 16:36:46 UTC</createdTime>
+<generatorID>D5F4FA63-CD54-B9D5-435B-F1F97EDBFE76</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Funcao" id="116260E3-1575-9087-6D37-BBF0CB338516">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 16:36:46 UTC</createdTime>
+<generatorID>24B70EC3-99C1-4097-FD3E-31A51EDCAC01</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="75265263-BE19-A92B-357F-595CEC22F2AB" name="Funcoes PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 16:36:46 UTC</createdTime>
+<generatorID>85DAEDA3-88B0-2721-58DF-5AA3FDCA8D50</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CF3C3CAD-966F-61C8-FC72-0FAEEB4C8F23</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

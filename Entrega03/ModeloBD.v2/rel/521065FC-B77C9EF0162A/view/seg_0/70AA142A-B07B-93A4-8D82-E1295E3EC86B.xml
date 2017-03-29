@@ -1,0 +1,181 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="70AA142A-B07B-93A4-8D82-E1295E3EC86B" name="vw_Utentes">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:30:29 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<ordsAlias>view_2</ordsAlias>
+<userDefined>true</userDefined>
+<userDefinedSQL>SELECT Utentes.Nome,&lt;br/&gt;  Utentes.DataNasc,&lt;br/&gt;  (DATEDIFF(DAY, Utentes.DataNasc, GETDATE()) / 365.25),&lt;br/&gt;  Utentes.Telef,&lt;br/&gt;  Utentes.Tlm,&lt;br/&gt;  Utentes.Email,&lt;br/&gt;  Utentes.Morada,&lt;br/&gt;  Utentes.CC,&lt;br/&gt;  Utentes.NIF,&lt;br/&gt;  Utentes.NISS&lt;br/&gt;FROM Utentes</userDefinedSQL>
+<validSQL>false</validSQL>
+<parsed>true</parsed>
+<usedContainers>
+<container containerID="CC5F3FDB-A805-80F3-B6F4-F0A363E30B63"/>
+</usedContainers>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Nome" id="592D9371-EF49-0C57-4505-6E5D4A26F095">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:35:41 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (100 CHAR)</dataType>
+<expression>Nome</expression>
+<reference>false</reference>
+<referencedColumn>13A437F4-BCBD-E799-C4CB-1CF77F17E1C6</referencedColumn>
+<table>CC5F3FDB-A805-80F3-B6F4-F0A363E30B63</table>
+<tableAlias>Utentes</tableAlias>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DataNasc" id="590A88B1-1D89-9879-AD29-47688CD3A5F4">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:35:41 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>DATE</dataType>
+<reference>false</reference>
+<referencedColumn>12E9B818-15E7-18FB-E946-BA4563F597E6</referencedColumn>
+<table>CC5F3FDB-A805-80F3-B6F4-F0A363E30B63</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="(DATEDIFF(DAY, Utentes.DataNasc, GETDATE()) / 365.25)" id="88909CE0-34F6-C232-DC73-8B19C707542C">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:35:41 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>(DATEDIFF(DAY, Utentes.DataNasc, GETDATE()) / 365.25)</expression>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Telef" id="93E538BB-0A48-A3F2-17BF-0F97B587A687">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:35:41 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR (20 CHAR)</dataType>
+<expression>Telef</expression>
+<reference>false</reference>
+<referencedColumn>C4309163-8A51-A7D7-AC48-25917AC4561C</referencedColumn>
+<table>CC5F3FDB-A805-80F3-B6F4-F0A363E30B63</table>
+<tableAlias>Utentes</tableAlias>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Tlm" id="8EAD56FB-1380-D896-91F8-E922B31BFE27">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:35:41 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR (20 CHAR)</dataType>
+<expression>Tlm</expression>
+<reference>false</reference>
+<referencedColumn>0103354A-58FB-9789-50CC-A64C57DFBAC5</referencedColumn>
+<table>CC5F3FDB-A805-80F3-B6F4-F0A363E30B63</table>
+<tableAlias>Utentes</tableAlias>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Email" id="13BCB377-578A-14A8-A8A3-994B3FB635EA">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:35:41 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (254 CHAR)</dataType>
+<expression>Email</expression>
+<reference>false</reference>
+<referencedColumn>E142B0C0-6131-BED7-FD42-5BD441EA9011</referencedColumn>
+<table>CC5F3FDB-A805-80F3-B6F4-F0A363E30B63</table>
+<tableAlias>Utentes</tableAlias>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Morada" id="B37D087E-7E10-91C0-E2E4-1775197259A1">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:35:41 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (254 CHAR)</dataType>
+<expression>Morada</expression>
+<reference>false</reference>
+<referencedColumn>A99D372C-927E-4191-86CF-60672830B2C1</referencedColumn>
+<table>CC5F3FDB-A805-80F3-B6F4-F0A363E30B63</table>
+<tableAlias>Utentes</tableAlias>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="CC" id="24E2DCAF-289E-C8DA-CB7A-AE31A59ACE02">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:35:41 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR (15 CHAR)</dataType>
+<reference>false</reference>
+<referencedColumn>02C47983-30F8-6C57-F3D1-4C1396519701</referencedColumn>
+<table>CC5F3FDB-A805-80F3-B6F4-F0A363E30B63</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="NIF" id="28B3FCE3-5953-6AEC-2727-2F4DDCB0B252">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:35:41 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR (9 CHAR)</dataType>
+<expression>NIF</expression>
+<reference>false</reference>
+<referencedColumn>655EB713-0B1D-EE05-1BBA-F0D9E762D739</referencedColumn>
+<table>CC5F3FDB-A805-80F3-B6F4-F0A363E30B63</table>
+<tableAlias>Utentes</tableAlias>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="NISS" id="BC1FFCCB-8CD4-68A8-FF80-486BA23C476A">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:35:41 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR (11 CHAR)</dataType>
+<expression>NISS</expression>
+<reference>false</reference>
+<referencedColumn>5183190E-512C-752D-697F-AFCC2A7C4DEE</referencedColumn>
+<table>CC5F3FDB-A805-80F3-B6F4-F0A363E30B63</table>
+<tableAlias>Utentes</tableAlias>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="CC5F3FDB-A805-80F3-B6F4-F0A363E30B63">
+<container>true</container>
+<tableName>Utentes</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="13A437F4-BCBD-E799-C4CB-1CF77F17E1C6">
+<columnName>Nome</columnName>
+<tableName>Utentes</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="12E9B818-15E7-18FB-E946-BA4563F597E6">
+<columnName>DataNasc</columnName>
+<tableName>Utentes</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="C4309163-8A51-A7D7-AC48-25917AC4561C">
+<columnName>Telef</columnName>
+<tableName>Utentes</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="0103354A-58FB-9789-50CC-A64C57DFBAC5">
+<columnName>Tlm</columnName>
+<tableName>Utentes</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="E142B0C0-6131-BED7-FD42-5BD441EA9011">
+<columnName>Email</columnName>
+<tableName>Utentes</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="A99D372C-927E-4191-86CF-60672830B2C1">
+<columnName>Morada</columnName>
+<tableName>Utentes</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="02C47983-30F8-6C57-F3D1-4C1396519701">
+<columnName>CC</columnName>
+<tableName>Utentes</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="655EB713-0B1D-EE05-1BBA-F0D9E762D739">
+<columnName>NIF</columnName>
+<tableName>Utentes</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="5183190E-512C-752D-697F-AFCC2A7C4DEE">
+<columnName>NISS</columnName>
+<tableName>Utentes</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>

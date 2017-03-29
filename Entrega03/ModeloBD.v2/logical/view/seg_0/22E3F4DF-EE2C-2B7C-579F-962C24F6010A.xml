@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="22E3F4DF-EE2C-2B7C-579F-962C24F6010A" name="vw Colaboradores">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 16:36:23 UTC</createdTime>
+<generatorID>6D27B4A7-ED8B-7983-9C47-17EEBD1A4109</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL>SELECT Colaboradores.Nome,&lt;br/&gt;  Colaboradores.DataNasc,&lt;br/&gt;  Colaboradores.Morada,&lt;br/&gt;  Colaboradores.Telef,&lt;br/&gt;  Colaboradores.Tlm,&lt;br/&gt;  Colaboradores.Email,&lt;br/&gt;  Colaboradores.NumCC,&lt;br/&gt;  Colaboradores.DtValCC,&lt;br/&gt;  Colaboradores.NIF,&lt;br/&gt;  Colaboradores.NISS,&lt;br/&gt;  Nacionalidades.Nacionalidade,&lt;br/&gt;  Funcoes.Funcao,&lt;br/&gt;  HabLiterarias.HabLiteraria&lt;br/&gt;FROM Colaboradores&lt;br/&gt;INNER JOIN Funcoes&lt;br/&gt;ON Funcoes.IdFuncao = Colaboradores.Funcoes_IdFuncao&lt;br/&gt;INNER JOIN HabLiterarias&lt;br/&gt;ON HabLiterarias.IdHabLiteraria = Colaboradores.HabLiterarias_IdHabLiteraria&lt;br/&gt;INNER JOIN Nacionalidades&lt;br/&gt;ON Nacionalidades.IdNacionalidade = Colaboradores.Nacionalidades_IdNacionalidade</userDefinedSQL>
+<validSQL>false</validSQL>
+<parsed>true</parsed>
+<viewType>EntityView</viewType>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="4C6D0D05-B9EE-BAB7-E3F6-FB40BC26DDB0">
+<container>true</container>
+<tableName>Colaboradores</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="ECC5F072-863F-0CC3-30F1-0BA03CA59905">
+<container>true</container>
+<tableName>Nacionalidades</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="DFE1AFDF-1A79-1F53-F572-FD4B28EECFB7">
+<container>true</container>
+<tableName>Funcoes</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="4F96F6F0-CADD-71CC-31B9-E18B659BFB05">
+<container>true</container>
+<tableName>HabLiterarias</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="D7270FE0-DB95-F868-D5B5-740DFC353F1C">
+<columnName>Nome</columnName>
+<tableName>Colaboradores</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="B209C6A3-C738-FD65-838F-6402105E86A4">
+<columnName>DataNasc</columnName>
+<tableName>Colaboradores</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="0941B924-65F7-0957-78D1-57673D358C24">
+<columnName>Morada</columnName>
+<tableName>Colaboradores</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="EFA2473D-FE8B-EC56-C6B9-8BF620F39755">
+<columnName>Telef</columnName>
+<tableName>Colaboradores</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="7FF87F53-C725-7DFB-F3E2-99555A385497">
+<columnName>Tlm</columnName>
+<tableName>Colaboradores</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="D3003852-1EA7-D175-C513-C0969A40DD3D">
+<columnName>Email</columnName>
+<tableName>Colaboradores</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="4456F433-3936-DFB2-7D16-F990EE45401E">
+<columnName>NumCC</columnName>
+<tableName>Colaboradores</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="90AD5DED-BD18-8C89-259F-2A17C5FCEC01">
+<columnName>DtValCC</columnName>
+<tableName>Colaboradores</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="AD8F693D-1617-26AD-5F2C-FEDE24591D00">
+<columnName>NIF</columnName>
+<tableName>Colaboradores</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="579D86DF-80A8-61BB-0C60-9443E1643E1E">
+<columnName>NISS</columnName>
+<tableName>Colaboradores</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="8CF14D81-0847-86CA-4F66-47AD0FB80E27">
+<columnName>Nacionalidade</columnName>
+<tableName>Nacionalidades</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="116260E3-1575-9087-6D37-BBF0CB338516">
+<columnName>Funcao</columnName>
+<tableName>Funcoes</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="6D70A22A-9C78-BCDC-47AE-4F268057AC4C">
+<columnName>HabLiteraria</columnName>
+<tableName>HabLiterarias</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="CF3C3CAD-966F-61C8-FC72-0FAEEB4C8F23">
+<columnName>IdFuncao</columnName>
+<tableName>Funcoes</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="7D579619-158E-32F8-1614-065C8908D52B">
+<columnName>Funcoes_IdFuncao</columnName>
+<tableName>Colaboradores</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="9149113C-C52F-57B8-116C-21BD15D87545">
+<columnName>IdHabLiteraria</columnName>
+<tableName>HabLiterarias</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="FF3C7B55-7F4F-A0C1-F482-A21AAC00131A">
+<columnName>HabLiterarias_IdHabLiteraria</columnName>
+<tableName>Colaboradores</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="DBB1FE40-F87F-80D8-1CE6-D84FA6C17BA3">
+<columnName>IdNacionalidade</columnName>
+<tableName>Nacionalidades</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="C2D57892-2950-F7B4-ACE6-954A3950E6CD">
+<columnName>Nacionalidades_IdNacionalidade</columnName>
+<tableName>Colaboradores</tableName>
+</UsedObject>
+</usedObjects>
+</EntityView>

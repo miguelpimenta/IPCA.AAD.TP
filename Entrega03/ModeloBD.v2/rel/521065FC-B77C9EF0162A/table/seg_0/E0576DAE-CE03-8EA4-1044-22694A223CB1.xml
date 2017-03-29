@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0576DAE-CE03-8EA4-1044-22694A223CB1" name="HabLiterarias">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:14:47 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<ordsAlias>table_23</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdHabLiteraria" id="3D7D89A0-7B11-070C-04C0-43148465FB6D">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:15:04 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HabLiteraria" id="AFE3065B-1981-05BD-C823-8AC263511101">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:15:25 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>254 CHAR</dataTypeSize>
+<ownDataTypeParameters>254 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1CFE5630-BADD-3F9B-0FC1-796C1CD3F63A" name="HabLiterarias_PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:15:04 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D7D89A0-7B11-070C-04C0-43148465FB6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

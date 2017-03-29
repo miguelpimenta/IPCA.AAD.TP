@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C27C7562-3B6F-741E-3BD1-7391629FE0A2" name="Horarios">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 16:35:02 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdHorario" id="E14814C3-A578-AEAD-9699-C41CE9E23029">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 16:35:20 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DFD9750E-16B5-895C-ECBC-4806158A70B0" name="Horarios_PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 16:35:20 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E14814C3-A578-AEAD-9699-C41CE9E23029"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

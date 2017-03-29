@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4F69A141-731A-E947-487E-88F80F50EBBF" name="EstCivil">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:09:50 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdEstCivil" id="E1D64A97-6E29-4156-D380-7A6401188FE6">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:10:16 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EstCivil" id="73081C5F-72D7-3325-0B6C-8FD12D886151">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:10:37 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="971FA831-B94A-612C-CBE4-3CFC884C4F57" name="EstCivil_PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-28 21:10:16 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1D64A97-6E29-4156-D380-7A6401188FE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

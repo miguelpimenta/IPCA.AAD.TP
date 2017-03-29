@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Turmas_Horarios_FK" directorySegmentName="seg_0" id="38E28854-3199-F702-3539-6BC52D877F72">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 16:46:18 UTC</createdTime>
+<generatorID>1B7F973F-4487-E502-895F-A61A36C05E22</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<sourcePk>8C947D40-9973-BDBD-6AC3-EA739B27CE8D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0CE723B1-08B5-3732-72A5-FAFE6AB320EE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>640EEA6A-C155-ED45-A555-12C4D98FA24B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

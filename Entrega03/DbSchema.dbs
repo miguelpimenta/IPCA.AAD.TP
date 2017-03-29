@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="Oracle" id="Project_2f9c032" html="y" template="Default" database="Oracle" >
+	<schema name="BARCACELLOS" schemaname="BARCACELLOS" >
+		<table name="ACESSOS" >
+			<column name="PKACESSO" type="char" length="38" decimal="0" jt="1" mandatory="y" />
+			<column name="TIPOACESSO" type="char" length="1" decimal="0" jt="1" mandatory="y" />
+			<column name="DATAHORA" type="timestamp" length="6" decimal="6" jt="93" mandatory="y" >
+				<defo>systimestamp</defo>
+			</column>
+			<column name="FKEQUIPAMENTO" type="char" length="38" decimal="0" jt="1" mandatory="y" />
+			<column name="FKCOLABORADOR" type="char" length="38" decimal="0" jt="1" />
+			<index name="IDX_ACESSOS" unique="NORMAL" >
+				<column name="FKCOLABORADOR" />
+			</index>
+			<index name="PK_ACESSOS" unique="PRIMARY_KEY" >
+				<column name="PKACESSO" />
+			</index>
+			<fk name="FK_ACESSOS" to_schema="BARCACELLOS" to_table="COLABORADORES" delete_action="restrict" update_action="cascade" >
+				<fk_column name="FKCOLABORADOR" pk="PKCOLAB" />
+			</fk>
+		</table>
+		<table name="ALUNOS" >
+			<column name="PKALUNO" type="char" length="38" decimal="0" jt="1" mandatory="y" />
+			<column name="NUMALUNO" type="number" length="10" decimal="0" jt="2" mandatory="y" />
+			<column name="NOMEALUNO" type="varchar2" length="200" decimal="0" jt="12" mandatory="y" />
+			<column name="DATANASC" type="date" length="7" decimal="0" jt="91" mandatory="y" />
+			<column name="IDDISTRITO" type="number" length="3" decimal="0" jt="2" />
+			<column name="IDCONCELHO" type="number" length="3" decimal="0" jt="2" />
+			<column name="IDFREGUESIA" type="number" length="4" decimal="0" jt="2" />
+			<column name="MORADA" type="varchar2" length="200" decimal="0" jt="12" />
+			<column name="CODPOSTAL" type="varchar2" length="10" decimal="0" jt="12" />
+			<index name="PK_ALUNOS" unique="PRIMARY_KEY" >
+				<column name="PKALUNO" />
+			</index>
+			<index name="IDX_ALUNOS" unique="NORMAL" >
+				<column name="IDDISTRITO" />
+			</index>
+			<index name="IDX_ALUNOS_0" unique="NORMAL" >
+				<column name="IDCONCELHO" />
+			</index>
+			<index name="IDX_ALUNOS_1" unique="NORMAL" >
+				<column name="IDFREGUESIA" />
+			</index>
+			<fk name="FK_ALUNOS" to_schema="BARCACELLOS" to_table="DISTRITO" >
+				<fk_column name="IDDISTRITO" pk="IDDISTRITO" />
+			</fk>
+			<fk name="FK_ALUNOS_0" to_schema="BARCACELLOS" to_table="CONCELHO" >
+				<fk_column name="IDCONCELHO" pk="IDCONCELHO" />
+			</fk>
+			<fk name="FK_ALUNOS_1" to_schema="BARCACELLOS" to_table="FREGUESIA" >
+				<fk_column name="IDFREGUESIA" pk="IDFREGUESIA" />
+			</fk>
+		</table>
+		<table name="COLABORADORES" >
+			<column name="PKCOLAB" type="char" length="38" decimal="0" jt="1" mandatory="y" />
+			<column name="NOME" type="varchar2" length="250" decimal="0" jt="12" />
+			<column name="DATANASC" type="date" length="7" decimal="0" jt="91" mandatory="y" />
+			<column name="IDNACIONALIDADE" type="number" length="3" decimal="0" jt="2" />
+			<column name="IDFREGUESIA" type="number" length="4" decimal="0" jt="2" />
+			<column name="IDCONCELHO" type="number" length="3" decimal="0" jt="2" />
+			<column name="IDDISTRITO" type="number" length="3" decimal="0" jt="2" />
+			<column name="MORADA" type="varchar2" length="150" decimal="0" jt="12" mandatory="y" />
+			<column name="CODPOSTAL" type="varchar2" length="10" decimal="0" jt="12" mandatory="y" />
+			<column name="IDESTCIVIL" type="number" length="2" decimal="0" jt="2" />
+			<column name="NOMECONJUGUE" type="varchar2" length="250" decimal="0" jt="12" />
+			<column name="NUMTELEF" type="varchar2" length="20" decimal="0" jt="12" />
+			<column name="NUMTELM" type="varchar2" length="20" decimal="0" jt="12" />
+			<column name="EMAIL" type="varchar2" length="50" decimal="0" jt="12" />
+			<column name="NUMCC" type="varchar2" length="15" decimal="0" jt="12" />
+			<column name="VALCC" type="date" length="7" decimal="0" jt="91" />
+			<column name="NIF" type="number" length="9" decimal="0" jt="2" />
+			<column name="NISS" type="number" length="11" decimal="0" jt="2" />
+			<column name="NUMCOLAB" type="number" length="38" decimal="0" jt="2" mandatory="y" />
+			<column name="PKHABILITACAO" type="char" length="38" decimal="0" jt="1" mandatory="y" />
+			<column name="PKFUNCAO" type="char" length="38" decimal="0" jt="1" mandatory="y" />
+			<column name="ACTIVO" type="char" length="1" decimal="0" jt="1" />
+			<index name="IDX_COLABORADORES" unique="NORMAL" >
+				<column name="PKHABILITACAO" />
+			</index>
+			<index name="IDX_COLABORADORES_0" unique="NORMAL" >
+				<column name="PKFUNCAO" />
+			</index>
+			<index name="PK_COLABORADORES" unique="PRIMARY_KEY" >
+				<column name="PKCOLAB" />
+			</index>
+			<index name="IDX_COLABORADORES_1" unique="NORMAL" >
+				<column name="IDNACIONALIDADE" />
+			</index>
+			<index name="IDX_COLABORADORES_2" unique="NORMAL" >
+				<column name="IDFREGUESIA" />
+			</index>
+			<index name="IDX_COLABORADORES_3" unique="NORMAL" >
+				<column name="IDCONCELHO" />
+			</index>
+			<index name="IDX_COLABORADORES_4" unique="NORMAL" >
+				<column name="IDESTCIVIL" />
+			</index>
+			<index name="IDX_COLABORADORES_5" unique="NORMAL" >
+				<column name="IDDISTRITO" />
+			</index>
+			<fk name="FK_COLABORADORES_0" to_schema="BARCACELLOS" to_table="FUNCOES" delete_action="restrict" update_action="cascade" >
+				<fk_column name="PKFUNCAO" pk="PKFUNCAO" />
+			</fk>
+			<fk name="FK_COLABORADORES" to_schema="BARCACELLOS" to_table="HABILITACOES" delete_action="restrict" update_action="cascade" >
+				<fk_column name="PKHABILITACAO" pk="PKHABILITACAO" />
+			</fk>
+			<fk name="FK_COLABORADORES_1" to_schema="BARCACELLOS" to_table="NACIONALIDADE" >
+				<fk_column name="IDNACIONALIDADE" pk="IDNACIONALIDADE" />
+			</fk>
+			<fk name="FK_COLABORADORES_2" to_schema="BARCACELLOS" to_table="FREGUESIA" >
+				<fk_column name="IDFREGUESIA" pk="IDFREGUESIA" />
+			</fk>
+			<fk name="FK_COLABORADORES_3" to_schema="BARCACELLOS" to_table="CONCELHO" >
+				<fk_column name="IDCONCELHO" pk="IDCONCELHO" />
+			</fk>
+			<fk name="FK_COLABORADORES_4" to_schema="BARCACELLOS" to_table="ESTCIVIL" >
+				<fk_column name="IDESTCIVIL" pk="IDESTCIVIL" />
+			</fk>
+			<fk name="FK_COLABORADORES_5" to_schema="BARCACELLOS" to_table="DISTRITO" >
+				<fk_column name="IDDISTRITO" pk="IDDISTRITO" />
+			</fk>
+		</table>
+		<table name="CONCELHO" >
+			<column name="IDCONCELHO" type="number" length="3" decimal="0" jt="2" mandatory="y" />
+			<column name="DESCRICAO" type="varchar2" length="200" jt="12" mandatory="y" />
+			<index name="PK_CONCELHO" unique="PRIMARY_KEY" >
+				<column name="IDCONCELHO" />
+			</index>
+		</table>
+		<table name="DISTRITO" >
+			<column name="IDDISTRITO" type="number" length="3" decimal="0" jt="2" mandatory="y" />
+			<column name="DESCRICAO" type="varchar2" length="200" jt="12" mandatory="y" />
+			<index name="PK_DISTRITO" unique="PRIMARY_KEY" >
+				<column name="IDDISTRITO" />
+			</index>
+		</table>
+		<table name="ESTCIVIL" >
+			<column name="IDESTCIVIL" type="number" length="2" decimal="0" jt="2" mandatory="y" />
+			<column name="DESCRICAO" type="varchar2" length="100" jt="12" mandatory="y" />
+			<index name="PK_ESTCIVIL" unique="PRIMARY_KEY" >
+				<column name="IDESTCIVIL" />
+			</index>
+		</table>
+		<table name="FREGUESIA" >
+			<column name="IDFREGUESIA" type="number" length="4" decimal="0" jt="2" mandatory="y" />
+			<column name="DESCRICAO" type="varchar2" length="200" jt="12" mandatory="y" />
+			<index name="PK_FREGUESIA" unique="PRIMARY_KEY" >
+				<column name="IDFREGUESIA" />
+			</index>
+		</table>
+		<table name="FUNCOES" >
+			<column name="PKFUNCAO" type="char" length="38" decimal="0" jt="1" mandatory="y" />
+			<column name="DESCRICAO" type="varchar2" length="200" decimal="0" jt="12" />
+			<column name="ACTIVO" type="char" length="1" decimal="0" jt="1" mandatory="y" />
+			<index name="PK_FUNCOES" unique="PRIMARY_KEY" >
+				<column name="PKFUNCAO" />
+			</index>
+		</table>
+		<table name="HABILITACOES" >
+			<column name="PKHABILITACAO" type="char" length="38" decimal="0" jt="1" mandatory="y" />
+			<column name="DESCRICAO" type="varchar2" length="200" decimal="0" jt="12" mandatory="y" />
+			<column name="ACTIVO" type="char" length="1" decimal="0" jt="1" mandatory="y" />
+			<index name="PK_HABILITACOES" unique="PRIMARY_KEY" >
+				<column name="PKHABILITACAO" />
+			</index>
+		</table>
+		<table name="HORARIOS" >
+			<column name="PKHORARIO" type="char" length="38" decimal="0" jt="1" mandatory="y" />
+			<index name="PK_HORARIOS" unique="PRIMARY_KEY" >
+				<column name="PKHORARIO" />
+			</index>
+		</table>
+		<table name="INSCRICAOTURMAS" >
+			<column name="IDINSCRICAO" type="number" length="10" decimal="0" jt="2" mandatory="y" />
+			<index name="PK_INSCRICAOTURMAS" unique="PRIMARY_KEY" >
+				<column name="IDINSCRICAO" />
+			</index>
+		</table>
+		<table name="NACIONALIDADE" >
+			<column name="IDNACIONALIDADE" type="number" length="3" decimal="0" jt="2" mandatory="y" />
+			<column name="DESCRICAO" type="varchar2" length="100" jt="12" mandatory="y" />
+			<index name="PK_NACIONALIDADE" unique="PRIMARY_KEY" >
+				<column name="IDNACIONALIDADE" />
+			</index>
+		</table>
+		<table name="TURMAS" >
+			<column name="PKTURMA" type="char" length="38" decimal="0" jt="1" mandatory="y" />
+			<column name="FKHORARIO" type="char" length="38" decimal="0" jt="1" mandatory="y" />
+			<column name="FKPROFESSOR" type="char" length="38" decimal="0" jt="1" mandatory="y" />
+			<column name="CURSO" type="varchar2" length="200" decimal="0" jt="12" mandatory="y" />
+			<index name="PK_TURMAS" unique="PRIMARY_KEY" >
+				<column name="PKTURMA" />
+			</index>
+			<index name="IDX_TURMAS" unique="NORMAL" >
+				<column name="FKHORARIO" />
+			</index>
+			<index name="IDX_TURMAS_0" unique="NORMAL" >
+				<column name="FKPROFESSOR" />
+			</index>
+			<fk name="FK_TURMAS" to_schema="BARCACELLOS" to_table="HORARIOS" >
+				<fk_column name="FKHORARIO" pk="PKHORARIO" />
+			</fk>
+			<fk name="FK_TURMAS_0" to_schema="BARCACELLOS" to_table="COLABORADORES" >
+				<fk_column name="FKPROFESSOR" pk="PKCOLAB" />
+			</fk>
+		</table>
+		<view name="VIEW_ALUNOS" >
+			<view_script><![CDATA[SELECT "PKALUNO","NUMALUNO","NOMEALUNO","DATANASC","MORADA","LOCALIDADE","CODPOSTAL" FROM ALUNOS]]></view_script>
+			<column name="PKALUNO" type="char" />
+			<column name="NUMALUNO" type="number" />
+			<column name="NOMEALUNO" type="varchar2" />
+			<column name="DATANASC" type="date" />
+			<column name="MORADA" type="varchar2" />
+			<column name="LOCALIDADE" type="varchar2" />
+			<column name="CODPOSTAL" type="varchar2" />
+		</view>
+		<view name="VIEW_COLABORADORES" >
+			<view_script><![CDATA[SELECT "PKCOLAB","NOME","DATANASC","NACIONALIDADE","FREGUESIA","CONCELHO","DISTRITO","MORADA","CODPOSTAL","ESTADOCIVIL","NOMECONJUGUE","NUMTELEF","NUMTELM","EMAIL","NUMCC","VALCC","NIF","NISS","NUMCOLAB","PKHABILITACAO","PKFUNCAO","ACTIVO" FROM COLABORADORES]]></view_script>
+			<column name="PKCOLAB" type="char" />
+			<column name="NOME" type="varchar2" />
+			<column name="DATANASC" type="date" />
+			<column name="NACIONALIDADE" type="varchar2" />
+			<column name="FREGUESIA" type="varchar2" />
+			<column name="CONCELHO" type="varchar2" />
+			<column name="DISTRITO" type="varchar2" />
+			<column name="MORADA" type="varchar2" />
+			<column name="CODPOSTAL" type="varchar2" />
+			<column name="ESTADOCIVIL" type="varchar2" />
+			<column name="NOMECONJUGUE" type="varchar2" />
+			<column name="NUMTELEF" type="varchar2" />
+			<column name="NUMTELM" type="varchar2" />
+			<column name="EMAIL" type="varchar2" />
+			<column name="NUMCC" type="varchar2" />
+			<column name="VALCC" type="date" />
+			<column name="NIF" type="number" />
+			<column name="NISS" type="number" />
+			<column name="NUMCOLAB" type="number" />
+			<column name="PKHABILITACAO" type="char" />
+			<column name="PKFUNCAO" type="char" />
+			<column name="ACTIVO" type="char" />
+		</view>
+		<view name="VIEW_PROFESSORES" >
+			<view_script><![CDATA[SELECT * FROM COLABORADORES WHERE PKFUNCAO = '']]></view_script>
+			<column name="PKCOLAB" type="char" />
+			<column name="NOME" type="varchar2" />
+			<column name="DATANASC" type="date" />
+			<column name="MORADA" type="varchar2" />
+			<column name="CODPOSTAL" type="varchar2" />
+			<column name="NOMECONJUGUE" type="varchar2" />
+			<column name="NUMTELEF" type="varchar2" />
+			<column name="NUMTELM" type="varchar2" />
+			<column name="EMAIL" type="varchar2" />
+			<column name="NUMCC" type="varchar2" />
+			<column name="VALCC" type="date" />
+			<column name="NIF" type="number" />
+			<column name="NISS" type="number" />
+			<column name="NUMCOLAB" type="number" />
+			<column name="PKHABILITACAO" type="char" />
+			<column name="PKFUNCAO" type="char" />
+			<column name="ACTIVO" type="char" />
+			<column name="IDNACIONALIDADE" type="number" />
+			<column name="IDFREGUESIA" type="number" />
+			<column name="IDCONCELHO" type="number" />
+			<column name="IDDISTRITO" type="number" />
+			<column name="IDESTCIVIL" type="number" />
+		</view>
+		<view name="VIEW_TURMAS" >
+			<view_script><![CDATA[SELECT "PKTURMA","FKHORARIO","FKPROFESSOR","CURSO" FROM TURMAS]]></view_script>
+			<column name="PKTURMA" type="char" />
+			<column name="FKHORARIO" type="char" />
+			<column name="FKPROFESSOR" type="char" />
+			<column name="CURSO" type="varchar2" />
+		</view>
+		<procedure name="SP_COLABORADOR_CREATE" id="Procedure_381613eb" isSystem="false" >
+			<string><![CDATA[CREATE OR REPLACE PROCEDURE               "SP_COLABORADOR_CREATE"
+AS
+BEGIN
+END
+]]></string>
+			<comment><![CDATA[Standalone procedure or function]]></comment>
+		</procedure>
+		<procedure name="SP_COLABORADOR_READ" id="Procedure_2edc243b" isSystem="false" >
+			<string><![CDATA[CREATE OR REPLACE PROCEDURE               "SP_COLABORADOR_READ"
+AS
+BEGIN
+END
+]]></string>
+			<comment><![CDATA[Standalone procedure or function]]></comment>
+		</procedure>
+		<procedure name="SP_COLABORADOR_READLIST" id="Procedure_52b162e" isSystem="false" >
+			<string><![CDATA[CREATE OR REPLACE PROCEDURE               "SP_COLABORADOR_READLIST"
+AS
+BEGIN
+END
+]]></string>
+			<comment><![CDATA[Standalone procedure or function]]></comment>
+		</procedure>
+		<procedure name="SP_COLABORADOR_UPDATE" id="Procedure_1fae5041" isSystem="false" >
+			<string><![CDATA[CREATE OR REPLACE PROCEDURE               "SP_COLABORADOR_UPDATE"
+AS
+BEGIN
+END
+]]></string>
+			<comment><![CDATA[Standalone procedure or function]]></comment>
+		</procedure>
+		<procedure name="SP_FUNCAO_CREATE" id="Procedure_ce23198" isSystem="false" >
+			<string><![CDATA[CREATE OR REPLACE PROCEDURE SP_FUNCAO_CREATE 
+(
+  p_descricao funcoes.DESCRICAO%TYPE
+) AS 
+BEGIN
+  INSERT INTO FUNCOES ("PKFUNCAO", "DESCRICAO", "ACTIVO")
+  VALUES ((SELECT NEWID() FROM DUAL), p_descricao, '1');
+  COMMIT;
+END SP_FUNCAO_CREATE;]]></string>
+			<comment><![CDATA[Standalone procedure or function]]></comment>
+		</procedure>
+		<procedure name="SP_FUNCAO_READ" id="Procedure_1ab37770" isSystem="false" >
+			<string><![CDATA[CREATE OR REPLACE PROCEDURE               "SP_FUNCAO_READ"
+AS
+BEGIN
+END
+]]></string>
+			<comment><![CDATA[Standalone procedure or function]]></comment>
+		</procedure>
+		<procedure name="SP_FUNCAO_READLIST" id="Procedure_30dd6541" isSystem="false" >
+			<string><![CDATA[CREATE OR REPLACE PROCEDURE SP_FUNCAO_READLIST (   
+  p_descricao funcoes.DESCRICAO%TYPE
+  ,cur OUT SYS_REFCURSOR)  
+IS  
+BEGIN  
+  OPEN cur FOR 
+  SELECT
+  	F.DESCRICAO 
+  FROM 
+  	FUNCOES F
+  WHERE 
+  	F.ACTIVO = '1'
+    AND UPPER(F.DESCRICAO) LIKE '%'||NVL(UPPER(p_descricao), UPPER(F.DESCRICAO))||'%';
+END SP_FUNCAO_READLIST;]]></string>
+			<comment><![CDATA[Standalone procedure or function]]></comment>
+		</procedure>
+		<procedure name="SP_FUNCAO_UPDATE" id="Procedure_954d361" isSystem="false" >
+			<string><![CDATA[CREATE OR REPLACE PROCEDURE SP_FUNCAO_UPDATE 
+(   
+  p_pkfuncao IN FUNCOES.PKFUNCAO%TYPE,  
+  p_descricao IN FUNCOES.DESCRICAO%TYPE,  
+  p_activo IN FUNCOES.ACTIVO%TYPE  
+)  
+IS  
+BEGIN  
+  UPDATE FUNCOES 
+    SET DESCRICAO = p_descricao, ACTIVO = p_activo
+    WHERE PKFUNCAO = p_pkfuncao;  
+  COMMIT;  
+END SP_FUNCAO_UPDATE;]]></string>
+			<comment><![CDATA[Standalone procedure or function]]></comment>
+		</procedure>
+		<procedure name="SP_HABILITACAO_CREATE" id="Procedure_3804f16c" isSystem="false" >
+			<string><![CDATA[CREATE OR REPLACE PROCEDURE               "SP_HABILITACAO_CREATE"
+AS
+BEGIN
+END
+]]></string>
+			<comment><![CDATA[Standalone procedure or function]]></comment>
+		</procedure>
+		<procedure name="SP_HABILITACAO_READ" id="Procedure_36fc61a" isSystem="false" >
+			<string><![CDATA[CREATE OR REPLACE PROCEDURE               "SP_HABILITACAO_READ"
+AS
+BEGIN
+END
+]]></string>
+			<comment><![CDATA[Standalone procedure or function]]></comment>
+		</procedure>
+		<procedure name="SP_HABILITACAO_READLIST" id="Procedure_2d06f7a9" isSystem="false" >
+			<string><![CDATA[CREATE OR REPLACE PROCEDURE               "SP_HABILITACAO_READLIST"
+AS
+BEGIN
+END
+]]></string>
+			<comment><![CDATA[Standalone procedure or function]]></comment>
+		</procedure>
+		<procedure name="SP_HABILITACAO_UPDATE" id="Procedure_ae5e424" isSystem="false" >
+			<string><![CDATA[CREATE OR REPLACE PROCEDURE               "SP_HABILITACAO_UPDATE"
+AS
+BEGIN
+END
+]]></string>
+			<comment><![CDATA[Standalone procedure or function]]></comment>
+		</procedure>
+		<function name="NEWID" id="Function_ed952c6" isSystem="false" >
+			<string><![CDATA[CREATE OR REPLACE FUNCTION               "NEWID" RETURN VARCHAR2 IS guid VARCHAR2(38) ;
+BEGIN
+    SELECT SYS_GUID() INTO guid FROM DUAL ;
+    guid := SUBSTR(guid,  1, 8) || '-' || SUBSTR(guid,  9, 4) || '-' || SUBSTR(guid, 13, 4) || '-' || SUBSTR(guid, 17, 4) || '-' || SUBSTR(guid, 21) ;
+-- guid := '{' || SUBSTR(guid,  1, 8) ||        '-' || SUBSTR(guid,  9, 4) ||        '-' || SUBSTR(guid, 13, 4) ||        '-' || SUBSTR(guid, 17, 4) ||        '-' || SUBSTR(guid, 21) || '}' ;
+    RETURN guid ;
+END NEWID ;
+]]></string>
+			<comment><![CDATA[Standalone procedure or function]]></comment>
+		</function>
+	</schema>
+	<connector name="Oracle" database="Oracle" driver_class="oracle.jdbc.OracleDriver" driver_jar="ojdbc7-12.1.0.1.jar" driver_desc="Connect via SID" host="localhost" port="1521" instance="XE" user="BARCACELLOS" passwd="SVBDQQ==" />
+	<layout id="Layout_10f27f9d" name="Default" show_relation_columns="y" >
+		<entity schema="BARCACELLOS" name="NACIONALIDADE" color="b7c8e3" x="315" y="210" />
+		<entity schema="BARCACELLOS" name="CONCELHO" color="b7c8e3" x="315" y="300" />
+		<entity schema="BARCACELLOS" name="FREGUESIA" color="b7c8e3" x="315" y="390" />
+		<entity schema="BARCACELLOS" name="ESTCIVIL" color="b7c8e3" x="330" y="480" />
+		<entity schema="BARCACELLOS" name="COLABORADORES" color="c8f5bf" x="45" y="105" />
+		<entity schema="BARCACELLOS" name="DISTRITO" color="b7c8e3" x="495" y="450" />
+		<entity schema="BARCACELLOS" name="HABILITACOES" color="c8f5bf" x="315" y="105" />
+		<entity schema="BARCACELLOS" name="VIEW_COLABORADORES" color="f5ddbf" x="1410" y="195" />
+		<entity schema="BARCACELLOS" name="ACESSOS" color="f5ddbf" x="1005" y="60" />
+		<entity schema="BARCACELLOS" name="HORARIOS" color="bfd4f5" x="960" y="195" />
+		<entity schema="BARCACELLOS" name="TURMAS" color="bfd4f5" x="765" y="120" />
+		<entity schema="BARCACELLOS" name="FUNCOES" color="c8f5bf" x="90" y="525" />
+		<entity schema="BARCACELLOS" name="VIEW_PROFESSORES" color="b7c8e3" x="1260" y="195" />
+		<entity schema="BARCACELLOS" name="VIEW_ALUNOS" color="bfd4f5" x="1590" y="195" />
+		<entity schema="BARCACELLOS" name="VIEW_TURMAS" color="f5ddbf" x="1590" y="45" />
+		<entity schema="BARCACELLOS" name="ALUNOS" color="bfd4f5" x="825" y="300" />
+		<entity schema="BARCACELLOS" name="INSCRICAOTURMAS" color="b7c8e3" x="1050" y="345" />
+		<browser id="Browse_c7c1b8f" name="COLABORADORES" >
+			<browse_table schema="BARCACELLOS" entity="COLABORADORES" x="-2147483648" y="-2147483648" width="-2147483648" height="-2147483648" >
+				<browse_table schema="BARCACELLOS" entity="FUNCOES" fk="FK_COLABORADORES_0" x="-2147483648" y="-2147483648" width="-2147483648" height="-2147483648" record_view="y" />
+			</browse_table>
+		</browser>
+	</layout>
+</project>
