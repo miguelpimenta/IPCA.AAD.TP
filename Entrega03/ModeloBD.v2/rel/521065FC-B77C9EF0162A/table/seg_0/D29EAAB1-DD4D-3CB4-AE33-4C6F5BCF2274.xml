@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D29EAAB1-DD4D-3CB4-AE33-4C6F5BCF2274" name="Departamentos">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 22:27:01 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdDepartamento" id="44144C37-8B3B-293C-33BF-D2AD1D90B2BF">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 22:27:24 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Departamento" id="9CFA367A-8BF0-AC23-689E-504483E0333A">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 22:27:29 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Activo" id="4A5F387C-8C50-27B8-1984-FFC2CAF64526">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 22:52:02 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A8FFA64D-0654-0684-995A-081C10F8B4F1" name="Departamentos_PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 22:27:47 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44144C37-8B3B-293C-33BF-D2AD1D90B2BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

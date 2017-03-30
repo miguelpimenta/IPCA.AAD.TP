@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="0DF84929-3AA3-798C-80E8-7F6AB575C3B3" name="Utentes_Acessos">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 20:39:46 UTC</createdTime>
+<generatorID>A91E49FC-B388-7247-9789-ED8172790A2D</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdAcessoUtente" id="9EE0EA0E-D10E-32E0-93AA-D111B7B52ABE">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 20:39:46 UTC</createdTime>
+<generatorID>EC25023D-0AE2-0714-A1A6-B7EC7EEDAC93</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Utentes_IdUtente" id="4DE95C40-9DF0-CAFB-0FAE-3E6C19CB7FDD">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 20:39:46 UTC</createdTime>
+<generatorID>E13AF06F-97ED-742F-F6BA-9A47E8696FD7</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="17E3FAE6-248D-D0CD-CC7A-3DDA6AADB36D" referredColumn="B897FF27-42B0-5AF1-C418-2DD19DEA2042"/>
+</associations>
+</Column>
+<Column name="DataHora" id="88EB6E95-3891-949F-DE8D-0A1CC0AD8786">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 20:39:46 UTC</createdTime>
+<generatorID>3ED29F8A-E0CC-9418-3909-FFADA9C18B55</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>17E3FAE6-248D-D0CD-CC7A-3DDA6AADB36D</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="TipoAcesso" id="AB2D7A79-837D-BECA-C248-78067FBB14DD">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 20:39:46 UTC</createdTime>
+<comment>E Entrada / S Saida</comment>
+<generatorID>6B666F9A-DE67-A31A-C16B-8C3BD92CCDA8</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>17E3FAE6-248D-D0CD-CC7A-3DDA6AADB36D</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C071CEB4-230B-52D2-DE48-C59DF7E813B6" name="Utentes_Acessos_PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 20:39:46 UTC</createdTime>
+<generatorID>5EC3E9C2-9488-73C8-DCAC-0B5FEEFDE224</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EE0EA0E-D10E-32E0-93AA-D111B7B52ABE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6637257A-D669-EF46-2DFA-BCA7FF8E04A1" name="Utentes_Acessos_Utentes_FK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 20:39:46 UTC</createdTime>
+<generatorID>2E0F8A57-CB9A-5907-6D8A-28027EC8456C</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DE95C40-9DF0-CAFB-0FAE-3E6C19CB7FDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

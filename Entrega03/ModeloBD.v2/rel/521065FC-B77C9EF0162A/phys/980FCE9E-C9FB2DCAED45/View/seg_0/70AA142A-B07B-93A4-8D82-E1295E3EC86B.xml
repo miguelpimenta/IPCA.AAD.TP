@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableViewProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableViewProxySqlServerv2k5" name="vw_Utentes" directorySegmentName="seg_0" id="70AA142A-B07B-93A4-8D82-E1295E3EC86B">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:00:54 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<dataBase>DB_NULLELEMENT</dataBase>
+</TableViewProxySqlServerv2k5>

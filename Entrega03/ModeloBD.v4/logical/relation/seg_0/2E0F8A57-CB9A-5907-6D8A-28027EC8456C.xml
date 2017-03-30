@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Acesso_Utente" directorySegmentName="seg_0" id="2E0F8A57-CB9A-5907-6D8A-28027EC8456C">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 13:13:45 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<sourcePk>7761921D-4D60-16EC-DF37-4DBE2C739D3A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EF3E7A87-EEB2-1693-74AA-E6D60C22C252</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A91E49FC-B388-7247-9789-ED8172790A2D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="DataHora" id="3ED29F8A-E0CC-9418-3909-FFADA9C18B55">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 13:14:07 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="TipoAcesso" id="6B666F9A-DE67-A31A-C16B-8C3BD92CCDA8">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 13:14:17 UTC</createdTime>
+<comment>E Entrada / S Saida</comment>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

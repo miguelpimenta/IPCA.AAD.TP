@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Aluno" directorySegmentName="seg_0" id="BD74E6F7-09C0-C5F8-9D8A-5BDE3E026CD5">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 13:52:18 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<sourcePk>7761921D-4D60-16EC-DF37-4DBE2C739D3A</sourcePk>
+<targetPk>A52D8EA5-35DE-CADF-374A-DABEFACA19CD</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EF3E7A87-EEB2-1693-74AA-E6D60C22C252</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>A601FB91-D51E-C4B7-9689-85FBC1A16EB3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="IdUtente" id="1308A8D9-9CCF-3AF8-D6AD-B7DFE3FC8075">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 13:52:25 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

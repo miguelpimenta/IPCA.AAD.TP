@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="43E9441E-73C3-2DBA-226A-DFB750811A52" name="Equipamentos">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:03:14 UTC</createdTime>
+<generatorID>2B1BE14E-F004-D7D7-A190-099133460A97</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdEquipamento" id="044D708E-37E6-A443-C85E-3D1FAC7A3FCA">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:03:14 UTC</createdTime>
+<generatorID>5CCD81A3-06F2-2AB4-EDB1-441FCDD0B1D2</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Equipamento" id="EB12CBCA-1932-FE76-5A38-F1966DCA114C">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:03:14 UTC</createdTime>
+<generatorID>9E3F9381-FADA-CB0A-E07C-F5CBD22F92C4</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>254 CHAR</dataTypeSize>
+<ownDataTypeParameters>254 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Activo" id="C89F3655-5756-B22D-048E-8BDB4C650259">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:03:14 UTC</createdTime>
+<generatorID>2CD2423F-168C-3852-DC49-FFBAD3123CAC</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BCFDB884-781C-6F1F-9661-2B89753DDBF7" name="Equipamentos PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:03:14 UTC</createdTime>
+<generatorID>1704C6F4-4204-8C8E-1DC3-C91FE88DD8F8</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>044D708E-37E6-A443-C85E-3D1FAC7A3FCA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

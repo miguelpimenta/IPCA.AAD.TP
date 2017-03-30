@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6630B427-80AE-D04D-6A16-4C657A3736E6" name="CodPostal">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:03:14 UTC</createdTime>
+<generatorID>20DE62AE-5259-5FAF-65F5-9BD9FC9BF63D</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CodPostal" id="D6835777-3905-DD5B-B2E1-7803394F0CD0">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:03:14 UTC</createdTime>
+<generatorID>3F44B504-B422-44BF-2CCE-9195039A0E7A</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Distrito" id="E484847F-22B6-F389-C261-BB32CAFAE906">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:03:14 UTC</createdTime>
+<generatorID>34C59831-78D1-049E-FE32-1CA4789A3E19</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>254 CHAR</dataTypeSize>
+<ownDataTypeParameters>254 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Concelho" id="E57EDC94-1844-9880-A1B6-75C568332620">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:03:14 UTC</createdTime>
+<generatorID>B2276A46-2B09-688A-D383-A778961FAC7C</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>254 CHAR</dataTypeSize>
+<ownDataTypeParameters>254 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rua" id="26D24E9E-86E0-01B9-BA02-D2BA4545EDD5">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:03:14 UTC</createdTime>
+<generatorID>870731A7-7BDB-DCF2-DA99-1D3A5FB8F737</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>254 CHAR</dataTypeSize>
+<ownDataTypeParameters>254 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Localidade" id="4A08D239-5FDA-231B-7642-49DB5DEA8E67">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:03:14 UTC</createdTime>
+<generatorID>725080B9-116C-8AC4-B36A-8EAB6DC79C84</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>254 CHAR</dataTypeSize>
+<ownDataTypeParameters>254 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A2B5B4E7-C384-AB3B-E3F0-B76AD5CCE83B" name="CodPostal PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:03:14 UTC</createdTime>
+<generatorID>350EF8AF-C407-910B-1B3B-FBE23C37E83C</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D6835777-3905-DD5B-B2E1-7803394F0CD0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

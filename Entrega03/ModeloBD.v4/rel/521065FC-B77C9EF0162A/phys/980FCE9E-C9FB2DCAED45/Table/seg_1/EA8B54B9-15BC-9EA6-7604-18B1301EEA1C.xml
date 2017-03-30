@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableProxySqlServerv2k5" name="Produtos" directorySegmentName="seg_1" id="EA8B54B9-15BC-9EA6-7604-18B1301EEA1C">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 20:39:46 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<database>DB_NULLELEMENT</database>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="IdProduto" id="41C16958-31EB-BC43-B8AE-FBCD8E75705E">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 20:39:46 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="StockActual" id="52504EE5-5B91-6A01-8D23-7D5533150D52">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 20:39:46 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="StockMin" id="5F63DE02-CB7F-7345-AAED-05E24949E8DC">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 20:39:46 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="Produto" id="8075C2F6-056F-A139-FE8E-EFE4048A5250">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 20:39:46 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="Activo" id="D9B8FE46-20FB-6363-70CF-B9F1AA9E6F8B">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 20:39:46 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.PKProxySqlServerv2k5" name="Produtos_PK" id="C0AD226B-ACA2-4F84-18F4-21C52B7D7FD1">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 20:39:46 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<clustered>true</clustered>
+</PrimaryKey>
+</primaryKeys>
+</TableProxySqlServerv2k5>

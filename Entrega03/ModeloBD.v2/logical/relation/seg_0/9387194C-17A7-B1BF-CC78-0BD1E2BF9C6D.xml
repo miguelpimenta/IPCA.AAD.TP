@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Manutencoes_Equipamentos_FK" directorySegmentName="seg_0" id="9387194C-17A7-B1BF-CC78-0BD1E2BF9C6D">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:03:14 UTC</createdTime>
+<generatorID>C7F748F8-E7A5-E4F2-66B9-5C81CFDCD53F</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<sourcePk>BCFDB884-781C-6F1F-9661-2B89753DDBF7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>43E9441E-73C3-2DBA-226A-DFB750811A52</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6415E690-24E3-1A19-F127-36EDEE3DA9A6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

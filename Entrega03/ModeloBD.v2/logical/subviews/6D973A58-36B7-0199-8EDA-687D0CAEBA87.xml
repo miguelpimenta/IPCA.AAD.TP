@@ -1,0 +1,29 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogicalSubView" name="From_RM_Utentes" id="6D973A58-36B7-0199-8EDA-687D0CAEBA87">
+<createdBy>Miguel Pimenta</createdBy>
+<modifiedBy>Miguel Pimenta</modifiedBy>
+<createdTime>2017-03-29 23:03:14 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<generatorId>86F6A147-20BE-40F7-0769-763B774F1322</generatorId>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="4BF56D3C-7FC0-F9D8-C3BE-459F731174D4" otype="Entity" vid="8AECF0C4-40DB-0128-62A3-FB5ED918D678">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="486" y="234" width="225" height="92"/>
+<generatorID>575453CE-BF8D-F463-3B1B-EE468C0E6D9B</generatorID>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="6630B427-80AE-D04D-6A16-4C657A3736E6" otype="Entity" vid="0BF4468B-A773-70B2-9664-771356A227DA">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="487" y="65" width="241" height="134"/>
+<generatorID>A9FA46A8-4985-1B94-2CE8-DA9223752738</generatorID>
+</OView>
+</objectViews>
+</Diagram>

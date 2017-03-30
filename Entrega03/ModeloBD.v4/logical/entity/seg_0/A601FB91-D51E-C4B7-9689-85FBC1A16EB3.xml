@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A601FB91-D51E-C4B7-9689-85FBC1A16EB3" name="Alunos">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 13:51:51 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdAluno" id="15DAFCAF-D38A-9404-53A3-F81B888659DF">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 13:51:56 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdUtente" id="C972C7CE-A525-CC70-F5CE-8A7416CB3B9E">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 13:52:18 UTC</createdTime>
+<generatorID>BD74E6F7-09C0-C5F8-9D8A-5BDE3E026CD5</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<referedAttribute>A80AA253-4293-3E89-8779-BC020B56880C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdTurma" id="F2B07511-83A1-D5A5-590C-56B8E0241A1C">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 13:53:17 UTC</createdTime>
+<generatorID>6786DFDE-2284-4466-1BE3-23C5C170FB0F</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<referedAttribute>4AAA43D2-5A8A-465F-FDC8-C72F0598DC9A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdHistoricoAluno" id="3CE76123-D453-D26B-3BB6-89D122703434">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 15:14:16 UTC</createdTime>
+<generatorID>6786DFDE-2284-4466-1BE3-23C5C170FB0F</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<referedAttribute>296DD7BB-91AE-DBC9-B508-9148B47AD9A3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A52D8EA5-35DE-CADF-374A-DABEFACA19CD" name="Alunos PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 13:52:02 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>15DAFCAF-D38A-9404-53A3-F81B888659DF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

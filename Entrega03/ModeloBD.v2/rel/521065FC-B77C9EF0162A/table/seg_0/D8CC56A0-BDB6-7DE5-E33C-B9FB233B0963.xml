@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D8CC56A0-BDB6-7DE5-E33C-B9FB233B0963" name="Alunos">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 22:40:24 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdAluno" id="65D9C796-4165-92FD-2579-9742390B3B98">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 22:40:47 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Utentes_IdUtente" id="4242F421-29EC-A3AD-6E6E-2FF290D7A044">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 22:41:07 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AAD938B7-F87B-615A-8851-C1A66D227E32" referredColumn="97BB51BD-BC9D-70AB-EB07-31B3945A686A"/>
+</associations>
+</Column>
+<Column name="Turmas_IdTurma" id="341852E9-4646-811B-E4DC-1FD65351F588">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 22:42:26 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C57370C-4304-A32E-AA0A-AF9FCE961F61" referredColumn="841EFFD2-385C-1ACD-BFB9-B11E6038B4DF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="91208A71-A46E-2DC2-BD08-D8F32FA03C8B" name="Alunos_PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 22:40:47 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65D9C796-4165-92FD-2579-9742390B3B98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46EC8916-5E03-33B0-6388-5F4F1BDEFB5B" name="Alunos_Utentes_FK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 22:41:07 UTC</createdTime>
+<generatorID>E54EF7D2-DC8C-56AC-7112-A1AE4B481CDE</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4242F421-29EC-A3AD-6E6E-2FF290D7A044"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98C127BA-C752-8D65-7C16-22D22DA5DB28" name="Alunos_Turmas_FK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 22:42:26 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="341852E9-4646-811B-E4DC-1FD65351F588"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

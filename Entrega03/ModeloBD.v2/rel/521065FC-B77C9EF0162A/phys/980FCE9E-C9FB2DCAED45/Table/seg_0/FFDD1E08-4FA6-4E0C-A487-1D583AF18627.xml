@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableProxySqlServerv2k5" name="Manutencoes" directorySegmentName="seg_0" id="FFDD1E08-4FA6-4E0C-A487-1D583AF18627">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:00:54 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<database>DB_NULLELEMENT</database>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="Obs" id="1E6AFA31-4014-D8A5-84A9-5E6560C0BE77">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:00:54 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="Equipamentos_IdEquipamento" id="41138967-D723-2799-D249-95F7A9CFA7B7">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:00:54 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="Colaboradores_IdColaborador" id="4F6D7728-47B6-30BB-474A-F4F0047D67A0">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:00:54 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="IdManutencao" id="CE8C6638-8603-7A38-C055-8E6F266F139F">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:00:54 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="Descricao" id="F9E637C1-DD9A-6DF3-C3AD-E838F6950864">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:00:54 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="Manutencoes_Equipamentos_FK" id="62400649-D14F-A9C1-FA0B-884AC18A274D">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:00:54 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="Manutencoes_Colaboradores_FK" id="94D14ED3-0ACE-40D1-F3FA-E97534286375">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:00:54 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.PKProxySqlServerv2k5" name="Manutencoes_PK" id="F2358EB1-BE8E-9C01-E7BD-D5DE76509AC7">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:00:54 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<clustered>true</clustered>
+</PrimaryKey>
+</primaryKeys>
+</TableProxySqlServerv2k5>

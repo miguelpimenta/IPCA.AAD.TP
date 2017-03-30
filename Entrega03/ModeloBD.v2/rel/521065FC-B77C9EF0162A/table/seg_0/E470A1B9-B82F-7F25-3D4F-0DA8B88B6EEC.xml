@@ -30,6 +30,17 @@
 <ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Activo" id="7FE04AC9-6F82-E95D-973A-7DD9E60D4865">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 22:52:26 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="85DAEDA3-88B0-2721-58DF-5AA3FDCA8D50" name="Funcoes_PK">

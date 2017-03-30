@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Colaboradores_HabLiterarias_FK" directorySegmentName="seg_0" id="C75CC873-D978-936C-38B7-CA0A627AEE7B">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:03:14 UTC</createdTime>
+<generatorID>74FF1DA5-F6BA-6993-F202-17DBD4BDFAEB</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<sourcePk>B6CC817C-62F1-BAB4-5B4F-D95C3DCE417D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1178D0EC-C536-EEAC-FD1D-36FA85F6E22C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B5955873-0F4A-1B6F-02A3-0521FE2C2283</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="26A2951D-3086-DD02-4145-8A1060DB6B72" name="Turmas">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 10:12:09 UTC</createdTime>
+<generatorID>28A6F483-1263-52B1-573A-5897EA7C4060</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdTurma" id="4AAA43D2-5A8A-465F-FDC8-C72F0598DC9A">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 10:12:09 UTC</createdTime>
+<generatorID>841EFFD2-385C-1ACD-BFB9-B11E6038B4DF</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TiposTurma IdTipoTurma" id="5A819DF3-8887-FA47-4155-323873180536">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 10:12:09 UTC</createdTime>
+<generatorID>EE950030-2E02-965B-E6F4-213A271F13DC</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<referedAttribute>C144F860-9FCF-CD92-88E2-19532DBA0113</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Horarios IdHorario" id="7C76AD9F-5191-07EC-6B52-CE3862313672">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 10:12:09 UTC</createdTime>
+<generatorID>845EAC29-E03F-0660-9A29-BFEFE5E5CA6E</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<referedAttribute>4486C3A0-07FA-FE4F-48D4-5C13E81C741E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NumVagas" id="F5DCA37D-D255-E014-1D47-BE61F1F4ECDF">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 10:12:09 UTC</createdTime>
+<comment>Nº de alunos que a turma pode ter</comment>
+<generatorID>A13F1FBA-D7A8-5192-EEA8-67EB71A5AD29</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdAluno" id="96A173D5-BCA5-5F24-5210-E35294083BFA">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 13:52:53 UTC</createdTime>
+<generatorID>6786DFDE-2284-4466-1BE3-23C5C170FB0F</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<referedAttribute>15DAFCAF-D38A-9404-53A3-F81B888659DF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdHistoricoAluno" id="296DD7BB-91AE-DBC9-B508-9148B47AD9A3">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 15:14:16 UTC</createdTime>
+<generatorID>387BC76D-350B-FA2E-C67D-8D01E636A2D5</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<referedAttribute>B81D7029-BD9C-18FD-706B-DBC434E4D182</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="60D8C7EA-6E1D-D890-136B-5BA425B2DA37" name="Turmas PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 10:12:09 UTC</createdTime>
+<generatorID>BB1D0F6E-7B7A-B010-4DB4-981607996519</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4AAA43D2-5A8A-465F-FDC8-C72F0598DC9A</attributeRef>
+<attributeRef>296DD7BB-91AE-DBC9-B508-9148B47AD9A3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

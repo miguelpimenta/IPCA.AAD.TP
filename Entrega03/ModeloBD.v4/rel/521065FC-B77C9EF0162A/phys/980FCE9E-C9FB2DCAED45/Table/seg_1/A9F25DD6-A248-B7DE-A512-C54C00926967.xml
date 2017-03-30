@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableProxySqlServerv2k5" name="Alunos_Historico" directorySegmentName="seg_1" id="A9F25DD6-A248-B7DE-A512-C54C00926967">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 20:39:45 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<database>DB_NULLELEMENT</database>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="Alunos_IdAluno" id="12E3674D-6396-C4F4-CEB6-1B9B29107F17">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 20:39:45 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="IdHistoricoAluno" id="7F8C06FF-BAFB-BCE8-654C-74956563B945">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 20:39:45 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="Alunos_Historico_Alunos_FK" id="0DD7219E-02EB-71CF-F9E1-4424688F6575">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 20:39:46 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.PKProxySqlServerv2k5" name="Alunos_Historico_PK" id="81209BA7-AF60-791C-CB7D-F9101912578B">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 20:39:46 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<clustered>true</clustered>
+</PrimaryKey>
+</primaryKeys>
+</TableProxySqlServerv2k5>

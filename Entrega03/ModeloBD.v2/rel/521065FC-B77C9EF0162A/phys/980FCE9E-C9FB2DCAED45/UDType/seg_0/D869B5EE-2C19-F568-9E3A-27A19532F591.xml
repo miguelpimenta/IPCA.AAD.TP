@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserDefinedTypeSqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.UserDefinedTypeSqlServerv2k5" name="68193F9C-77C4-3147-A891-3054A0BB6DBA" directorySegmentName="seg_0" id="D869B5EE-2C19-F568-9E3A-27A19532F591">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:07:38 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<domain>BigNumber</domain>
+</UserDefinedTypeSqlServerv2k5>

@@ -21,6 +21,7 @@
 <Column name="TipoTurma" id="AB426990-EC9A-ADCB-8B74-A584E00B47EF">
 <createdBy>Miguel Pimenta</createdBy>
 <createdTime>2017-03-29 16:41:18 UTC</createdTime>
+<commentInRDBMS>Infantil, Adulto, -hidroginastica,...</commentInRDBMS>
 <ownerDesignName>ModeloBD.v2</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -28,6 +29,17 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>254 CHAR</dataTypeSize>
 <ownDataTypeParameters>254 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LimiteAlunos" id="5EAF060B-1652-10CE-9347-978F5D538554">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 09:57:20 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

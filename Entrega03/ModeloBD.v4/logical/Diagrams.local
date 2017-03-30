@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="main_view" objectID="0FE86E10-543B-C546-93CA-69DCA73FA402" name="Logical" visible="true"/>
+   <object objectType="sub_view" objectID="A09C907E-E9F0-28CD-D73D-FA4A7B643721" name="From_RM_Alunos" visible="false"/>
+   <object objectType="sub_view" objectID="B0E20172-CD76-4138-F505-0F48DE9ADB8F" name="From_RM_Colaboradores" visible="true"/>
+   <object objectType="sub_view" objectID="8BAB38E7-5093-C9AB-A6ED-02287A1D8B2F" name="From_RM_Manutencoes" visible="true"/>
+   <object objectType="sub_view" objectID="6D973A58-36B7-0199-8EDA-687D0CAEBA87" name="From_RM_Utentes" visible="false"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

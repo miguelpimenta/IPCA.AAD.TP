@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2048A7E0-8B3D-C445-FF9C-F06C3BAB4066" name="Colaboradores Acessos">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 10:22:33 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Acessos</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdAcesso" id="5E7BA7A1-6B94-3019-10AE-9BC6C1C8266B">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 10:23:10 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Colaboradores IdColaborador" id="8E913A76-A667-E816-B5D6-9BD2ECB8CB13">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 10:24:00 UTC</createdTime>
+<generatorID>F2A6312F-6F4B-8D32-CAC1-B54BE4F206A3</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<referedAttribute>612005CC-6A8D-79DC-2019-D15CA7CA4E44</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2D94507B-12D6-A952-89B1-0E163D2BD8C2" name="AcessosColabs_PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 10:23:51 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5E7BA7A1-6B94-3019-10AE-9BC6C1C8266B</attributeRef>
+<attributeRef>8E913A76-A667-E816-B5D6-9BD2ECB8CB13</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

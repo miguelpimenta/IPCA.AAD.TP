@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Movimento" directorySegmentName="seg_0" id="36C50AD6-9E4E-DD64-1565-751AEB31DE5F">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 20:48:56 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<sourcePk>1CCD908A-9EE7-8DA0-2D4B-D46777883897</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>87AF156B-A9B5-8F37-4135-659CA2E8AA2A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>10878998-AE05-1775-EB0B-44A1A24A1EF4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

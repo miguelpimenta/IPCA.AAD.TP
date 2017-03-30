@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="44242261-39F3-D396-0EE1-F52D6FB00410" name="Manutencoes">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 10:12:09 UTC</createdTime>
+<generatorID>FFDD1E08-4FA6-4E0C-A487-1D583AF18627</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdManutencao" id="85B22E03-F800-02D2-4D4B-CAA1069955FF">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 10:12:09 UTC</createdTime>
+<generatorID>CE8C6638-8603-7A38-C055-8E6F266F139F</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Equipamentos IdEquipamento" id="A4E59CCB-31D3-7012-FF39-B19108456E0C">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 10:12:09 UTC</createdTime>
+<generatorID>C59646C7-61F1-C961-D5BB-AD73CDF44FCE</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<referedAttribute>B2DA83BE-DFD0-1ECB-2D65-1EE1FC13EABA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descricao" id="2C5BFDC3-2827-27E1-9837-DF5651D9D78D">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 10:12:09 UTC</createdTime>
+<generatorID>F9E637C1-DD9A-6DF3-C3AD-E838F6950864</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>MAX CHAR</dataTypeSize>
+<ownDataTypeParameters>MAX CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Obs" id="7C84859C-0251-ABB7-A084-371E9DC7868B">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 10:12:09 UTC</createdTime>
+<generatorID>1E6AFA31-4014-D8A5-84A9-5E6560C0BE77</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Colaboradores IdColaborador" id="273B212C-913F-7DE3-9CFF-9A42781FC093">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 10:12:09 UTC</createdTime>
+<generatorID>0579B52A-513E-BDFA-1D1A-DDB98A79E449</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<referedAttribute>612005CC-6A8D-79DC-2019-D15CA7CA4E44</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="78C89C8F-DF90-DB3C-6977-8455E8CF2A8E" name="Manutencoes PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 10:12:09 UTC</createdTime>
+<generatorID>F2358EB1-BE8E-9C01-E7BD-D5DE76509AC7</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>85B22E03-F800-02D2-4D4B-CAA1069955FF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

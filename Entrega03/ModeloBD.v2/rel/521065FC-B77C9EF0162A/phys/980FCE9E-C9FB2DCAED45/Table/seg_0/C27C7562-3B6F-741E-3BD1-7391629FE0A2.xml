@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableProxySqlServerv2k5" name="Horarios" directorySegmentName="seg_0" id="C27C7562-3B6F-741E-3BD1-7391629FE0A2">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:00:54 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<database>DB_NULLELEMENT</database>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="IdHorario" id="E14814C3-A578-AEAD-9699-C41CE9E23029">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:00:54 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.PKProxySqlServerv2k5" name="Horarios_PK" id="DFD9750E-16B5-895C-ECBC-4806158A70B0">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:00:54 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<clustered>true</clustered>
+</PrimaryKey>
+</primaryKeys>
+</TableProxySqlServerv2k5>

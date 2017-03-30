@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Turma" directorySegmentName="seg_0" id="6786DFDE-2284-4466-1BE3-23C5C170FB0F">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 13:52:53 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<sourcePk>A52D8EA5-35DE-CADF-374A-DABEFACA19CD</sourcePk>
+<targetPk>60D8C7EA-6E1D-D890-136B-5BA425B2DA37</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A601FB91-D51E-C4B7-9689-85FBC1A16EB3</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>26A2951D-3086-DD02-4145-8A1060DB6B72</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="IdTurma" id="E1897C84-3773-D035-E1B0-91D78DA13C80">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 13:53:00 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

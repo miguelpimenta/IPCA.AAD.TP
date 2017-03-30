@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FFDD1E08-4FA6-4E0C-A487-1D583AF18627" name="Manutencoes">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 22:29:08 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdManutencao" id="CE8C6638-8603-7A38-C055-8E6F266F139F">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 22:29:25 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Equipamentos_IdEquipamento" id="41138967-D723-2799-D249-95F7A9CFA7B7">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 22:29:41 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7F748F8-E7A5-E4F2-66B9-5C81CFDCD53F" referredColumn="5CCD81A3-06F2-2AB4-EDB1-441FCDD0B1D2"/>
+</associations>
+</Column>
+<Column name="Descricao" id="F9E637C1-DD9A-6DF3-C3AD-E838F6950864">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 22:32:49 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>MAX CHAR</dataTypeSize>
+<ownDataTypeParameters>MAX CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Obs" id="1E6AFA31-4014-D8A5-84A9-5E6560C0BE77">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 22:33:44 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Colaboradores_IdColaborador" id="4F6D7728-47B6-30BB-474A-F4F0047D67A0">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 22:36:14 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7967E55E-BE23-FEBA-3C21-34CEB439D51B" referredColumn="3985240E-A490-AB50-9681-2E1942ABC71D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F2358EB1-BE8E-9C01-E7BD-D5DE76509AC7" name="Manutencoes_PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 22:29:25 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE8C6638-8603-7A38-C055-8E6F266F139F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62400649-D14F-A9C1-FA0B-884AC18A274D" name="Manutencoes_Equipamentos_FK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 22:29:41 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41138967-D723-2799-D249-95F7A9CFA7B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94D14ED3-0ACE-40D1-F3FA-E97534286375" name="Manutencoes_Colaboradores_FK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 22:36:14 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F6D7728-47B6-30BB-474A-F4F0047D67A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

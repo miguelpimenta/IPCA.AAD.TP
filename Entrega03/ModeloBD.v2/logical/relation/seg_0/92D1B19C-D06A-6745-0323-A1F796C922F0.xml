@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MovProdutos_Produtos_FK" directorySegmentName="seg_0" id="92D1B19C-D06A-6745-0323-A1F796C922F0">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:03:14 UTC</createdTime>
+<generatorID>9348D3E2-033B-7C3E-F30E-008FD5E68A76</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<sourcePk>890FB8B8-8CAF-FAEA-D046-741DB95B5E92</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5D72063F-BDE0-CFCA-BF5D-129CF74FBD41</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B90C7F1B-94BD-A7E6-2C33-26444567CBE6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

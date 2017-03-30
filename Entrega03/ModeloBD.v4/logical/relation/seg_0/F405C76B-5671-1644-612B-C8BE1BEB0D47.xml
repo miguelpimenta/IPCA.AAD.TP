@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Historico" directorySegmentName="seg_0" id="F405C76B-5671-1644-612B-C8BE1BEB0D47">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 15:13:06 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<sourcePk>A52D8EA5-35DE-CADF-374A-DABEFACA19CD</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A601FB91-D51E-C4B7-9689-85FBC1A16EB3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4DD1FAC8-ABF9-4750-FEEE-9C52C907CBDC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Turmas_Colaboradores_FK" directorySegmentName="seg_0" id="5C3B3E96-BC1F-A403-9F84-1D8FCFB685F7">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:03:14 UTC</createdTime>
+<generatorID>6D9A6B40-15F1-9CED-6DC7-441B1CCCF3F5</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<sourcePk>5E4CC3D9-7592-A4BF-3731-B8E02988E6E6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B5955873-0F4A-1B6F-02A3-0521FE2C2283</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9FEA78D1-04F7-F73E-B28C-1955C428E55A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -145,11 +145,25 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="05B1A7C3-72FB-F54A-FACE-236CD9D41C42" referredColumn="3F44B504-B422-44BF-2CCE-9195039A0E7A"/>
+</associations>
+</Column>
+<Column name="EstCivil_IdEstCivil" id="6EDFB7EB-6BCB-618B-1746-A7F6EAEE6B16">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 22:56:19 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="090175E3-79D0-BDFF-9056-7BE8A221AE85" referredColumn="E1D64A97-6E29-4156-D380-7A6401188FE6"/>
 </associations>
 </Column>
 </columns>
@@ -174,6 +188,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="0FFD57E5-0243-321A-FF53-402B0F599AF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="574CE10D-9876-2D60-D5C0-F7C694FD5EAC" name="Utentes_EstCivil_FK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 22:56:19 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EDFB7EB-6BCB-618B-1746-A7F6EAEE6B16"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

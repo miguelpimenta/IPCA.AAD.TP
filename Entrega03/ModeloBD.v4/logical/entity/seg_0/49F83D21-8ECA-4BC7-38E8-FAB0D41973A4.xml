@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="49F83D21-8ECA-4BC7-38E8-FAB0D41973A4" name="Colaboradores Horario">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 15:27:49 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdHorario" id="FCF1FCB9-2BBB-3DE6-A0CA-95282508BFF7">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 15:28:15 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descricao" id="CED54BC7-4329-4D3D-679F-0B57B6286756">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 15:31:33 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdColaborador" id="820CD8BA-5274-B68E-1ED0-485083615068">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 15:33:27 UTC</createdTime>
+<generatorID>6FA03DFA-2769-5FD6-3AD9-8C8E0E7281BF</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<referedAttribute>612005CC-6A8D-79DC-2019-D15CA7CA4E44</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E9ED48BB-E9A8-17EC-C0EA-D4C6ADFCD1F8" name="Colaboradores Horario PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 15:30:48 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FCF1FCB9-2BBB-3DE6-A0CA-95282508BFF7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

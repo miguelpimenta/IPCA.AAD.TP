@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4DD1FAC8-ABF9-4750-FEEE-9C52C907CBDC" name="Alunos Historico">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 13:33:43 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdHistoricoAluno" id="B81D7029-BD9C-18FD-706B-DBC434E4D182">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 13:33:57 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdAluno" id="43C2C955-858D-BD2E-B778-6C1C45894158">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 15:13:06 UTC</createdTime>
+<generatorID>F405C76B-5671-1644-612B-C8BE1BEB0D47</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<referedAttribute>15DAFCAF-D38A-9404-53A3-F81B888659DF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="16384748-267C-2F7B-F428-E7BC12953921" name="Alunos Historico PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 13:34:48 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B81D7029-BD9C-18FD-706B-DBC434E4D182</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,342 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="103180C4-049A-77E7-9620-B3333CB99B7E" name="vw Colaboradores">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 10:12:09 UTC</createdTime>
+<generatorID>6D27B4A7-ED8B-7983-9C47-17EEBD1A4109</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL>SELECT Colaboradores.Nome,&lt;br/&gt;  Colaboradores.DataNasc,&lt;br/&gt;  Colaboradores.Morada,&lt;br/&gt;  Colaboradores.Telef,&lt;br/&gt;  Colaboradores.Tlm,&lt;br/&gt;  Colaboradores.Email,&lt;br/&gt;  Colaboradores.NumCC,&lt;br/&gt;  Colaboradores.DtValCC,&lt;br/&gt;  Colaboradores.NIF,&lt;br/&gt;  Colaboradores.NISS,&lt;br/&gt;  Nacionalidades.Nacionalidade,&lt;br/&gt;  Funcoes.Funcao,&lt;br/&gt;  HabLiterarias.HabLiteraria&lt;br/&gt;FROM Colaboradores&lt;br/&gt;INNER JOIN Funcoes&lt;br/&gt;ON Funcoes.IdFuncao = Colaboradores.Funcoes_IdFuncao&lt;br/&gt;INNER JOIN HabLiterarias&lt;br/&gt;ON HabLiterarias.IdHabLiteraria = Colaboradores.HabLiterarias_IdHabLiteraria&lt;br/&gt;INNER JOIN Nacionalidades&lt;br/&gt;ON Nacionalidades.IdNacionalidade = Colaboradores.Nacionalidades_IdNacionalidade</userDefinedSQL>
+<validSQL>false</validSQL>
+<parsed>true</parsed>
+<viewType>EntityView</viewType>
+<usedContainers>
+<container containerID="B1BDC71F-39D8-E199-D911-2B356B20CEDE"/>
+</usedContainers>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Nome" id="32F58849-E1E7-18F4-AAFB-3292CDC45F00">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 10:12:09 UTC</createdTime>
+<generatorID>E17FCA91-6D7B-CA4F-3B1F-147707C4333E</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR (100)</dataType>
+<expression>Nome</expression>
+<reference>false</reference>
+<referencedColumn>4C689D87-A4D5-82BB-F49F-4A3F9BEE3261</referencedColumn>
+<table>7C8AFC1D-1DC1-DA82-78B9-8F3FE0459A42</table>
+<tableAlias>Colaboradores</tableAlias>
+<viewID>103180C4-049A-77E7-9620-B3333CB99B7E</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="DataNasc" id="B74C64D4-72D4-3EAF-028D-0909DAFE760D">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 10:12:09 UTC</createdTime>
+<generatorID>DA320B09-99B0-1241-8A54-891C62CC6078</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>DATE</dataType>
+<expression>DataNasc</expression>
+<reference>false</reference>
+<referencedColumn>4C3E7AED-C404-4A9E-0637-B6E4DF082063</referencedColumn>
+<table>7C8AFC1D-1DC1-DA82-78B9-8F3FE0459A42</table>
+<tableAlias>Colaboradores</tableAlias>
+<viewID>103180C4-049A-77E7-9620-B3333CB99B7E</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Morada" id="160FEEDF-C613-37F4-AC95-226D857B5CC1">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 10:12:09 UTC</createdTime>
+<generatorID>FB5FF6EC-5F72-7489-E9B1-DC48AC124CF0</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR (254)</dataType>
+<expression>Morada</expression>
+<reference>false</reference>
+<referencedColumn>9AE847A2-6AB8-C290-ECED-1B658EBF48C5</referencedColumn>
+<table>7C8AFC1D-1DC1-DA82-78B9-8F3FE0459A42</table>
+<tableAlias>Colaboradores</tableAlias>
+<viewID>103180C4-049A-77E7-9620-B3333CB99B7E</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Telef" id="C835B425-CAB4-EAFD-7634-935A0F1F4B99">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 10:12:09 UTC</createdTime>
+<generatorID>431B3FCF-4D99-3EED-3040-3D940A0589BC</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR (20)</dataType>
+<expression>Telef</expression>
+<reference>false</reference>
+<referencedColumn>8121126E-D93E-08F1-D3DF-D57A3F139ACE</referencedColumn>
+<table>7C8AFC1D-1DC1-DA82-78B9-8F3FE0459A42</table>
+<tableAlias>Colaboradores</tableAlias>
+<viewID>103180C4-049A-77E7-9620-B3333CB99B7E</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Tlm" id="855ABB1A-6322-D3E6-489E-7884C32A88A9">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 10:12:09 UTC</createdTime>
+<generatorID>E9A62D70-E1FD-33DB-AA3A-94603CB46BC2</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR (20)</dataType>
+<expression>Tlm</expression>
+<reference>false</reference>
+<referencedColumn>19E9A293-8067-B9B7-D173-28863D166C5E</referencedColumn>
+<table>7C8AFC1D-1DC1-DA82-78B9-8F3FE0459A42</table>
+<tableAlias>Colaboradores</tableAlias>
+<viewID>103180C4-049A-77E7-9620-B3333CB99B7E</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Email" id="FD52FD0A-6ED1-E67E-06A3-420A402B5251">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 10:12:09 UTC</createdTime>
+<generatorID>F3E5A4FD-75EC-986F-D788-AC1280453D1C</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR (254)</dataType>
+<expression>Email</expression>
+<reference>false</reference>
+<referencedColumn>D64E1717-9613-8F7A-DB4E-D13F232F53ED</referencedColumn>
+<table>7C8AFC1D-1DC1-DA82-78B9-8F3FE0459A42</table>
+<tableAlias>Colaboradores</tableAlias>
+<viewID>103180C4-049A-77E7-9620-B3333CB99B7E</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="NumCC" id="AF754A2E-D378-36D9-5E11-A607FC81FCE3">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 10:12:09 UTC</createdTime>
+<generatorID>534CC50D-0039-AABF-A6F6-1E83C67926E6</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR (20)</dataType>
+<expression>NumCC</expression>
+<reference>false</reference>
+<referencedColumn>1CE7B087-06EE-00EE-692D-E6EE09FF178A</referencedColumn>
+<table>7C8AFC1D-1DC1-DA82-78B9-8F3FE0459A42</table>
+<tableAlias>Colaboradores</tableAlias>
+<viewID>103180C4-049A-77E7-9620-B3333CB99B7E</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="DtValCC" id="E2C4156C-1BE9-A80B-D4E5-CF68ABDAE5AC">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 10:12:09 UTC</createdTime>
+<generatorID>B9DA5CF5-0552-7F0B-0515-F3B02744597E</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>DATE</dataType>
+<expression>DtValCC</expression>
+<reference>false</reference>
+<referencedColumn>3FEFC341-99F6-7CCF-F735-9F5CA7029242</referencedColumn>
+<table>7C8AFC1D-1DC1-DA82-78B9-8F3FE0459A42</table>
+<tableAlias>Colaboradores</tableAlias>
+<viewID>103180C4-049A-77E7-9620-B3333CB99B7E</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="NIF" id="FF785F54-D809-F717-B96F-827BA921FFF6">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 10:12:09 UTC</createdTime>
+<generatorID>B968956F-51D2-E900-A462-84ED8C2F5071</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMERIC (9)</dataType>
+<expression>NIF</expression>
+<reference>false</reference>
+<referencedColumn>C66CF660-8344-2B8E-DF21-0878E0B2168D</referencedColumn>
+<table>7C8AFC1D-1DC1-DA82-78B9-8F3FE0459A42</table>
+<tableAlias>Colaboradores</tableAlias>
+<viewID>103180C4-049A-77E7-9620-B3333CB99B7E</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="NISS" id="CD83E96E-F506-1C2C-23C1-F953B4238DD3">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 10:12:09 UTC</createdTime>
+<generatorID>39761781-4137-941A-B28B-1A1F7435B3DD</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMERIC (11)</dataType>
+<reference>false</reference>
+<referencedColumn>47F46A11-16A0-E5A3-419A-686975C7C2E7</referencedColumn>
+<table>7C8AFC1D-1DC1-DA82-78B9-8F3FE0459A42</table>
+<viewID>103180C4-049A-77E7-9620-B3333CB99B7E</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Nacionalidade" id="FA07FCFE-EEE4-1CEE-A614-5A309BE7CBB9">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 10:12:09 UTC</createdTime>
+<generatorID>DA732F4B-7622-FB5A-ABF9-F8F9579B2489</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR (100)</dataType>
+<reference>false</reference>
+<referencedColumn>59F3A1BF-D03D-2CFF-9DD4-7BB9938D1E96</referencedColumn>
+<table>0BC7A106-1975-DE0D-5353-171A156DD017</table>
+<viewID>103180C4-049A-77E7-9620-B3333CB99B7E</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Funcao" id="54E35533-03B4-329C-CE1A-F72F779F2998">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 10:12:09 UTC</createdTime>
+<generatorID>8A7627EF-CB5B-6CF3-BDC5-C9A6FED30714</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR (200)</dataType>
+<expression>Funcao</expression>
+<reference>false</reference>
+<referencedColumn>4462BA9E-2F4B-B014-F328-194D30A743CF</referencedColumn>
+<tableAlias>Funcoes</tableAlias>
+<viewID>103180C4-049A-77E7-9620-B3333CB99B7E</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="HabLiteraria" id="8F2666C2-3E50-D8BC-2EDA-F3E1117B231D">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 10:12:09 UTC</createdTime>
+<generatorID>95223672-A7CB-F8E7-404B-A03C9B9A76AC</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR (254)</dataType>
+<expression>HabLiteraria</expression>
+<reference>false</reference>
+<referencedColumn>56F2F531-6107-9138-DF27-DE277E54143D</referencedColumn>
+<tableAlias>HabLiterarias</tableAlias>
+<viewID>103180C4-049A-77E7-9620-B3333CB99B7E</viewID>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="7C8AFC1D-1DC1-DA82-78B9-8F3FE0459A42">
+<container>true</container>
+<tableName>Colaboradores</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="0BC7A106-1975-DE0D-5353-171A156DD017">
+<container>true</container>
+<tableName>Nacionalidades</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="603A5729-F61B-5572-8F55-2BCA000E85A4">
+<container>true</container>
+<tableName>Funcoes</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="B1BDC71F-39D8-E199-D911-2B356B20CEDE">
+<container>true</container>
+<tableName>HabLiterarias</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="4C689D87-A4D5-82BB-F49F-4A3F9BEE3261">
+<columnName>Nome</columnName>
+<tableName>Colaboradores</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="4C3E7AED-C404-4A9E-0637-B6E4DF082063">
+<columnName>DataNasc</columnName>
+<tableName>Colaboradores</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="9AE847A2-6AB8-C290-ECED-1B658EBF48C5">
+<columnName>Morada</columnName>
+<tableName>Colaboradores</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="8121126E-D93E-08F1-D3DF-D57A3F139ACE">
+<columnName>Telef</columnName>
+<tableName>Colaboradores</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="19E9A293-8067-B9B7-D173-28863D166C5E">
+<columnName>Tlm</columnName>
+<tableName>Colaboradores</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="D64E1717-9613-8F7A-DB4E-D13F232F53ED">
+<columnName>Email</columnName>
+<tableName>Colaboradores</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="1CE7B087-06EE-00EE-692D-E6EE09FF178A">
+<columnName>NumCC</columnName>
+<tableName>Colaboradores</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="3FEFC341-99F6-7CCF-F735-9F5CA7029242">
+<columnName>DtValCC</columnName>
+<tableName>Colaboradores</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="C66CF660-8344-2B8E-DF21-0878E0B2168D">
+<columnName>NIF</columnName>
+<tableName>Colaboradores</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="47F46A11-16A0-E5A3-419A-686975C7C2E7">
+<columnName>NISS</columnName>
+<tableName>Colaboradores</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="59F3A1BF-D03D-2CFF-9DD4-7BB9938D1E96">
+<columnName>Nacionalidade</columnName>
+<tableName>Nacionalidades</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="4462BA9E-2F4B-B014-F328-194D30A743CF">
+<columnName>Funcao</columnName>
+<tableName>Funcoes</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="56F2F531-6107-9138-DF27-DE277E54143D">
+<columnName>HabLiteraria</columnName>
+<tableName>HabLiterarias</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="9E746B71-7A13-E752-9B0E-5CE99EFCBD67">
+<columnName>IdFuncao</columnName>
+<tableName>Funcoes</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="99FD2DC3-E1BE-4569-F06F-C372BE20B5A8">
+<columnName>Funcoes_IdFuncao</columnName>
+<tableName>Colaboradores</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="3367FAD4-78BA-A014-F625-F99179C6DA1D">
+<columnName>IdHabLiteraria</columnName>
+<tableName>HabLiterarias</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="7B08F7CD-6B60-38E9-0F4D-784C43428D8F">
+<columnName>HabLiterarias_IdHabLiteraria</columnName>
+<tableName>Colaboradores</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="5C302F02-E13D-5835-E3FF-D03DB235E811">
+<columnName>IdNacionalidade</columnName>
+<tableName>Nacionalidades</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="1AB6EC0E-44DE-F5B4-2224-B0F26642FE56">
+<columnName>Nacionalidades_IdNacionalidade</columnName>
+<tableName>Colaboradores</tableName>
+</UsedObject>
+</usedObjects>
+</EntityView>

@@ -1,0 +1,173 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="A7412BC0-6B79-3F70-32DB-A013405282B4" name="vw Utentes">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:03:14 UTC</createdTime>
+<generatorID>70AA142A-B07B-93A4-8D82-E1295E3EC86B</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL>SELECT Utentes.Nome,&lt;br/&gt;  Utentes.DataNasc,&lt;br/&gt;  (DATEDIFF(DAY, Utentes.DataNasc, GETDATE()) / 365.25),&lt;br/&gt;  Utentes.Telef,&lt;br/&gt;  Utentes.Tlm,&lt;br/&gt;  Utentes.Email,&lt;br/&gt;  Utentes.Morada,&lt;br/&gt;  Utentes.CC,&lt;br/&gt;  Utentes.NIF,&lt;br/&gt;  Utentes.NISS&lt;br/&gt;FROM Utentes</userDefinedSQL>
+<validSQL>false</validSQL>
+<parsed>true</parsed>
+<incorrectSQL>true</incorrectSQL>
+<viewType>EntityView</viewType>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Nome" id="D7B7CBDD-C13B-727C-0D7B-9E68646A86B7">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:03:14 UTC</createdTime>
+<generatorID>592D9371-EF49-0C57-4505-6E5D4A26F095</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR (100)</dataType>
+<expression>Nome</expression>
+<reference>false</reference>
+<tableAlias>Utentes</tableAlias>
+<viewID>A7412BC0-6B79-3F70-32DB-A013405282B4</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="DataNasc" id="E17F2B02-3F7C-4696-CA13-D4E623517420">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:03:14 UTC</createdTime>
+<generatorID>590A88B1-1D89-9879-AD29-47688CD3A5F4</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>DATE</dataType>
+<reference>false</reference>
+<viewID>A7412BC0-6B79-3F70-32DB-A013405282B4</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="(DATEDIFF(DAY, Utentes.DataNasc, GETDATE()) / 365.25)" id="EE2F70F2-CB3E-E585-CF92-D2BE5DC516E7">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:03:14 UTC</createdTime>
+<generatorID>88909CE0-34F6-C232-DC73-8B19C707542C</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>(DATEDIFF(DAY, Utentes.DataNasc, GETDATE()) / 365.25)</expression>
+<reference>false</reference>
+<viewID>A7412BC0-6B79-3F70-32DB-A013405282B4</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Telef" id="6FBF90DF-09A5-E284-5C62-27984567EB3D">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:03:14 UTC</createdTime>
+<generatorID>93E538BB-0A48-A3F2-17BF-0F97B587A687</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR (20)</dataType>
+<expression>Telef</expression>
+<reference>false</reference>
+<tableAlias>Utentes</tableAlias>
+<viewID>A7412BC0-6B79-3F70-32DB-A013405282B4</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Tlm" id="ED4D2CCD-74DF-91DE-EBA3-ED0ED893CF79">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:03:14 UTC</createdTime>
+<generatorID>8EAD56FB-1380-D896-91F8-E922B31BFE27</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR (20)</dataType>
+<expression>Tlm</expression>
+<reference>false</reference>
+<tableAlias>Utentes</tableAlias>
+<viewID>A7412BC0-6B79-3F70-32DB-A013405282B4</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Email" id="24CCDB86-7E9C-7320-EF93-6C9D16DD2F3B">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:03:14 UTC</createdTime>
+<generatorID>13BCB377-578A-14A8-A8A3-994B3FB635EA</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR (254)</dataType>
+<expression>Email</expression>
+<reference>false</reference>
+<tableAlias>Utentes</tableAlias>
+<viewID>A7412BC0-6B79-3F70-32DB-A013405282B4</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Morada" id="3FC399C6-B5A0-EAA1-D3AB-07A06AFA6DE3">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:03:14 UTC</createdTime>
+<generatorID>B37D087E-7E10-91C0-E2E4-1775197259A1</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR (254)</dataType>
+<expression>Morada</expression>
+<reference>false</reference>
+<tableAlias>Utentes</tableAlias>
+<viewID>A7412BC0-6B79-3F70-32DB-A013405282B4</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="CC" id="849D3F6A-9014-8B0D-0A74-993F616E8132">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:03:14 UTC</createdTime>
+<generatorID>24E2DCAF-289E-C8DA-CB7A-AE31A59ACE02</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR (15)</dataType>
+<reference>false</reference>
+<viewID>A7412BC0-6B79-3F70-32DB-A013405282B4</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="NIF" id="30C8687E-E798-82F1-A395-D6504AF55038">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:03:14 UTC</createdTime>
+<generatorID>28B3FCE3-5953-6AEC-2727-2F4DDCB0B252</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR (9)</dataType>
+<expression>NIF</expression>
+<reference>false</reference>
+<tableAlias>Utentes</tableAlias>
+<viewID>A7412BC0-6B79-3F70-32DB-A013405282B4</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="NISS" id="BADDBFBD-912F-0813-FF0D-5EF786CB86D8">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:03:14 UTC</createdTime>
+<generatorID>BC1FFCCB-8CD4-68A8-FF80-486BA23C476A</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR (11)</dataType>
+<expression>NISS</expression>
+<reference>false</reference>
+<tableAlias>Utentes</tableAlias>
+<viewID>A7412BC0-6B79-3F70-32DB-A013405282B4</viewID>
+</viewElement>
+</viewElements>
+</EntityView>

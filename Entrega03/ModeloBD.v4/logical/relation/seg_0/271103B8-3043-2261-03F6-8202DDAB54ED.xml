@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Colaboradores_Departamentos_FK" directorySegmentName="seg_0" id="271103B8-3043-2261-03F6-8202DDAB54ED">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 10:12:09 UTC</createdTime>
+<generatorID>768AF779-5CD2-428E-CFFC-54DBFE85CCDB</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<sourcePk>0B86B7E4-86E5-FCBA-A025-8A0D36618D1F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2125322E-0E3F-1B26-785F-DA0A7B036A7E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7C8AFC1D-1DC1-DA82-78B9-8F3FE0459A42</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

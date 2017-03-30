@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableProxySqlServerv2k5" name="Departamentos" directorySegmentName="seg_0" id="D29EAAB1-DD4D-3CB4-AE33-4C6F5BCF2274">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:00:54 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<database>DB_NULLELEMENT</database>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="IdDepartamento" id="44144C37-8B3B-293C-33BF-D2AD1D90B2BF">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:00:54 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="Activo" id="4A5F387C-8C50-27B8-1984-FFC2CAF64526">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:00:54 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="Departamento" id="9CFA367A-8BF0-AC23-689E-504483E0333A">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:00:54 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.PKProxySqlServerv2k5" name="Departamentos_PK" id="A8FFA64D-0654-0684-995A-081C10F8B4F1">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:00:54 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<clustered>true</clustered>
+</PrimaryKey>
+</primaryKeys>
+</TableProxySqlServerv2k5>

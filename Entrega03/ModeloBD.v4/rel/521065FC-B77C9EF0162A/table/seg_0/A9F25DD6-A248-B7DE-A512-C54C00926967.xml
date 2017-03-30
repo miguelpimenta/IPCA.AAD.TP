@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A9F25DD6-A248-B7DE-A512-C54C00926967" name="Alunos_Historico">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 20:39:45 UTC</createdTime>
+<generatorID>4DD1FAC8-ABF9-4750-FEEE-9C52C907CBDC</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdHistoricoAluno" id="7F8C06FF-BAFB-BCE8-654C-74956563B945">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 20:39:45 UTC</createdTime>
+<generatorID>B81D7029-BD9C-18FD-706B-DBC434E4D182</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Alunos_IdAluno" id="12E3674D-6396-C4F4-CEB6-1B9B29107F17">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 20:39:45 UTC</createdTime>
+<generatorID>43C2C955-858D-BD2E-B778-6C1C45894158</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F87E9AA9-A8E9-5BFB-B270-9AAB1747FB46" referredColumn="4AE3246A-D61A-8056-6128-9D3A3D4F33CD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="81209BA7-AF60-791C-CB7D-F9101912578B" name="Alunos_Historico_PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 20:39:45 UTC</createdTime>
+<generatorID>16384748-267C-2F7B-F428-E7BC12953921</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F8C06FF-BAFB-BCE8-654C-74956563B945"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0DD7219E-02EB-71CF-F9E1-4424688F6575" name="Alunos_Historico_Alunos_FK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 20:39:46 UTC</createdTime>
+<generatorID>F405C76B-5671-1644-612B-C8BE1BEB0D47</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12E3674D-6396-C4F4-CEB6-1B9B29107F17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -32,6 +32,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Colaboradores_IdColaborador" id="BDFA46CA-250C-BCF9-B3E0-5F715E6FB7B4">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 22:43:45 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E73B705-FF69-D090-BFED-3239203904C7" referredColumn="3985240E-A490-AB50-9681-2E1942ABC71D"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="DC6AAC9F-6ECD-B2EB-DDD6-2530EDE43E68" name="Acessos_PK">
@@ -44,6 +58,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="D6602766-3949-3904-F8B6-4762A7956127"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0D9C9DA-455A-5FCF-1922-C16568B418E1" name="Acessos_Colaboradores_FK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 22:43:45 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDFA46CA-250C-BCF9-B3E0-5F715E6FB7B4"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

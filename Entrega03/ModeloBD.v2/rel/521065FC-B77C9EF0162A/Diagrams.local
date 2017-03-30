@@ -1,5 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.relational.RelationalDesign>
-   <object objectType="main_view" objectID="2AE8A6C7-9C3E-200C-A25F-3DFE36F641A3" name="Relational_1" visible="true"/>
-   <object objectType="sub_view" objectID="E8987D1B-3792-C150-8431-84132D7D45BA" name="From_LM_Logical - SubView_1" visible="false"/>
+   <object objectType="main_view" objectID="2AE8A6C7-9C3E-200C-A25F-3DFE36F641A3" name="RelationalModel" visible="true"/>
+   <object objectType="sub_view" objectID="990D0783-093F-892A-E70C-49E0BD1651AB" name="Alunos" visible="true"/>
+   <object objectType="sub_view" objectID="599C0DDF-C09E-D159-A614-87E5F1A19F2A" name="Colaboradores" visible="false"/>
+   <object objectType="sub_view" objectID="8FDD2E9B-74D1-8287-3329-50833FFB7779" name="Manutencoes" visible="true"/>
+   <object objectType="sub_view" objectID="86F6A147-20BE-40F7-0769-763B774F1322" name="Utentes" visible="false"/>
 </oracle.dbtools.crest.model.design.relational.RelationalDesign>

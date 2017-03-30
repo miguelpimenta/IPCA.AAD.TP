@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A91E49FC-B388-7247-9789-ED8172790A2D" name="Utentes Acessos">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 13:12:16 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdAcessoUtente" id="EC25023D-0AE2-0714-A1A6-B7EC7EEDAC93">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 13:12:49 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdUtente" id="E13AF06F-97ED-742F-F6BA-9A47E8696FD7">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 13:13:45 UTC</createdTime>
+<generatorID>2E0F8A57-CB9A-5907-6D8A-28027EC8456C</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<referedAttribute>A80AA253-4293-3E89-8779-BC020B56880C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5EC3E9C2-9488-73C8-DCAC-0B5FEEFDE224" name="Utentes Acessos PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 13:15:08 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EC25023D-0AE2-0714-A1A6-B7EC7EEDAC93</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

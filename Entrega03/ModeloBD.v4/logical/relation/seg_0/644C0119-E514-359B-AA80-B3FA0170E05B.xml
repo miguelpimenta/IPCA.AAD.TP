@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Foto" directorySegmentName="seg_0" id="644C0119-E514-359B-AA80-B3FA0170E05B">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 20:25:53 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<sourcePk>B0AD0606-8DA7-9FEE-EA70-76277ED25B5A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DE6A4B11-8BEC-034E-6220-98284E293433</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>7C8AFC1D-1DC1-DA82-78B9-8F3FE0459A42</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Turmas_TiposTurma_FK" directorySegmentName="seg_0" id="16BB0B35-695C-1DA7-1BCD-F11EAD11BF5D">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:03:14 UTC</createdTime>
+<generatorID>8F9FCC3F-AF0D-C64F-F4F7-DB6918021CF7</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<sourcePk>310DB73C-3B30-FD42-44C0-797CCDF8CF78</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DF2F59B8-9247-E32A-F40B-1DFE7B7CA073</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9FEA78D1-04F7-F73E-B28C-1955C428E55A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Utentes_EstCivil_FK" directorySegmentName="seg_0" id="810F6AB3-1775-1450-B17E-867E88F39C0E">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 10:12:09 UTC</createdTime>
+<generatorID>090175E3-79D0-BDFF-9056-7BE8A221AE85</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<sourcePk>61795E22-7AD7-DCE9-8F67-BDA672D48A14</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>951F81F7-19C6-B4CE-31F0-A518A3465D0A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EF3E7A87-EEB2-1693-74AA-E6D60C22C252</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

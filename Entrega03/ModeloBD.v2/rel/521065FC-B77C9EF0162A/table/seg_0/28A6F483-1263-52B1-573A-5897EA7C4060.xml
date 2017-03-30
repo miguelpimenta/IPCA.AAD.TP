@@ -18,15 +18,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="IdTipoTurma" id="5FE04DE5-F305-5655-CBB1-C1DA18B647E0">
-<createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-29 16:40:29 UTC</createdTime>
-<ownerDesignName>ModeloBD.v2</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="TiposTurma_IdTipoTurma" id="B5E2FD12-FE70-1025-D282-BC8EC065F41B">
 <createdBy>Miguel Pimenta</createdBy>
 <createdTime>2017-03-29 16:41:39 UTC</createdTime>
@@ -55,7 +46,7 @@
 <colAssociation fkAssociation="1B7F973F-4487-E502-895F-A61A36C05E22" referredColumn="E14814C3-A578-AEAD-9699-C41CE9E23029"/>
 </associations>
 </Column>
-<Column name="NumAlunos" id="A13F1FBA-D7A8-5192-EEA8-67EB71A5AD29">
+<Column name="NumVagas" id="A13F1FBA-D7A8-5192-EEA8-67EB71A5AD29">
 <createdBy>Miguel Pimenta</createdBy>
 <createdTime>2017-03-29 16:59:31 UTC</createdTime>
 <comment>Nº de alunos que a turma pode ter</comment>
@@ -68,9 +59,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Professores(..)" id="929DEAE5-5A32-49C3-A08E-D33184E689EB">
+<Column name="IdProfessor" id="3474BC1B-55D1-BB7A-1F0D-FEF6C0ACA440">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-29 17:03:26 UTC</createdTime>
+<createdTime>2017-03-29 22:39:39 UTC</createdTime>
 <ownerDesignName>ModeloBD.v2</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -79,7 +70,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="86CDE8DA-BA87-6A6F-4DEF-EEB6729F9190" referredColumn="3985240E-A490-AB50-9681-2E1942ABC71D"/>
+<colAssociation fkAssociation="6D9A6B40-15F1-9CED-6DC7-441B1CCCF3F5" referredColumn="3985240E-A490-AB50-9681-2E1942ABC71D"/>
 </associations>
 </Column>
 </columns>
@@ -115,14 +106,14 @@
 <colUsage columnID="4491A6AA-7F37-49CE-5364-62D068467D2E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8839542D-496C-DBDC-9E17-2EE5918A62D6" name="Turmas_Colaboradores_FK">
+<ind_PK_UK id="7C1D2978-5A87-212C-06AF-F852FB22850B" name="Turmas_Colaboradores_FK">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-29 17:03:26 UTC</createdTime>
+<createdTime>2017-03-29 22:39:39 UTC</createdTime>
 <ownerDesignName>ModeloBD.v2</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="929DEAE5-5A32-49C3-A08E-D33184E689EB"/>
+<colUsage columnID="3474BC1B-55D1-BB7A-1F0D-FEF6C0ACA440"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Professor" directorySegmentName="seg_0" id="64F95D32-4F05-FD10-D5D5-6E3CD822888A">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 10:50:18 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<sourcePk>724294B7-04CB-E4DF-BD04-680D07702ED7</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>IdColaborador</nameOnSource>
+<nameOnTarget>IdProfessor</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>7C8AFC1D-1DC1-DA82-78B9-8F3FE0459A42</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>26A2951D-3086-DD02-4145-8A1060DB6B72</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="IdProfessor" id="5338E413-8339-AE9E-0DD3-6171FA148E97">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 12:08:43 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="Nome" id="126EA132-3BE9-0278-AC96-403B5FAB7C3B">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 12:09:18 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Horario" directorySegmentName="seg_0" id="6FA03DFA-2769-5FD6-3AD9-8C8E0E7281BF">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 15:33:27 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<sourcePk>724294B7-04CB-E4DF-BD04-680D07702ED7</sourcePk>
+<targetPk>E9ED48BB-E9A8-17EC-C0EA-D4C6ADFCD1F8</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7C8AFC1D-1DC1-DA82-78B9-8F3FE0459A42</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>49F83D21-8ECA-4BC7-38E8-FAB0D41973A4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A098EAD7-A89F-C549-DB92-BC5A381FD4B4" name="Turmas Horario Composicao">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 13:35:19 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Horario Composicao</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdCompHorario" id="BE5D683A-A256-A029-48A1-75956349E2B1">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 13:35:30 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdHorario" id="1DA4E5B3-3553-DA9E-C4DA-15A60EC6309A">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 13:38:34 UTC</createdTime>
+<generatorID>57761A3C-F578-CE67-72A6-A9431B63F3C1</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<referedAttribute>4486C3A0-07FA-FE4F-48D4-5C13E81C741E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DiaSemana" id="42E4187F-47EA-ED5C-AC63-39A237C815EC">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 13:39:00 UTC</createdTime>
+<comment>2F, 3F, 4F, 5F, 6F, S, D</comment>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HoraInicio" id="97C3B081-9E35-4DF5-8D2B-956C43939E3C">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 13:40:20 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HoraFim" id="84AE8BF6-6332-8C6A-A3FD-AFD91BE89CCD">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 13:41:02 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="33631DCF-7B91-8095-5985-A9DCD1D0EFDD" name="Horario_Composicao PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 13:35:43 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BE5D683A-A256-A029-48A1-75956349E2B1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

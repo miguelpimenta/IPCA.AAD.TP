@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Colaboradores_Nacionalidades_FK" directorySegmentName="seg_0" id="DE5459B3-FEBD-B740-A882-AA9B80CA160E">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 23:03:14 UTC</createdTime>
+<generatorID>966A7B9D-D8FA-E644-DDFF-90E6FF5059DB</generatorID>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<sourcePk>A7C73745-C12A-0053-9482-0116D45F6882</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7141674D-CFFA-C11A-EA84-99AF7679F2BD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B5955873-0F4A-1B6F-02A3-0521FE2C2283</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

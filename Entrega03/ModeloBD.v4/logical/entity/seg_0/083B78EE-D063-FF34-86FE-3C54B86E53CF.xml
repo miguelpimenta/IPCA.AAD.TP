@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="083B78EE-D063-FF34-86FE-3C54B86E53CF" name="Colaboradores Horario Composicao">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 15:30:06 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdComposicao" id="B28515E8-ED3D-700C-6EA9-06BA3183B46A">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 15:30:24 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdHorario" id="CB3EE4F5-4540-A29D-5694-A1A2A6B45615">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 15:34:14 UTC</createdTime>
+<generatorID>9BEA8B84-D21C-51C9-B455-5DD4BECFA0F0</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<referedAttribute>FCF1FCB9-2BBB-3DE6-A0CA-95282508BFF7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dia" id="76F9E9AA-3E79-93F6-2D72-CDFF01DF534F">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 20:19:35 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HoraEntrada" id="D53E4087-4460-466D-CB50-9A29CB40BD71">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 20:20:05 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HoraSaida" id="A21FF19D-DCD7-FDE7-7BC5-CC7D72F1CBDD">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 20:20:40 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Activo" id="3EB13E51-597D-62FA-C1BE-AD1DA5AE8983">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 20:20:53 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="05454528-A25F-EBCF-F892-47EDC583B4E9" name="Colaboradores Horario Composicao PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-30 15:30:36 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B28515E8-ED3D-700C-6EA9-06BA3183B46A</attributeRef>
+<attributeRef>CB3EE4F5-4540-A29D-5694-A1A2A6B45615</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

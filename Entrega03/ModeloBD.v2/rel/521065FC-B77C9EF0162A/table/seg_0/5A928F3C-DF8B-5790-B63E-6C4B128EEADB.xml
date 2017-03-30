@@ -49,7 +49,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -217,6 +217,20 @@
 <colAssociation fkAssociation="74FF1DA5-F6BA-6993-F202-17DBD4BDFAEB" referredColumn="3D7D89A0-7B11-070C-04C0-43148465FB6D"/>
 </associations>
 </Column>
+<Column name="Departamentos_IdDepartamento" id="CB79E3F2-F00A-9F4C-65E2-2A04F92897B4">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 22:27:53 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="768AF779-5CD2-428E-CFFC-54DBFE85CCDB" referredColumn="44144C37-8B3B-293C-33BF-D2AD1D90B2BF"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="F1004177-9AE2-42BC-0B92-E17666F9E354" name="Colaboradores_PK">
@@ -278,6 +292,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="07421365-AD7B-4B3E-3A19-7A1A68B04A35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05EA2663-7D68-DAF9-381A-10B2E5E58FF6" name="Colaboradores_Departamentos_FK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-29 22:27:53 UTC</createdTime>
+<ownerDesignName>ModeloBD.v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB79E3F2-F00A-9F4C-65E2-2A04F92897B4"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
