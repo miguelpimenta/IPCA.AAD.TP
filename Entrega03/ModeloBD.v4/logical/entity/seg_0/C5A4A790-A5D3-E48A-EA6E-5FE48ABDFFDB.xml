@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C5A4A790-A5D3-E48A-EA6E-5FE48ABDFFDB" name="Presencas">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-31 15:20:57 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Presencas</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdPresenca" id="FEF9EEA5-DB07-AF28-7414-35339F004C70">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-31 15:21:08 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdColaborador" id="4BB93BE0-2CF5-8218-0EE0-3D6437EF1C50">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-31 15:21:44 UTC</createdTime>
+<generatorID>5B5C156A-508B-2D87-90FC-A1D95AD17A2D</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<referedAttribute>612005CC-6A8D-79DC-2019-D15CA7CA4E44</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1BA40FB9-ABA4-6EE9-ECA8-70C960E4BE91" name="Presencas PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-31 15:21:13 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FEF9EEA5-DB07-AF28-7414-35339F004C70</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

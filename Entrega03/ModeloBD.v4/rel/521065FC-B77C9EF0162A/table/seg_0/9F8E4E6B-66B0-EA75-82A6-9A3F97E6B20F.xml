@@ -42,7 +42,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="0C4C5CE6-7E8A-4357-D674-927606B675FF" referredColumn="A100BED8-947F-AE0D-7C8C-CA3756A41EC4"/>
+<colAssociation fkAssociation="E868D1AC-4B35-8875-3408-1BEF5C4E35A7" referredColumn="A100BED8-947F-AE0D-7C8C-CA3756A41EC4"/>
 </associations>
 </Column>
 </columns>
@@ -70,9 +70,9 @@
 <colUsage columnID="2BF772E8-892B-E678-B255-DE59A1C8C849"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="74ABCC84-77E6-D5EE-28C8-C3152C5CA157" name="Colaboradores_Horario_Colaboradores_FK">
+<ind_PK_UK id="588F02A0-9032-7F58-87A9-4E57E12180ED" name="Colaboradores_Horario_Colaboradores_FK">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-30 20:39:46 UTC</createdTime>
+<createdTime>2017-03-31 14:06:56 UTC</createdTime>
 <generatorID>6FA03DFA-2769-5FD6-3AD9-8C8E0E7281BF</generatorID>
 <ownerDesignName>ModeloBD.v4</ownerDesignName>
 <indexState>Foreign Key</indexState>

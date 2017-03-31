@@ -41,14 +41,53 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="DtInicio" id="68774BB4-9FAE-8D7A-1D9F-46E1DF82E852">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-31 14:32:18 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DtFim" id="D90B3BB9-609D-874B-CB69-5910C27904CF">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-31 14:32:32 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="..." id="15646417-0358-CD75-06CA-FF5B492A8C3C">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-31 14:31:35 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>254 CHAR</dataTypeSize>
+<ownDataTypeParameters>254 CHAR,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="16384748-267C-2F7B-F428-E7BC12953921" name="Alunos Historico PK">
 <createdBy>Miguel Pimenta</createdBy>
 <createdTime>2017-03-30 13:34:48 UTC</createdTime>
 <ownerDesignName>ModeloBD.v4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

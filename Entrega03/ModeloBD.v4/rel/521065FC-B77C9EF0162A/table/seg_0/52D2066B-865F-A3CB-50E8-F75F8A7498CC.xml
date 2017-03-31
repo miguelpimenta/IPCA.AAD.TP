@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="52D2066B-865F-A3CB-50E8-F75F8A7498CC" name="Colaboradores_Acessos">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="52D2066B-865F-A3CB-50E8-F75F8A7498CC" name="Acessos">
 <createdBy>Miguel Pimenta</createdBy>
 <createdTime>2017-03-30 20:39:46 UTC</createdTime>
 <generatorID>2048A7E0-8B3D-C445-FF9C-F06C3BAB4066</generatorID>
@@ -110,9 +110,72 @@
 <isRelationshipColumn>true</isRelationshipColumn>
 <dependOnForeignKeyID>E4B7943A-6F6E-9557-AAFB-202A271CCCEC</dependOnForeignKeyID>
 </Column>
+<Column name="Utentes_IdUtente" id="5EEAE1A0-1EAE-23D9-16BC-B5AB68F16594">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-31 14:06:32 UTC</createdTime>
+<generatorID>B35DCF41-9AF2-25FD-D9A3-87C24DD76DAD</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C82F31D5-CC06-3B23-9ADF-92CE842A1781" referredColumn="B897FF27-42B0-5AF1-C418-2DD19DEA2042"/>
+</associations>
+</Column>
+<Column name="DataHora" id="350415A4-11E9-850A-D875-6E5E1A4D464F">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-31 14:06:32 UTC</createdTime>
+<generatorID>CCA5A51C-A3A0-46FF-BE90-8FFD9BB1AA9F</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>C82F31D5-CC06-3B23-9ADF-92CE842A1781</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="TipoAcesso" id="17151DE3-2519-0039-1ED9-1B78AEE920D4">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-31 14:06:32 UTC</createdTime>
+<comment>E Entrada / S Saida</comment>
+<commentInRDBMS>E - Entrada / S - Saida</commentInRDBMS>
+<generatorID>DB2F2D46-AB8B-44D4-2C69-67794A5287E3</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>C82F31D5-CC06-3B23-9ADF-92CE842A1781</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="Categoria" id="E12FAD64-9605-A51B-FA7A-1AD98D1AAC43">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-31 14:06:32 UTC</createdTime>
+<comment>U - Utente</comment>
+<commentInRDBMS>U - Utente</commentInRDBMS>
+<generatorID>8746498C-9F4F-B2A2-3D72-4998FA398E53</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>C82F31D5-CC06-3B23-9ADF-92CE842A1781</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D0EFD110-1B74-A6BC-BCB9-6B30EFC894E7" name="Colaboradores_Acessos_PK">
+<ind_PK_UK id="D0EFD110-1B74-A6BC-BCB9-6B30EFC894E7" name="Acessos_PK">
 <createdBy>Miguel Pimenta</createdBy>
 <createdTime>2017-03-30 20:39:46 UTC</createdTime>
 <generatorID>2D94507B-12D6-A952-89B1-0E163D2BD8C2</generatorID>
@@ -123,9 +186,10 @@
 <indexColumnUsage>
 <colUsage columnID="D91DD0B5-B11C-28FE-1527-1BE0C73578E8"/>
 <colUsage columnID="333527AF-73D5-27E7-D86A-C3742CD21FED"/>
+<colUsage columnID="5EEAE1A0-1EAE-23D9-16BC-B5AB68F16594"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="80273207-9868-D2F2-B98B-162247F1DE96" name="Colaboradores_Acessos_Colaboradores_FK">
+<ind_PK_UK id="80273207-9868-D2F2-B98B-162247F1DE96" name="Acessos_Colaboradores_FK">
 <createdBy>Miguel Pimenta</createdBy>
 <createdTime>2017-03-30 20:39:46 UTC</createdTime>
 <generatorID>F2A6312F-6F4B-8D32-CAC1-B54BE4F206A3</generatorID>
@@ -134,6 +198,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="333527AF-73D5-27E7-D86A-C3742CD21FED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E0D8858F-8BC7-5760-A29F-97372D3726F9" name="Acessos_Utentes_FK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-31 14:06:32 UTC</createdTime>
+<generatorID>BF9EAE53-B3F9-85B7-D417-E875387D52CE</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5EEAE1A0-1EAE-23D9-16BC-B5AB68F16594"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

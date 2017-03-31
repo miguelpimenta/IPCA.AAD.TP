@@ -274,7 +274,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="E54D8F2E-1E8D-392E-93BA-13A51D638476" referredColumn="0A9034B0-0B1B-98A2-8477-517735FF0C37"/>
+<colAssociation fkAssociation="AFFEEF1D-7FAB-5F25-50B4-6E5A5E55FF54" referredColumn="0A9034B0-0B1B-98A2-8477-517735FF0C37"/>
 </associations>
 </Column>
 <Column name="Binarios_IdBinario" id="D4465739-DC72-02D0-14FE-C6E510D26FC2">
@@ -405,9 +405,9 @@
 <colUsage columnID="D4465739-DC72-02D0-14FE-C6E510D26FC2"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8E46108C-02F2-6666-89A3-0E92AFCD0E60" name="Colaboradores_Colaboradores_Horario_FK">
+<ind_PK_UK id="BFD330D4-3823-C1C4-C378-BF50A1CDAE61" name="Colaboradores_Colaboradores_Horario_FK">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-30 20:39:46 UTC</createdTime>
+<createdTime>2017-03-31 14:06:56 UTC</createdTime>
 <generatorID>6FA03DFA-2769-5FD6-3AD9-8C8E0E7281BF</generatorID>
 <ownerDesignName>ModeloBD.v4</ownerDesignName>
 <indexState>Foreign Key</indexState>

@@ -141,11 +141,6 @@
 <createdTime>2017-03-30 20:39:46 UTC</createdTime>
 <ownerDesignName>ModeloBD.v4</ownerDesignName>
 </ForeignKey>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="Colaboradores_Colaboradores_Horario_FK" id="8E46108C-02F2-6666-89A3-0E92AFCD0E60">
-<createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-30 20:39:46 UTC</createdTime>
-<ownerDesignName>ModeloBD.v4</ownerDesignName>
-</ForeignKey>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="Colaboradores_sys_Funcoes_FK" id="918D9961-236A-AE0A-9B7E-295854D34A3D">
 <createdBy>Miguel Pimenta</createdBy>
 <createdTime>2017-03-30 20:39:46 UTC</createdTime>
@@ -159,6 +154,11 @@
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="Colaboradores_Binarios_FK" id="B7270D80-D2C4-B1B2-5F7E-360517432B3D">
 <createdBy>Miguel Pimenta</createdBy>
 <createdTime>2017-03-30 20:39:46 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="Colaboradores_Colaboradores_Horario_FK" id="BFD330D4-3823-C1C4-C378-BF50A1CDAE61">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-31 14:06:56 UTC</createdTime>
 <ownerDesignName>ModeloBD.v4</ownerDesignName>
 </ForeignKey>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="Colaboradores_sys_HabLiterarias_FK" id="D461D49F-1813-3373-3738-9C087A4F1A19">

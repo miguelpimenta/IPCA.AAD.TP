@@ -30,9 +30,9 @@
 </IndexProxy>
 </indexProxies>
 <foreignKeys>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="Colaboradores_Horario_Colaboradores_FK" id="74ABCC84-77E6-D5EE-28C8-C3152C5CA157">
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="Colaboradores_Horario_Colaboradores_FK" id="588F02A0-9032-7F58-87A9-4E57E12180ED">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-30 20:39:46 UTC</createdTime>
+<createdTime>2017-03-31 14:06:56 UTC</createdTime>
 <ownerDesignName>ModeloBD.v4</ownerDesignName>
 </ForeignKey>
 </foreignKeys>
