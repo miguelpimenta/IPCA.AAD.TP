@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.logical.LogicalDesign>
    <object objectType="main_view" objectID="0FE86E10-543B-C546-93CA-69DCA73FA402" name="Logical" visible="true"/>
-   <object objectType="sub_view" objectID="AB43725F-7304-9551-5B52-4F2217565138" name="Acta 2 - SCA" visible="false"/>
+   <object objectType="sub_view" objectID="AB43725F-7304-9551-5B52-4F2217565138" name="Acta 2 - SCA" visible="true"/>
    <object objectType="sub_view" objectID="63D9B4F7-848C-50EB-EC3B-1B5331DBBFC5" name="Acta 3 - SGT" visible="true"/>
    <object objectType="sub_view" objectID="B26EA182-2291-A3ED-0887-779BF9B33BEC" name="Acta 4 - SCP" visible="true"/>
    <object objectType="sub_view" objectID="05C622F2-E8AF-2228-B162-8886C6FC43C1" name="Acta 5 - SGM" visible="true"/>

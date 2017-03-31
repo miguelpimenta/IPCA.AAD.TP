@@ -30,7 +30,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="66D22ACC-F713-98FD-1A6E-3D7CC3C92B2B" otype="Entity" vid="1D57469F-BC1F-D7DC-9483-AA6D87904FE2">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="650" y="287" width="267" height="106"/>
+<bounds x="648" y="268" width="267" height="106"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="7C8AFC1D-1DC1-DA82-78B9-8F3FE0459A42" otype="Entity" vid="D6BCFD1C-4334-D1BF-B0BF-FA2CFD0A3569">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -38,7 +38,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="87AF156B-A9B5-8F37-4135-659CA2E8AA2A" otype="Entity" vid="E0AE418B-DBAB-85D5-7D49-B85B4E2F72CF">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="737" y="637" width="499" height="148"/>
+<bounds x="658" y="518" width="499" height="148"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="A19FA0EC-EAC2-850B-BD96-337C08AA167E" otype="Entity" vid="C9D4EEA9-3695-9FFB-71EE-D62FE0909B1C">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -46,7 +46,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="BB6CACB4-140E-D1F1-00D8-C2046F08069E" otype="Entity" vid="0DD5F25D-DD9C-4EA5-C0AC-D78EE3D35ADD">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="733" y="487" width="170" height="110"/>
+<bounds x="1104" y="329" width="170" height="110"/>
 </OView>
 </objectViews>
 <connectors>
@@ -62,8 +62,8 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <points>
-<point x="737" y="643"/>
-<point x="540" y="643"/>
+<point x="658" y="583"/>
+<point x="540" y="583"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="C19BC7F3-EBC3-62E4-4218-3B751A33CB5F" otype="Relation" vid_source="D6BCFD1C-4334-D1BF-B0BF-FA2CFD0A3569" vid_target="ED78C694-17CD-C6F1-AEF2-C87C8F1A63CC">
@@ -78,8 +78,8 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <points>
-<point x="783" y="287"/>
-<point x="783" y="164"/>
+<point x="781" y="268"/>
+<point x="781" y="164"/>
 </points>
 </Connector>
 </connectors>

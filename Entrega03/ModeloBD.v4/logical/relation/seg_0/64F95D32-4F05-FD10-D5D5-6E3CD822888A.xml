@@ -7,12 +7,13 @@
 <item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
 </engineerTo>
 <sourcePk>724294B7-04CB-E4DF-BD04-680D07702ED7</sourcePk>
+<targetPk>60D8C7EA-6E1D-D890-136B-5BA425B2DA37</targetPk>
 <identifying>false</identifying>
 <nameOnSource>IdColaborador</nameOnSource>
 <nameOnTarget>IdProfessor</nameOnTarget>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
-<sourceCardinality>*</sourceCardinality>
+<sourceCardinality>1</sourceCardinality>
 <sourceEntity>7C8AFC1D-1DC1-DA82-78B9-8F3FE0459A42</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>26A2951D-3086-DD02-4145-8A1060DB6B72</targetEntity>

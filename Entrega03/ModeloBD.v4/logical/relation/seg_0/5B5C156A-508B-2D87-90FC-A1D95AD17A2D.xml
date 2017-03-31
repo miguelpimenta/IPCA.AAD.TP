@@ -29,6 +29,19 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </attribute>
+<attribute name="TipoMov" id="AEC6AA93-A31A-6CEA-85EE-4C636A6C9EEA">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-03-31 21:49:40 UTC</createdTime>
+<comment>E - Entrada / S - Saida</comment>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
 <attribute name="Infraccao" id="A41A9002-BFEB-E1A3-033F-BD734C98787B">
 <createdBy>Miguel Pimenta</createdBy>
 <createdTime>2017-03-31 15:28:40 UTC</createdTime>
