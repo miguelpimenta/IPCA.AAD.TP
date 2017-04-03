@@ -301,14 +301,6 @@
 <point x="381" y="354"/>
 </points>
 </Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="6FA03DFA-2769-5FD6-3AD9-8C8E0E7281BF" otype="Relation" vid_source="4107EE31-1751-F970-0A5E-E59492088E7A" vid_target="8E247F51-AE98-8673-DFE1-FD0BA7632BD4">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<lineWidth>1</lineWidth>
-<points>
-<point x="381" y="223"/>
-<point x="3361" y="671"/>
-</points>
-</Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="74AAADBB-46EF-A117-DC3B-E92986B4D096" otype="Relation" vid_source="115C6BA7-2030-FE44-2927-86BC74A03D34" vid_target="27D284B3-6087-86FA-BE77-2B0A87E541C8">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
@@ -349,12 +341,34 @@
 <point x="3361" y="784"/>
 </points>
 </Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="9EE8D8FF-F04C-3FFC-D349-630C457670FB" otype="Relation" vid_source="4107EE31-1751-F970-0A5E-E59492088E7A" vid_target="8E247F51-AE98-8673-DFE1-FD0BA7632BD4">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="381" y="386"/>
+<point x="3361" y="671"/>
+</points>
+</Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="B32030A8-470C-601F-BC87-FCD540F58D17" otype="Relation" vid_source="96148904-1380-0729-8DBA-1BC6EC46DBB2" vid_target="AA233144-297D-526F-0AE6-AD96601E7ADC">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <centerLabel class="oracle.dbtools.crest.model.design.Label">
 <site>1</site>
 <labelBounds x="-59" y="-11" width="116" height="20"/>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Attribute</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+</fonts>
 </centerLabel>
 <points>
 <point x="1444" y="886"/>
@@ -441,6 +455,20 @@
 <centerLabel class="oracle.dbtools.crest.model.design.Label">
 <site>1</site>
 <labelBounds x="-60" y="-11" width="118" height="20"/>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Attribute</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+</fonts>
 </centerLabel>
 <points>
 <point x="381" y="214"/>

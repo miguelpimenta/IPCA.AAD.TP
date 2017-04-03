@@ -8,9 +8,7 @@
 <userDefinedSQL>SELECT Colaboradores.Nome,&lt;br/&gt;  Colaboradores.DataNasc,&lt;br/&gt;  Colaboradores.Morada,&lt;br/&gt;  Colaboradores.Telef,&lt;br/&gt;  Colaboradores.Tlm,&lt;br/&gt;  Colaboradores.Email,&lt;br/&gt;  Colaboradores.NumCC,&lt;br/&gt;  Colaboradores.DtValCC,&lt;br/&gt;  Colaboradores.NIF,&lt;br/&gt;  Colaboradores.NISS,&lt;br/&gt;  Nacionalidades.Nacionalidade,&lt;br/&gt;  Funcoes.Funcao,&lt;br/&gt;  HabLiterarias.HabLiteraria&lt;br/&gt;FROM Colaboradores&lt;br/&gt;INNER JOIN Funcoes&lt;br/&gt;ON Funcoes.IdFuncao = Colaboradores.Funcoes_IdFuncao&lt;br/&gt;INNER JOIN HabLiterarias&lt;br/&gt;ON HabLiterarias.IdHabLiteraria = Colaboradores.HabLiterarias_IdHabLiteraria&lt;br/&gt;INNER JOIN Nacionalidades&lt;br/&gt;ON Nacionalidades.IdNacionalidade = Colaboradores.Nacionalidades_IdNacionalidade</userDefinedSQL>
 <validSQL>false</validSQL>
 <parsed>true</parsed>
-<usedContainers>
-<container containerID="A8CCC954-CD2D-66FB-3AAE-7E21C687A603"/>
-</usedContainers>
+<incorrectSQL>true</incorrectSQL>
 <viewElements>
 <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Nome" id="37D93A4A-9B19-E13B-CEE1-7CA276BAC16D">
 <createdBy>Miguel Pimenta</createdBy>
@@ -22,8 +20,6 @@
 <dataType>VARCHAR (100)</dataType>
 <expression>Nome</expression>
 <reference>false</reference>
-<referencedColumn>54617421-5E56-4280-65FD-4B7884438A9F</referencedColumn>
-<table>3D438DFF-F889-3192-4998-3E6458ED2060</table>
 <tableAlias>Colaboradores</tableAlias>
 <viewID>CFB3CA00-CB42-51CA-2BF7-8CB92643EE90</viewID>
 </viewElement>
@@ -37,8 +33,6 @@
 <dataType>DATE</dataType>
 <expression>DataNasc</expression>
 <reference>false</reference>
-<referencedColumn>CA7C99AF-674E-0AB3-9CB0-BF076A18A8C7</referencedColumn>
-<table>3D438DFF-F889-3192-4998-3E6458ED2060</table>
 <tableAlias>Colaboradores</tableAlias>
 <viewID>CFB3CA00-CB42-51CA-2BF7-8CB92643EE90</viewID>
 </viewElement>
@@ -52,8 +46,6 @@
 <dataType>VARCHAR (100)</dataType>
 <expression>Morada</expression>
 <reference>false</reference>
-<referencedColumn>2BF87FB1-328C-2A2F-B2CA-7A958FE39F05</referencedColumn>
-<table>3D438DFF-F889-3192-4998-3E6458ED2060</table>
 <tableAlias>Colaboradores</tableAlias>
 <viewID>CFB3CA00-CB42-51CA-2BF7-8CB92643EE90</viewID>
 </viewElement>
@@ -67,8 +59,6 @@
 <dataType>VARCHAR (20)</dataType>
 <expression>Telef</expression>
 <reference>false</reference>
-<referencedColumn>D4595A97-2EED-8A19-E73F-6E749578E970</referencedColumn>
-<table>3D438DFF-F889-3192-4998-3E6458ED2060</table>
 <tableAlias>Colaboradores</tableAlias>
 <viewID>CFB3CA00-CB42-51CA-2BF7-8CB92643EE90</viewID>
 </viewElement>
@@ -82,8 +72,6 @@
 <dataType>VARCHAR (20)</dataType>
 <expression>Tlm</expression>
 <reference>false</reference>
-<referencedColumn>B040FD08-7A82-C878-0013-E0B28B364BF1</referencedColumn>
-<table>3D438DFF-F889-3192-4998-3E6458ED2060</table>
 <tableAlias>Colaboradores</tableAlias>
 <viewID>CFB3CA00-CB42-51CA-2BF7-8CB92643EE90</viewID>
 </viewElement>
@@ -97,8 +85,6 @@
 <dataType>VARCHAR (254)</dataType>
 <expression>Email</expression>
 <reference>false</reference>
-<referencedColumn>7ABECAA7-BD08-6F33-3408-76EB54562A45</referencedColumn>
-<table>3D438DFF-F889-3192-4998-3E6458ED2060</table>
 <tableAlias>Colaboradores</tableAlias>
 <viewID>CFB3CA00-CB42-51CA-2BF7-8CB92643EE90</viewID>
 </viewElement>
@@ -112,8 +98,6 @@
 <dataType>VARCHAR (20)</dataType>
 <expression>NumCC</expression>
 <reference>false</reference>
-<referencedColumn>A63CAF1D-146F-BFF0-CBFB-B634E280DDDE</referencedColumn>
-<table>3D438DFF-F889-3192-4998-3E6458ED2060</table>
 <tableAlias>Colaboradores</tableAlias>
 <viewID>CFB3CA00-CB42-51CA-2BF7-8CB92643EE90</viewID>
 </viewElement>
@@ -127,8 +111,6 @@
 <dataType>DATE</dataType>
 <expression>DtValCC</expression>
 <reference>false</reference>
-<referencedColumn>8DA42E26-A76E-A3F6-1E89-C573057AE16B</referencedColumn>
-<table>3D438DFF-F889-3192-4998-3E6458ED2060</table>
 <tableAlias>Colaboradores</tableAlias>
 <viewID>CFB3CA00-CB42-51CA-2BF7-8CB92643EE90</viewID>
 </viewElement>
@@ -142,8 +124,6 @@
 <dataType>NUMERIC (9)</dataType>
 <expression>NIF</expression>
 <reference>false</reference>
-<referencedColumn>CDD1BEEE-B05C-A0AD-2CFB-C0EBE6CC020B</referencedColumn>
-<table>3D438DFF-F889-3192-4998-3E6458ED2060</table>
 <tableAlias>Colaboradores</tableAlias>
 <viewID>CFB3CA00-CB42-51CA-2BF7-8CB92643EE90</viewID>
 </viewElement>
@@ -156,8 +136,6 @@
 <useDomainConstraints>false</useDomainConstraints>
 <dataType>NUMERIC (11)</dataType>
 <reference>false</reference>
-<referencedColumn>9A08C90B-15A9-B8C9-2039-AA2D0B1E7F02</referencedColumn>
-<table>3D438DFF-F889-3192-4998-3E6458ED2060</table>
 <viewID>CFB3CA00-CB42-51CA-2BF7-8CB92643EE90</viewID>
 </viewElement>
 <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Nacionalidade" id="41D389F5-4C75-8A65-6918-5243D60D414E">
@@ -169,8 +147,6 @@
 <useDomainConstraints>false</useDomainConstraints>
 <dataType>VARCHAR (100)</dataType>
 <reference>false</reference>
-<referencedColumn>620C4DC5-3BD0-6D35-EA68-06AFC37162B0</referencedColumn>
-<table>82609F78-916E-DB0E-DB83-DDC9C18C1626</table>
 <viewID>CFB3CA00-CB42-51CA-2BF7-8CB92643EE90</viewID>
 </viewElement>
 <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Funcao" id="B19D7A8A-8AB8-E1E7-A039-D323E1964A2A">
@@ -183,7 +159,6 @@
 <dataType>VARCHAR (200)</dataType>
 <expression>Funcao</expression>
 <reference>false</reference>
-<referencedColumn>0EC9334D-7D13-B99E-BBBA-BBDD5E065488</referencedColumn>
 <tableAlias>Funcoes</tableAlias>
 <viewID>CFB3CA00-CB42-51CA-2BF7-8CB92643EE90</viewID>
 </viewElement>
@@ -197,13 +172,12 @@
 <dataType>VARCHAR (254)</dataType>
 <expression>HabLiteraria</expression>
 <reference>false</reference>
-<referencedColumn>8887BA33-0028-33BD-678C-9BB4F577D4FE</referencedColumn>
 <tableAlias>HabLiterarias</tableAlias>
 <viewID>CFB3CA00-CB42-51CA-2BF7-8CB92643EE90</viewID>
 </viewElement>
 </viewElements>
 <usedObjects>
-<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="6540B554-8146-ADDF-7E19-9FACEF426DF4">
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="2C8A3F69-0B65-B14A-CC81-19A79B385234">
 <container>true</container>
 <tableName>Colaboradores</tableName>
 </UsedObject>
@@ -211,7 +185,7 @@
 <container>true</container>
 <tableName>sys Nacionalidades</tableName>
 </UsedObject>
-<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="53CB24A6-902C-03D1-29DA-09C09ECA15A2">
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="D8486C6A-CC78-E714-B9F6-CA7037627B5C">
 <container>true</container>
 <tableName>sys Funcoes</tableName>
 </UsedObject>
@@ -219,43 +193,43 @@
 <container>true</container>
 <tableName>sys HabLiterarias</tableName>
 </UsedObject>
-<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="00AA9E41-54BE-F909-8E0F-DF3AC18D3CDF">
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="B18301A2-B597-99C8-44DC-F31024E33B93">
 <columnName>Nome</columnName>
 <tableName>Colaboradores</tableName>
 </UsedObject>
-<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="E777BDC1-3B6F-5AA6-71B3-D4BD21E5079D">
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="74C88396-3712-D280-015A-5C9ACC99BF0E">
 <columnName>DataNasc</columnName>
 <tableName>Colaboradores</tableName>
 </UsedObject>
-<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="7EF5F796-167D-FA91-E2DC-3021FDBB295C">
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="FECA0860-7861-2AE1-618E-F7B2923C6B34">
 <columnName>Morada</columnName>
 <tableName>Colaboradores</tableName>
 </UsedObject>
-<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="1984F5F7-7B47-8D3E-03B5-48EA684794AC">
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="B2F53269-02E3-F918-22E6-10879A4A6B87">
 <columnName>Telef</columnName>
 <tableName>Colaboradores</tableName>
 </UsedObject>
-<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="0F2B9C0E-0E10-8100-218F-F2B00D24FC93">
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="03C8438C-81DD-D030-2C5A-3B21C41F7772">
 <columnName>Tlm</columnName>
 <tableName>Colaboradores</tableName>
 </UsedObject>
-<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="574AB683-2AAA-4CBF-93AA-988628952DB1">
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="4EF74CCF-A1AC-F61F-66E4-6EC13150EF98">
 <columnName>Email</columnName>
 <tableName>Colaboradores</tableName>
 </UsedObject>
-<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="E9B12906-46DC-BBE7-57F7-5EE772914401">
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="3A705E7D-1FAB-BC91-91CD-58DB5AB97A1B">
 <columnName>NumCC</columnName>
 <tableName>Colaboradores</tableName>
 </UsedObject>
-<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="98D31289-BE3F-C48A-F83A-7917B82519D5">
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="9926781C-1EF8-58D8-F7B1-D9C8D3B1A261">
 <columnName>DtValCC</columnName>
 <tableName>Colaboradores</tableName>
 </UsedObject>
-<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="C831B31B-5FF8-6585-FA28-3BD6E2B2146D">
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="3A2FBFA2-9926-3110-7789-7CBB1DB88882">
 <columnName>NIF</columnName>
 <tableName>Colaboradores</tableName>
 </UsedObject>
-<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="0E9EDD2E-828B-3CC3-FBA1-65E9232DCCA2">
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="429A5186-2173-74A4-281E-DAC6CAAB062F">
 <columnName>NISS</columnName>
 <tableName>Colaboradores</tableName>
 </UsedObject>
@@ -263,7 +237,7 @@
 <columnName>Nacionalidade</columnName>
 <tableName>sys Nacionalidades</tableName>
 </UsedObject>
-<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="1012DF71-1E13-6DA9-B66C-AD9B07E8AAA4">
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="5244EE42-0772-CFE2-A68E-3FE28AED72A4">
 <columnName>Funcao</columnName>
 <tableName>sys Funcoes</tableName>
 </UsedObject>
@@ -271,11 +245,11 @@
 <columnName>HabLiteraria</columnName>
 <tableName>sys HabLiterarias</tableName>
 </UsedObject>
-<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="81575ABE-1E84-29B4-298F-47BDAD07EBB0">
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="EA8FC4EE-967B-A3CE-A7C5-3C2857BBCFF3">
 <columnName>IdFuncao</columnName>
 <tableName>sys Funcoes</tableName>
 </UsedObject>
-<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="F4A17574-3C60-EA34-9A99-C1398DC47A03">
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="2CEEED35-0522-2B3A-5AA7-042243EDAF31">
 <columnName>Funcoes IdFuncao</columnName>
 <tableName>Colaboradores</tableName>
 </UsedObject>
@@ -283,7 +257,7 @@
 <columnName>IdHabLiteraria</columnName>
 <tableName>sys HabLiterarias</tableName>
 </UsedObject>
-<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="DE2753C0-E38F-1021-8AE4-B28B286F8440">
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="BE5D738C-0F24-107F-4EF5-30B8761386D1">
 <columnName>HabLiterarias IdHabLiteraria</columnName>
 <tableName>Colaboradores</tableName>
 </UsedObject>
@@ -291,7 +265,7 @@
 <columnName>IdNacionalidade</columnName>
 <tableName>sys Nacionalidades</tableName>
 </UsedObject>
-<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="FCA50EAB-3A60-4035-F0C1-A58B5D18D99B">
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="2AF85CC8-C0F6-7B6A-2295-5CBE3C2F9E94">
 <columnName>Nacionalidades IdNacionalidade</columnName>
 <tableName>Colaboradores</tableName>
 </UsedObject>

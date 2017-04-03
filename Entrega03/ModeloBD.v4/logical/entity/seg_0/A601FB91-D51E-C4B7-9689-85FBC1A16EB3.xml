@@ -75,8 +75,9 @@
 <createdBy>Miguel Pimenta</createdBy>
 <createdTime>2017-03-30 13:52:02 UTC</createdTime>
 <ownerDesignName>ModeloBD.v4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

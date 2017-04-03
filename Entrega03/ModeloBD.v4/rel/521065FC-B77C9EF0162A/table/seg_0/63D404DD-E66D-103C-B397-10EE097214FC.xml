@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63D404DD-E66D-103C-B397-10EE097214FC" name="Colaboradores_Horario_Composicao">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:13:30 UTC</createdTime>
+<generatorID>083B78EE-D063-FF34-86FE-3C54B86E53CF</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdComposicao" id="477C3948-AC1B-9BEB-3755-930886ADDFB8">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:13:30 UTC</createdTime>
+<generatorID>B28515E8-ED3D-700C-6EA9-06BA3183B46A</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dia" id="03870741-2D6C-0371-B018-A1F616F3D944">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:13:30 UTC</createdTime>
+<generatorID>76F9E9AA-3E79-93F6-2D72-CDFF01DF534F</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HoraEntrada" id="A74EBC2A-F097-C464-9F73-40C229678C37">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:13:30 UTC</createdTime>
+<generatorID>D53E4087-4460-466D-CB50-9A29CB40BD71</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Activo" id="5EAB3281-A6AD-93A5-3FE6-4EA67BA7A791">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:13:30 UTC</createdTime>
+<generatorID>3EB13E51-597D-62FA-C1BE-AD1DA5AE8983</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HoraSaida" id="155D1E7A-34BF-8058-B78D-0270D25B6A15">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:13:30 UTC</createdTime>
+<generatorID>A21FF19D-DCD7-FDE7-7BC5-CC7D72F1CBDD</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Colaboradores_Horario_IdHorario" id="ADBB0017-FA34-C2B9-4F0B-26437F5EB26F">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:14:06 UTC</createdTime>
+<generatorID>CB3EE4F5-4540-A29D-5694-A1A2A6B45615</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F17ADE59-07C6-2414-492F-7F71EDC222BF" referredColumn="AB56B4D3-C750-9BB9-7679-C52608EDA963"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E8E7C53-4DE8-83B4-8351-102DAC3F3A4F" name="Colaboradores_Horario_Composicao_PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:13:30 UTC</createdTime>
+<generatorID>05454528-A25F-EBCF-F892-47EDC583B4E9</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="477C3948-AC1B-9BEB-3755-930886ADDFB8"/>
+<colUsage columnID="ADBB0017-FA34-C2B9-4F0B-26437F5EB26F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3CD42F3-39B9-1083-0185-AFB6D758F0D4" name="Colaboradores_Horario_Composicao_Colaboradores_Horario_FK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:13:30 UTC</createdTime>
+<generatorID>9BEA8B84-D21C-51C9-B455-5DD4BECFA0F0</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADBB0017-FA34-C2B9-4F0B-26437F5EB26F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

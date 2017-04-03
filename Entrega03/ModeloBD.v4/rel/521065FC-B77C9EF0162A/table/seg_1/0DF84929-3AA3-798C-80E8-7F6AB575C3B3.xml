@@ -19,21 +19,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Utentes_IdUtente" id="4DE95C40-9DF0-CAFB-0FAE-3E6C19CB7FDD">
-<createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-30 20:39:46 UTC</createdTime>
-<generatorID>E13AF06F-97ED-742F-F6BA-9A47E8696FD7</generatorID>
-<ownerDesignName>ModeloBD.v4</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="17E3FAE6-248D-D0CD-CC7A-3DDA6AADB36D" referredColumn="B897FF27-42B0-5AF1-C418-2DD19DEA2042"/>
-</associations>
-</Column>
 <Column name="DataHora" id="88EB6E95-3891-949F-DE8D-0A1CC0AD8786">
 <createdBy>Miguel Pimenta</createdBy>
 <createdTime>2017-03-30 20:39:46 UTC</createdTime>
@@ -76,17 +61,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="9EE0EA0E-D10E-32E0-93AA-D111B7B52ABE"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="6637257A-D669-EF46-2DFA-BCA7FF8E04A1" name="Utentes_Acessos_Utentes_FK">
-<createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-30 20:39:46 UTC</createdTime>
-<generatorID>2E0F8A57-CB9A-5907-6D8A-28027EC8456C</generatorID>
-<ownerDesignName>ModeloBD.v4</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="4DE95C40-9DF0-CAFB-0FAE-3E6C19CB7FDD"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

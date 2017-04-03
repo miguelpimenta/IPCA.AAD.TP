@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D8486C6A-CC78-E714-B9F6-CA7037627B5C" name="sys_Funcoes">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:14:06 UTC</createdTime>
+<generatorID>603A5729-F61B-5572-8F55-2BCA000E85A4</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdFuncao" id="EA8FC4EE-967B-A3CE-A7C5-3C2857BBCFF3">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:14:06 UTC</createdTime>
+<generatorID>9E746B71-7A13-E752-9B0E-5CE99EFCBD67</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Funcao" id="5244EE42-0772-CFE2-A68E-3FE28AED72A4">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:14:06 UTC</createdTime>
+<generatorID>4462BA9E-2F4B-B014-F328-194D30A743CF</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Activo" id="1A178136-D001-226C-72E5-8D2933BFB12D">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:14:06 UTC</createdTime>
+<generatorID>FF6B42C0-1E40-04CF-8E56-A47AE8798277</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="179197D2-9691-5221-E6E9-8BFB5C103F26" name="sys_Funcoes_PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:14:06 UTC</createdTime>
+<generatorID>DA787C6B-5579-64B8-F96E-6709629FAE2B</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA8FC4EE-967B-A3CE-A7C5-3C2857BBCFF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

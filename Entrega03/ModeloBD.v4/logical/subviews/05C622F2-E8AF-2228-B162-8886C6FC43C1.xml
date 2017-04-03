@@ -38,7 +38,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="7C8AFC1D-1DC1-DA82-78B9-8F3FE0459A42" otype="Entity" vid="D6BCFD1C-4334-D1BF-B0BF-FA2CFD0A3569">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1504" y="56" width="350" height="358"/>
+<bounds x="1190" y="45" width="350" height="358"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="87AF156B-A9B5-8F37-4135-659CA2E8AA2A" otype="Entity" vid="E0AE418B-DBAB-85D5-7D49-B85B4E2F72CF">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>

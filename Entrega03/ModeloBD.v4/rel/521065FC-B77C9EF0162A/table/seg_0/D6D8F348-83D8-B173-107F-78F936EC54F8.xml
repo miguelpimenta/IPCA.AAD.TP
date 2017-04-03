@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6D8F348-83D8-B173-107F-78F936EC54F8" name="Manutencao_Pecas_Usadas">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:13:30 UTC</createdTime>
+<generatorID>181AB645-A8FE-B223-9E08-233F14682E1B</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdPecasUsadas" id="0A953D1A-3129-173A-51F7-095095D91B6F">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:13:30 UTC</createdTime>
+<generatorID>B09114CF-1651-8855-2B94-2EA3EE139940</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Manutencoes_IdManutencao" id="A5B22AB3-E697-AE21-1FF8-1AE7B899238C">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:14:06 UTC</createdTime>
+<generatorID>ABEDD911-8F2F-9A6B-3A10-B31B2DE004EF</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E6D8B82-7C9A-3DB2-A9AF-9721B4149182" referredColumn="CC2DD6D2-B76C-EB1A-E7B4-EF072A5AD59F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8790D66D-2076-EA84-8D00-1806E4223020" name="Manutencao_Pecas_Usadas_PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:13:30 UTC</createdTime>
+<generatorID>6707A0AC-6E20-7DE3-15B1-7E425372710C</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A953D1A-3129-173A-51F7-095095D91B6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D93DAAC-2098-AC66-0D52-337D367F026F" name="Manutencao_Pecas_Usadas_Manutencoes_FK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:14:06 UTC</createdTime>
+<generatorID>74AAADBB-46EF-A117-DC3B-E92986B4D096</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5B22AB3-E697-AE21-1FF8-1AE7B899238C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

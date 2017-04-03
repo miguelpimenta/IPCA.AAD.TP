@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6EE54E42-C1AB-579F-FE94-E2B296DDCBE0" name="Turmas_Horario_Composicao">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:13:30 UTC</createdTime>
+<generatorID>A098EAD7-A89F-C549-DB92-BC5A381FD4B4</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<abbreviation>Horario Composicao</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdCompHorario" id="1C8E3FDA-33A6-E006-966D-0A9464DD0C02">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:13:30 UTC</createdTime>
+<generatorID>BE5D683A-A256-A029-48A1-75956349E2B1</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DiaSemana" id="BB79CE06-CBD2-EA60-1790-BACD017694E7">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:13:30 UTC</createdTime>
+<comment>2F, 3F, 4F, 5F, 6F, S, D</comment>
+<generatorID>42E4187F-47EA-ED5C-AC63-39A237C815EC</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HoraFim" id="24C048D3-64C0-251B-DA90-B4EE12A69760">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:13:30 UTC</createdTime>
+<generatorID>84AE8BF6-6332-8C6A-A3FD-AFD91BE89CCD</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HoraInicio" id="6AFDC55C-0BD3-0675-7804-62B3B8B6018D">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:13:30 UTC</createdTime>
+<generatorID>97C3B081-9E35-4DF5-8D2B-956C43939E3C</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Turmas_Horarios_IdHorario" id="D99AA2F7-CCF3-EE31-BBC6-CFC0AF475D72">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:22:33 UTC</createdTime>
+<generatorID>1DA4E5B3-3553-DA9E-C4DA-15A60EC6309A</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE7B2435-C1A8-A971-A32F-E4FEFC162C70" referredColumn="35E8606E-EBD7-193F-7A94-2DFA674E2995"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DEBF21CC-8357-BBF8-01F9-CF1DF5CD6625" name="Turmas_Horario_Composicao_PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:13:30 UTC</createdTime>
+<generatorID>33631DCF-7B91-8095-5985-A9DCD1D0EFDD</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C8E3FDA-33A6-E006-966D-0A9464DD0C02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38450E89-A707-F66A-F5EF-595F2E78FF2B" name="Turmas_Horario_Composicao_Turmas_Horarios_FK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:22:33 UTC</createdTime>
+<generatorID>57761A3C-F578-CE67-72A6-A9431B63F3C1</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D99AA2F7-CCF3-EE31-BBC6-CFC0AF475D72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

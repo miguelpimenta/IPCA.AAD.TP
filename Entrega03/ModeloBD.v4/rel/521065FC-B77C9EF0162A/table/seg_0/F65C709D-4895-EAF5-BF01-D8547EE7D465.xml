@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F65C709D-4895-EAF5-BF01-D8547EE7D465" name="Colaboradores_Horario">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:13:30 UTC</createdTime>
+<generatorID>49F83D21-8ECA-4BC7-38E8-FAB0D41973A4</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdHorario" id="AB56B4D3-C750-9BB9-7679-C52608EDA963">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:13:30 UTC</createdTime>
+<generatorID>FCF1FCB9-2BBB-3DE6-A0CA-95282508BFF7</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descricao" id="7FA9517E-06F3-098A-1BFA-CDD9F5ED4D3C">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:13:30 UTC</createdTime>
+<generatorID>CED54BC7-4329-4D3D-679F-0B57B6286756</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>254 CHAR</dataTypeSize>
+<ownDataTypeParameters>254 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Colaboradores_IdColaborador" id="53B55613-8E9A-4747-07C9-A3B7DC03B40E">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:17:05 UTC</createdTime>
+<generatorID>6A8BE1CA-1774-2FB1-DFD9-2B29ADDF51CA</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB3EAFF8-7560-0D0A-56F1-310700091D4C" referredColumn="0986D47B-293E-56FC-B347-67E8068F8446"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CDAA02A3-5B02-86F8-6AAA-48489FC91920" name="Colaboradores_Horario_PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:13:30 UTC</createdTime>
+<generatorID>E9ED48BB-E9A8-17EC-C0EA-D4C6ADFCD1F8</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB56B4D3-C750-9BB9-7679-C52608EDA963"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C47E0A1F-A5CA-80E4-EDAE-0CD59622C1C2" name="Colaboradores_Horario__IDX">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:14:06 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>6FA03DFA-2769-5FD6-3AD9-8C8E0E7281BF</relationGeneratorID>
+</ind_PK_UK>
+<ind_PK_UK id="74B6395F-070A-B690-D2CA-084B5D8DD687" name="Colaboradores_Horario__IDXv1">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:17:05 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>9EE8D8FF-F04C-3FFC-D349-630C457670FB</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="53B55613-8E9A-4747-07C9-A3B7DC03B40E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0386A49-EA5C-370A-5E43-BD96C3547332" name="Colaboradores_Horario_Colaboradores_FK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:22:33 UTC</createdTime>
+<generatorID>9EE8D8FF-F04C-3FFC-D349-630C457670FB</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53B55613-8E9A-4747-07C9-A3B7DC03B40E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
