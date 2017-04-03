@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="5543F0E3-C452-A4F1-20E2-591096136C54" containerWithKeyObject="55265160-6075-C712-1452-F9037022B282" localFKIndex="56453162-08E2-3729-1834-33A42E9F9BD6" name="Colaboradores_sys_HabLiterarias_FK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>F622D800-CBFF-34F2-D91A-0AB854663D40</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7F1E719D-3DFC-99D6-AC0F-8779EDA40D0F</referredTableID>
+<keyObject>F11456A8-FDC2-13ED-EF68-DD323690F451</keyObject>
+<referredKeyID>F11456A8-FDC2-13ED-EF68-DD323690F451</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

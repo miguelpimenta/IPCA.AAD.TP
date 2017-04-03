@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="29017B3E-2CF5-D886-8121-2A867852950D" name="Manutencao_ProdutosPecas_Usados">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>A19FA0EC-EAC2-850B-BD96-337C08AA167E</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdProdutosPecasUsados" id="788249B5-8C81-7096-708D-E115DBE5A977">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>96A53AC9-0041-463C-7426-79CF3CECA23B</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Manutencoes_IdManutencao" id="651C28A8-9AD6-09B4-6FC9-E06EE9742210">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>94851CDB-F2CC-463A-43B6-C0DD78B0BE70</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44939D6E-B476-049A-6BF9-98C3B8BBCD61" referredColumn="E82DC9EA-5554-0C22-406F-810B15492766"/>
+</associations>
+</Column>
+<Column name="Produtos_Pecas_IdProdutoPeca" id="E00D32EA-AB2B-C4E3-0BB2-F4D252E8CD99">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>63E4494B-DDDD-E074-F9BD-C433230538CF</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="125C111C-2735-79F9-87D9-96EA3F6E850C" referredColumn="FC22926F-57AC-7B81-3ECC-DC792E7FEDA4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="027A20B1-29E6-17FE-89CD-C79288B3E39E" name="Manutencao_ProdutosPecas_Usados_PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>8407AB08-EB13-551B-18D6-4351A4222169</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="788249B5-8C81-7096-708D-E115DBE5A977"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD721128-B6BA-F736-0705-23C505C71AB1" name="Manutencao_ProdutosPecas_Usados_Manutencoes_FK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>1FA87C88-F595-A920-CAB7-D685F411FC96</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="651C28A8-9AD6-09B4-6FC9-E06EE9742210"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B75F8C5E-ACB9-3B70-7245-367FAE32D37F" name="Manutencao_ProdutosPecas_Usados_Produtos_Pecas_FK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>65A0AF11-7C77-8895-D543-4C7D68A27291</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E00D32EA-AB2B-C4E3-0BB2-F4D252E8CD99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="D13AE8F5-0E67-3624-72BA-5DF902130915" name="sys_EstCivil">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>951F81F7-19C6-B4CE-31F0-A518A3465D0A</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdEstCivil" id="239BFA7A-990F-7C46-48F7-71907C62D9C6">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>DC3D81D0-F7D0-10D1-BEB1-361E8B22BE9C</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EstCivil" id="F62DCBDC-2E73-9337-B9BB-B38E6286444F">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>25BD2337-C202-397A-CE1D-52D151FCB813</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F230C198-DF1C-E2D5-5B3E-746278AE5873" name="sys_EstCivil_PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>61795E22-7AD7-DCE9-8F67-BDA672D48A14</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="239BFA7A-990F-7C46-48F7-71907C62D9C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

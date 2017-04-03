@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1A6F0F76-FF11-48FA-6DB0-3332C282DEEF" name="Ordens Compra ProdutosPecas">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:41:47 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdOrdemCompraProdPeca" id="8A1D58CC-AC20-982E-5088-35BA84860795">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:41:58 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data" id="05677A82-C744-85E0-B5D7-887ACE598F27">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:50:18 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Qt" id="F5E2680E-6D06-6739-F8E2-7A72BD341137">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:49:53 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

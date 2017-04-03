@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="10878998-AE05-1775-EB0B-44A1A24A1EF4" name="Produtos Movimentos">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="10878998-AE05-1775-EB0B-44A1A24A1EF4" name="ProdutosPecas Movimentos">
 <createdBy>Miguel Pimenta</createdBy>
 <createdTime>2017-03-30 10:12:09 UTC</createdTime>
 <generatorID>63547F31-6C64-6890-37FC-8EFBC95A0A0E</generatorID>
@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="IdMovProd" id="3836B2F4-92D4-4363-0483-A4734075AFF8">
+<Attribute name="IdMovProdPeca" id="3836B2F4-92D4-4363-0483-A4734075AFF8">
 <createdBy>Miguel Pimenta</createdBy>
 <createdTime>2017-03-30 10:12:09 UTC</createdTime>
 <generatorID>027142BA-6B97-01EA-9F8D-E4B81097B36A</generatorID>
@@ -72,7 +72,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IdProduto" id="E2544616-2747-0E4B-A2AC-572F2CE22BB8">
+<Attribute name="IdProdutoPeca" id="E2544616-2747-0E4B-A2AC-572F2CE22BB8">
 <createdBy>Miguel Pimenta</createdBy>
 <createdTime>2017-03-30 20:48:56 UTC</createdTime>
 <generatorID>36C50AD6-9E4E-DD64-1565-751AEB31DE5F</generatorID>

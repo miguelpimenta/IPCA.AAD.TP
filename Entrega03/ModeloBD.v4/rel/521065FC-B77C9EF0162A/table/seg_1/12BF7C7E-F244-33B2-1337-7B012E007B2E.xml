@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="12BF7C7E-F244-33B2-1337-7B012E007B2E" name="ProdutosPecas_Movimentos">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>10878998-AE05-1775-EB0B-44A1A24A1EF4</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdMovProdPeca" id="F7609B5F-569B-042D-2046-6DFA68983B64">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>3836B2F4-92D4-4363-0483-A4734075AFF8</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataHora" id="E0416D76-18CE-8527-A273-72A6FB8CB720">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>633DAC3D-CB68-0982-285F-0F8D5C941574</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipoMov" id="E2714362-7697-FB1D-1761-470CC39CCE1D">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<commentInRDBMS>Entrada / Saida (In/Out)</commentInRDBMS>
+<generatorID>2B9BBCCB-56DE-7ACF-7D23-9BD22D28106D</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Qt" id="AB14B09E-90FC-8653-A212-28D4EB7DC2C8">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>886925F0-DB4E-C25B-3470-89E0CC1E4F99</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Produtos_Pecas_IdProdutoPeca" id="990E5824-C710-29B3-B6FF-9E52300873DD">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>E2544616-2747-0E4B-A2AC-572F2CE22BB8</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="954DD107-5E40-92FE-AEEF-19A56652BB5C" referredColumn="FC22926F-57AC-7B81-3ECC-DC792E7FEDA4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DEF4465B-A481-E527-1C61-065E9E0E4B22" name="ProdutosPecas_Movimentos_PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>93B2438E-5CE4-CCF5-44F1-031B9196D92F</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7609B5F-569B-042D-2046-6DFA68983B64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2146B4DB-7DB0-62E2-E1AF-90985CDC7B03" name="ProdutosPecas_Movimentos_Produtos_Pecas_FK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>36C50AD6-9E4E-DD64-1565-751AEB31DE5F</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="990E5824-C710-29B3-B6FF-9E52300873DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

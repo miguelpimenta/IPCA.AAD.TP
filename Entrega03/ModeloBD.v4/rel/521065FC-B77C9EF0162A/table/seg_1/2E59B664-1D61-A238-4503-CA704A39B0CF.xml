@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="2E59B664-1D61-A238-4503-CA704A39B0CF" name="Manutencao_Equipa">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>8CEFCF4C-3DBD-4882-CA17-C6682602D0CD</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdEquipaManutencao" id="1D29B8BD-0BC1-552F-0A33-08A2645E7735">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>9C5A30F7-703C-9882-0216-0FAF4F06D2C3</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Manutencoes_IdManutencao" id="27327F8C-7317-5DAF-F038-B64D1682E19A">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>EAA6308F-5813-3B0C-1B0A-9E897DAB3447</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B34541EF-5D08-942C-98F0-1F123E2D0875" referredColumn="E82DC9EA-5554-0C22-406F-810B15492766"/>
+</associations>
+</Column>
+<Column name="Colaboradores_IdColaborador" id="F3E59238-2FE1-66A2-EFE2-D2EF8B00151F">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>18147849-2653-CB3B-9D15-B6F2CF248F3B</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="247A542A-2511-7DB6-EA0B-D66C68FAFCAF" referredColumn="E2A78880-1044-4B26-A290-A30B4E8BCE34"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="79DF98A0-BAE5-FB57-91B3-32202F259CBE" name="Manutencao_Equipa_PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>0926473C-6868-7D13-2892-D3E3B3537586</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D29B8BD-0BC1-552F-0A33-08A2645E7735"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B240098A-CE54-E1C5-0601-8B59D58071C3" name="Manutencao_Equipa_Manutencoes_FK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>2111F188-AE92-1E77-A2CA-99EAE0E31D2B</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27327F8C-7317-5DAF-F038-B64D1682E19A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7CBBFE2E-0E89-2C7F-C413-80E881FA7564" name="Manutencao_Equipa_Colaboradores_FK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>389B66D7-1F54-0C52-BB18-85E138D8A775</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3E59238-2FE1-66A2-EFE2-D2EF8B00151F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

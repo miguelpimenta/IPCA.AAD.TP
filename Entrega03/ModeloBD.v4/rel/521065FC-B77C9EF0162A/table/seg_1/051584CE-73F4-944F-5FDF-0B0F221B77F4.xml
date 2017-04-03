@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="051584CE-73F4-944F-5FDF-0B0F221B77F4" name="TiposTurma">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>56512354-2D26-E292-4411-86C50181887F</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdTipoTurma" id="C27EEA8D-5732-9CD5-8847-7EFA7AA21C55">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>C144F860-9FCF-CD92-88E2-19532DBA0113</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipoTurma" id="8BA6617B-AEC8-A6D2-E9D0-3183CBAF7B63">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<comment>I - infantil / A - adulto / H - hidroginástica</comment>
+<commentInRDBMS>I - infantil / A - adulto / H - hidroginástica</commentInRDBMS>
+<generatorID>B926E24F-198B-278C-A7C9-EE7BB81BEE66</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nivel" id="728C982F-BA4F-A5B0-0BC2-7B5D2AD74623">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<comment>1, 2 ,3, ...</comment>
+<commentInRDBMS>1, 2 ,3, ...</commentInRDBMS>
+<generatorID>748DFE8D-43DE-B064-D2AE-89C2B3A7F12F</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LimiteAlunos" id="123123BE-054D-97D7-7AFB-E79C3FEB3175">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<comment>[infantil 10]&lt;br/&gt;[adulto 20]&lt;br/&gt;[hidroginástica 15]</comment>
+<commentInRDBMS>[infantil 10]&lt;br/&gt;[adulto 20]&lt;br/&gt;[hidroginástica 15]</commentInRDBMS>
+<generatorID>98B05C5E-D16F-C3C9-14A2-2AA5E2982BE2</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Activa" id="A0068E6E-770D-5DE1-7F4E-3EB5148FFD8E">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>361241E9-6D13-70D9-CFBB-CAED971ACC79</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E641C2C4-EDEA-680A-B499-240208D4E762" name="TiposTurma_PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>1840EB32-E4EB-28B4-8E9C-F55EEB3F61CA</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C27EEA8D-5732-9CD5-8847-7EFA7AA21C55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

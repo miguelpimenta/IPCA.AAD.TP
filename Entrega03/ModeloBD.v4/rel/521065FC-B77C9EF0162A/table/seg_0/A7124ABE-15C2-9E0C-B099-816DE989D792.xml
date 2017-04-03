@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A7124ABE-15C2-9E0C-B099-816DE989D792" name="Acessos_Utentes">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>925AEDD9-2EE4-B911-C276-DD3B40D20A69</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<abbreviation>Acessos Utentes</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdAcessoUtente" id="B5D922B1-BB16-17E1-B924-F4FCC3A68F23">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>F261EAF9-4B61-CECF-A082-358C47E26EDA</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Utentes_IdUtente" id="3F9CDA7B-53CC-7225-899F-15122F5ABF63">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>7234CCA6-DE4F-7C3C-140A-FB0284231EB0</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7D501E18-76BD-6DB5-E2E6-5D1A0F5B56E9" referredColumn="ADD48F99-8F9D-AEF3-F777-93EC83C0FC01"/>
+</associations>
+</Column>
+<Column name="DataHora" id="FEF36F02-5393-8972-0725-A1848770C601">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>B48E2995-50E8-A47B-FE65-1F3B3039922B</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>7D501E18-76BD-6DB5-E2E6-5D1A0F5B56E9</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="Categoria" id="5F566277-CC5F-7865-0942-B9A51E8B09DE">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>CAB95540-C80D-7F46-C03F-6ED367BB4DB6</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>7D501E18-76BD-6DB5-E2E6-5D1A0F5B56E9</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="Override" id="501DD419-5A0B-DC47-9068-D618FCAD2C1E">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>61069C81-7111-E260-D8F9-C181B437EB3D</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>7D501E18-76BD-6DB5-E2E6-5D1A0F5B56E9</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C1D0965D-244F-052C-A60D-E2C5DFFE14DD" name="Acessos_Utentes_PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>064599AE-7F79-1E8E-2B89-569B83B0CDC1</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5D922B1-BB16-17E1-B924-F4FCC3A68F23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A3C57C9-F2C7-C6E4-7DD1-A8AFEA3E2E7F" name="Acessos_Utentes_Utentes_FK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>B32030A8-470C-601F-BC87-FCD540F58D17</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F9CDA7B-53CC-7225-899F-15122F5ABF63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

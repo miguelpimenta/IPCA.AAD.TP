@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="CA10225D-9E37-713A-D600-CDCF115704B8" name="Relation_40">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Ordens_Compra_ProdutosPecas_Ordens_Compra_ProdutosPecas_ID" id="6BE30B58-AF2F-64DC-9E09-95B409AC3967">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B62D7A59-AD74-6A4E-7174-40C43B048EA4" referredColumn="B1EFA220-1B49-B555-D2CE-63292EE00974"/>
+</associations>
+</Column>
+<Column name="Compras_ProdutosPecas_IdCompraProdPecas" id="8C10B428-4FCD-CE34-1036-546B0EF2CB7E">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FADBA40D-E140-835B-2771-EF2C68AFA385" referredColumn="707D74B8-5ED2-A533-EEF0-CF0CB47D7F27"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B9BBD3BF-9473-31A8-02C4-573A6E84621C" name="Relation_40_PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BE30B58-AF2F-64DC-9E09-95B409AC3967"/>
+<colUsage columnID="8C10B428-4FCD-CE34-1036-546B0EF2CB7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A32E4692-D6CC-E8DF-1514-8CD95A7CE32F" name="FK_ASS_123">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>6DADF02D-C8CF-07A2-05DC-A5B7D880E764</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BE30B58-AF2F-64DC-9E09-95B409AC3967"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD9B40C0-4046-4015-C35E-1CE85AF2D39E" name="FK_ASS_124">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>6DADF02D-C8CF-07A2-05DC-A5B7D880E764</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C10B428-4FCD-CE34-1036-546B0EF2CB7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

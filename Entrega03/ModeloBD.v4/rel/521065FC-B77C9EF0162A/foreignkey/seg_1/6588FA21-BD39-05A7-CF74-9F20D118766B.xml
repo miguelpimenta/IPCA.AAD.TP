@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="6588FA21-BD39-05A7-CF74-9F20D118766B" containerWithKeyObject="9E334374-BD58-49B7-D1E9-B84916732647" localFKIndex="622D394E-C499-F65E-EA50-6C5F880823DB" name="Turmas_Alunos_Historico_FK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>387BC76D-350B-FA2E-C67D-8D01E636A2D5</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7EF29A99-9AC9-5DCD-5C97-3E4DBE8067EC</referredTableID>
+<keyObject>2110888E-56D0-C96A-C838-8B6BD917A86B</keyObject>
+<referredKeyID>2110888E-56D0-C96A-C838-8B6BD917A86B</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

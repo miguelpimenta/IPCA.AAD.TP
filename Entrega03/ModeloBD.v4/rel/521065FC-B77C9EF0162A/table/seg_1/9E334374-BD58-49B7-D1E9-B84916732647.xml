@@ -1,0 +1,234 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="9E334374-BD58-49B7-D1E9-B84916732647" name="Turmas">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>26A2951D-3086-DD02-4145-8A1060DB6B72</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdTurma" id="E2118405-7F66-167A-C2D2-37235C97DC7D">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>4AAA43D2-5A8A-465F-FDC8-C72F0598DC9A</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TiposTurma_IdTipoTurma" id="DC4E4E0F-F603-9F10-8F92-FC55E6503D6F">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>5A819DF3-8887-FA47-4155-323873180536</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D651B408-0A78-350B-3A13-B33058CF2578" referredColumn="C27EEA8D-5732-9CD5-8847-7EFA7AA21C55"/>
+</associations>
+</Column>
+<Column name="Turmas_Horarios_IdHorario" id="90DF89DA-A473-91B3-371E-DAC3E9D82A85">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>7C76AD9F-5191-07EC-6B52-CE3862313672</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6EB2450E-1A8F-B15A-1263-BC9E535EE6CA" referredColumn="FF9EFB90-BAB0-127F-92AE-25FC628BEA72"/>
+</associations>
+</Column>
+<Column name="NumVagas" id="0F8B8E1A-016D-FE86-CACE-3A16E1BDE420">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<comment>Nº de alunos que a turma pode ter</comment>
+<generatorID>F5DCA37D-D255-E014-1D47-BE61F1F4ECDF</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Alunos_IdAluno" id="BD951C1D-3780-EF20-8E8E-8460B09D2025">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>96A173D5-BCA5-5F24-5210-E35294083BFA</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA659EC4-B605-4F2D-597E-61BC5FA7D401" referredColumn="E057ED44-842E-50C4-CD04-5932CD917AC9"/>
+</associations>
+</Column>
+<Column name="Alunos_Historico_IdHistoricoAluno" id="80990C5F-7192-4475-1F6F-FAC0CDA27092">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>296DD7BB-91AE-DBC9-B508-9148B47AD9A3</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6588FA21-BD39-05A7-CF74-9F20D118766B" referredColumn="4F941CB4-AA8C-04B6-1539-13B0B2DB44E3"/>
+</associations>
+</Column>
+<Column name="Colaboradores_IdColaborador" id="0C19CCCB-AE40-C866-E881-396F20C78565">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>FBC6DFE1-BC40-8597-AE8F-A48477E69BAA</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD39AC5C-D547-C62B-A663-625E09FB54E6" referredColumn="E2A78880-1044-4B26-A290-A30B4E8BCE34"/>
+</associations>
+</Column>
+<Column name="IdProfessor" id="58D47899-09E6-5FD7-3BAF-CAA5EDD1B24F">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>5338E413-8339-AE9E-0DD3-6171FA148E97</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>DD39AC5C-D547-C62B-A663-625E09FB54E6</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="Nome" id="F7AFCBE4-4066-D3EA-6DBC-B488863A9E2D">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>126EA132-3BE9-0278-AC96-403B5FAB7C3B</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>DD39AC5C-D547-C62B-A663-625E09FB54E6</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="IdTurma1" id="C6E387C3-E459-2555-C2AD-B02D0F19F4BC">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>E1897C84-3773-D035-E1B0-91D78DA13C80</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>FA659EC4-B605-4F2D-597E-61BC5FA7D401</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3685EE07-7FEC-C015-1A23-B721556EEE80" name="Turmas_PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>60D8C7EA-6E1D-D890-136B-5BA425B2DA37</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2118405-7F66-167A-C2D2-37235C97DC7D"/>
+<colUsage columnID="80990C5F-7192-4475-1F6F-FAC0CDA27092"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2CBB14A0-153B-C0C5-ADC3-3234C9C45D2B" name="Turmas__IDX">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>6786DFDE-2284-4466-1BE3-23C5C170FB0F</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="BD951C1D-3780-EF20-8E8E-8460B09D2025"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="515D7077-2A4F-56AE-61C5-33077D7AE7FF" name="Turmas_Colaboradores_FK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>64F95D32-4F05-FD10-D5D5-6E3CD822888A</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C19CCCB-AE40-C866-E881-396F20C78565"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="622D394E-C499-F65E-EA50-6C5F880823DB" name="Turmas_Alunos_Historico_FK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>387BC76D-350B-FA2E-C67D-8D01E636A2D5</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80990C5F-7192-4475-1F6F-FAC0CDA27092"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="633DAC9F-A6C1-25FA-A4D0-D91D6129CA0E" name="Turmas_Alunos_FK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>6786DFDE-2284-4466-1BE3-23C5C170FB0F</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD951C1D-3780-EF20-8E8E-8460B09D2025"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="034BEA75-E232-9335-6FBA-6036ED61C452" name="Turmas_Turmas_Horarios_FK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>845EAC29-E03F-0660-9A29-BFEFE5E5CA6E</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90DF89DA-A473-91B3-371E-DAC3E9D82A85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C1BA8D03-CFA0-C023-ED15-8B4C4460FEDD" name="Turmas_TiposTurma_FK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>EE950030-2E02-965B-E6F4-213A271F13DC</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC4E4E0F-F603-9F10-8F92-FC55E6503D6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

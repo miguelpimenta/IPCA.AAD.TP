@@ -44,6 +44,47 @@
 <dataTypeSize>254 CHAR</dataTypeSize>
 <ownDataTypeParameters>254 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Descricao" id="A43E7830-94C4-F0CA-1533-C19B0CAE7AE0">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:31:25 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DataCompra" id="AD3BA0D2-459E-A848-B5BA-51BAC962C9F8">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:32:14 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NumSerie" id="187050C4-6B65-E7FE-95E1-6C8BFC1B2F4B">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:32:28 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="Activo" id="22109321-8868-5F94-D035-F1C169BA7FA7">
 <createdBy>Miguel Pimenta</createdBy>
 <createdTime>2017-03-30 10:12:09 UTC</createdTime>
@@ -56,8 +97,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

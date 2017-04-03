@@ -4,9 +4,9 @@
    <object objectType="sub_view" objectID="990D0783-093F-892A-E70C-49E0BD1651AB" name="Alunos" visible="false"/>
    <object objectType="sub_view" objectID="599C0DDF-C09E-D159-A614-87E5F1A19F2A" name="Colaboradores" visible="false"/>
    <object objectType="sub_view" objectID="FE46564F-2052-00CA-4706-A1ECA29151C4" name="From_LM_Acta 2 - SCA" visible="false"/>
-   <object objectType="sub_view" objectID="CEDA511B-4C14-6959-B296-5C30C08316D2" name="From_LM_Acta 3 - SGT" visible="true"/>
+   <object objectType="sub_view" objectID="CEDA511B-4C14-6959-B296-5C30C08316D2" name="From_LM_Acta 3 - SGT" visible="false"/>
    <object objectType="sub_view" objectID="99AB8882-CC71-4ED9-74CF-2BBB8C3D9B56" name="From_LM_Acta 4 - SCP" visible="false"/>
-   <object objectType="sub_view" objectID="C7057B79-6FFC-AFF0-D3B6-2EAB012329AD" name="From_LM_Acta 5 - SGM" visible="false"/>
+   <object objectType="sub_view" objectID="C7057B79-6FFC-AFF0-D3B6-2EAB012329AD" name="From_LM_Acta 5 - SGM" visible="true"/>
    <object objectType="sub_view" objectID="BA417FFB-0F4F-9945-72B7-BA4729FE56AA" name="From_LM_Logical - SubView_1" visible="false"/>
    <object objectType="sub_view" objectID="8FDD2E9B-74D1-8287-3329-50833FFB7779" name="Manutencoes" visible="false"/>
    <object objectType="sub_view" objectID="86F6A147-20BE-40F7-0769-763B774F1322" name="Utentes" visible="false"/>

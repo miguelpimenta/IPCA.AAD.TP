@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="F427749E-25E4-3066-4EA2-0CA979D144FC" containerWithKeyObject="2941AA7C-A4E8-7714-5E4A-DFC33D9CABBE" localFKIndex="58D7D2C8-01B8-9EED-6BED-4F3028487113" name="Turmas_Horario_Composicao_Turmas_Horarios_FK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>57761A3C-F578-CE67-72A6-A9431B63F3C1</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>913A5541-8A57-7031-A977-AF1413F11BC6</referredTableID>
+<keyObject>BD8A0E3C-8F68-D75E-1788-24857A228CCA</keyObject>
+<referredKeyID>BD8A0E3C-8F68-D75E-1788-24857A228CCA</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

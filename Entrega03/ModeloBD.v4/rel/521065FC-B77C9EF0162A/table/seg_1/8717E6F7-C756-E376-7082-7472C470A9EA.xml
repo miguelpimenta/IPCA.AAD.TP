@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="8717E6F7-C756-E376-7082-7472C470A9EA" name="Presencas">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>C5A4A790-A5D3-E48A-EA6E-5FE48ABDFFDB</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<abbreviation>Presencas</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdPresenca" id="A0F9C137-741E-A01E-40B7-90D9F5544FFC">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>FEF9EEA5-DB07-AF28-7414-35339F004C70</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Colaboradores_IdColaborador" id="161480DF-DC76-5485-F156-C11557C4317F">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>4BB93BE0-2CF5-8218-0EE0-3D6437EF1C50</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="11190D85-7512-DB21-2D18-13380601010B" referredColumn="E2A78880-1044-4B26-A290-A30B4E8BCE34"/>
+</associations>
+</Column>
+<Column name="DataHora" id="082298F7-0567-DB35-5B96-7D499BFAA665">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>0A6B2AD0-8BA1-2EFC-D3A1-C1FCF97ADA45</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>11190D85-7512-DB21-2D18-13380601010B</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="TipoMov" id="B7B25BD0-94AA-7441-E65A-A660FDE532E7">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<comment>E - Entrada / S - Saida</comment>
+<generatorID>AEC6AA93-A31A-6CEA-85EE-4C636A6C9EEA</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>11190D85-7512-DB21-2D18-13380601010B</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="Infraccao" id="0E296488-A926-AC74-4354-DB1DE0619706">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>A41A9002-BFEB-E1A3-033F-BD734C98787B</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>11190D85-7512-DB21-2D18-13380601010B</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A850B0A1-8FD9-BC3F-A552-E73390E11D48" name="Presencas_PK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>1BA40FB9-ABA4-6EE9-ECA8-70C960E4BE91</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0F9C137-741E-A01E-40B7-90D9F5544FFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="14776F6F-0C7E-EECE-448D-EEDFB46EB35E" name="Presencas_Colaboradores_FK">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 21:13:26 UTC</createdTime>
+<generatorID>5B5C156A-508B-2D87-90FC-A1D95AD17A2D</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="161480DF-DC76-5485-F156-C11557C4317F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

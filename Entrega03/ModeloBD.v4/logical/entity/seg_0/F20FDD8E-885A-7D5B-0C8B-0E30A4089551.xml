@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F20FDD8E-885A-7D5B-0C8B-0E30A4089551" name="Compras">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F20FDD8E-885A-7D5B-0C8B-0E30A4089551" name="Compras ProdutosPecas">
 <createdBy>Miguel Pimenta</createdBy>
 <createdTime>2017-04-03 15:43:58 UTC</createdTime>
 <ownerDesignName>ModeloBD.v4</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="IdCompra" id="E0787EEB-3AF1-7CC7-F079-F33CF44A39F5">
+<Attribute name="IdCompraProdPecas" id="E0787EEB-3AF1-7CC7-F079-F33CF44A39F5">
 <createdBy>Miguel Pimenta</createdBy>
 <createdTime>2017-04-03 15:44:13 UTC</createdTime>
 <ownerDesignName>ModeloBD.v4</ownerDesignName>
@@ -26,6 +26,57 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DataCompra" id="1F426508-4300-5A3D-439B-D6DF2AEAA474">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:35:41 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Qt" id="99D17255-1692-EB04-B3DE-832C37FE4A47">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:35:50 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdProdutoPeca" id="EB965EFA-9674-B1A9-FD08-5273942F4AE8">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:37:27 UTC</createdTime>
+<generatorID>9CC73D3E-7980-6D94-4C1B-5493713F57D1</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<referedAttribute>1EB643A7-5D17-17B7-5D2E-8880CA7E9391</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fornecedor" id="46E0487B-E6B9-DD3E-75F9-0187B0A32B6A">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 20:57:36 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
