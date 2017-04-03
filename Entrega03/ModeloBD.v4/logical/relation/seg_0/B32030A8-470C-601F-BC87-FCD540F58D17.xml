@@ -1,25 +1,25 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Acesso_Colab" directorySegmentName="seg_0" id="FCDE947A-3E95-1E3B-A12A-659F83AAE2D9">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="AcessoUtente" directorySegmentName="seg_0" id="B32030A8-470C-601F-BC87-FCD540F58D17">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-31 14:10:22 UTC</createdTime>
+<createdTime>2017-04-03 15:26:51 UTC</createdTime>
 <ownerDesignName>ModeloBD.v4</ownerDesignName>
 <engineerTo>
 <item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
 </engineerTo>
-<sourcePk>724294B7-04CB-E4DF-BD04-680D07702ED7</sourcePk>
-<identifying>true</identifying>
+<sourcePk>7761921D-4D60-16EC-DF37-4DBE2C739D3A</sourcePk>
+<identifying>false</identifying>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>7C8AFC1D-1DC1-DA82-78B9-8F3FE0459A42</sourceEntity>
+<sourceEntity>EF3E7A87-EEB2-1693-74AA-E6D60C22C252</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>2048A7E0-8B3D-C445-FF9C-F06C3BAB4066</targetEntity>
+<targetEntity>925AEDD9-2EE4-B911-C276-DD3B40D20A69</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<attribute name="DataHora" id="1FB269B2-C905-CDB3-0750-07EAB946E1C7">
+<attribute name="DataHora" id="B48E2995-50E8-A47B-FE65-1F3B3039922B">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-04-03 15:24:31 UTC</createdTime>
+<createdTime>2017-04-03 15:27:01 UTC</createdTime>
 <ownerDesignName>ModeloBD.v4</ownerDesignName>
 <engineerTo>
 <item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
@@ -29,9 +29,9 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </attribute>
-<attribute name="Categoria" id="52CD7843-2BD2-BDDC-FD3C-5E39AB206784">
+<attribute name="Categoria" id="CAB95540-C80D-7F46-C03F-6ED367BB4DB6">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-04-03 15:24:52 UTC</createdTime>
+<createdTime>2017-04-03 15:27:09 UTC</createdTime>
 <ownerDesignName>ModeloBD.v4</ownerDesignName>
 <engineerTo>
 <item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
@@ -42,28 +42,13 @@
 <dataTypeSize>1 CHAR</dataTypeSize>
 <ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 </attribute>
-<attribute name="Infraccao" id="FD8F3FA5-B2CF-DB8C-4229-A8F03AEFAD5C">
+<attribute name="Override" id="61069C81-7111-E260-D8F9-C181B437EB3D">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-04-03 15:25:08 UTC</createdTime>
+<createdTime>2017-04-03 15:27:28 UTC</createdTime>
 <ownerDesignName>ModeloBD.v4</ownerDesignName>
 <engineerTo>
 <item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</attribute>
-<attribute name="Override" id="67404A28-0511-1744-2D8A-B6FCEA12AE40">
-<createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-04-03 15:25:24 UTC</createdTime>
-<comment>Abertura pelo Recepcionista</comment>
-<commentInRDBMS>Abertura pelo Recepcionista</commentInRDBMS>
-<ownerDesignName>ModeloBD.v4</ownerDesignName>
-<engineerTo>
-<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>

@@ -38,7 +38,6 @@
 <engineerTo>
 <item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -53,7 +52,6 @@
 <engineerTo>
 <item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -117,7 +115,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Morada" id="08853F8B-EBCC-0B2E-CECC-C5A41B007CE4">
 <createdBy>Miguel Pimenta</createdBy>
@@ -178,6 +176,18 @@
 <dataTypeSize>9 CHAR</dataTypeSize>
 <ownDataTypeParameters>9 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Aluno" id="BAAF6C1A-A22E-9843-90D4-1DAB48DFA367">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 15:54:57 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="IdAluno" id="A6221E8A-B6C6-7B9F-2380-F391FD2E893B">
 <createdBy>Miguel Pimenta</createdBy>
 <createdTime>2017-03-30 13:52:30 UTC</createdTime>
@@ -190,6 +200,18 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Activo" id="FD05539C-2887-636C-F1EA-3D55786AED5B">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 15:56:04 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

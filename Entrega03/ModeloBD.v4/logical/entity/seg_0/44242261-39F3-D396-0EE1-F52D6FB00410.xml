@@ -73,20 +73,6 @@
 <dataTypeSize>1000 CHAR</dataTypeSize>
 <ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Colaboradores IdColaborador" id="273B212C-913F-7DE3-9CFF-9A42781FC093">
-<createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-30 10:12:09 UTC</createdTime>
-<generatorID>0579B52A-513E-BDFA-1D1A-DDB98A79E449</generatorID>
-<ownerDesignName>ModeloBD.v4</ownerDesignName>
-<engineerTo>
-<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
-</engineerTo>
-<referedAttribute>612005CC-6A8D-79DC-2019-D15CA7CA4E44</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="78C89C8F-DF90-DB3C-6977-8455E8CF2A8E" name="Manutencoes PK">

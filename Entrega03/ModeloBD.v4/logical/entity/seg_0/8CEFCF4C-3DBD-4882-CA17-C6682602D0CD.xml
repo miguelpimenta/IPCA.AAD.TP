@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A19FA0EC-EAC2-850B-BD96-337C08AA167E" name="Manutencao Produtos Usados">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8CEFCF4C-3DBD-4882-CA17-C6682602D0CD" name="Manutencao Equipa">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-31 15:41:51 UTC</createdTime>
+<createdTime>2017-04-03 15:43:11 UTC</createdTime>
 <ownerDesignName>ModeloBD.v4</ownerDesignName>
 <engineerTo>
 <item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="IdProdutosUsados" id="96A53AC9-0041-463C-7426-79CF3CECA23B">
+<Attribute name="IdEquipaManutencao" id="9C5A30F7-703C-9882-0216-0FAF4F06D2C3">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-04-03 15:47:25 UTC</createdTime>
+<createdTime>2017-04-03 15:43:24 UTC</createdTime>
 <ownerDesignName>ModeloBD.v4</ownerDesignName>
 <engineerTo>
 <item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
@@ -27,10 +27,10 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IdManutencao" id="94851CDB-F2CC-463A-43B6-C0DD78B0BE70">
+<Attribute name="IdManutencao" id="EAA6308F-5813-3B0C-1B0A-9E897DAB3447">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-04-03 15:47:58 UTC</createdTime>
-<generatorID>1FA87C88-F595-A920-CAB7-D685F411FC96</generatorID>
+<createdTime>2017-04-03 15:46:58 UTC</createdTime>
+<generatorID>2111F188-AE92-1E77-A2CA-99EAE0E31D2B</generatorID>
 <ownerDesignName>ModeloBD.v4</ownerDesignName>
 <engineerTo>
 <item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
@@ -43,16 +43,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="8407AB08-EB13-551B-18D6-4351A4222169" name="Manutencao Produtos Usados PK">
+<identifier id="0926473C-6868-7D13-2892-D3E3B3537586" name="Manutencao Colaboradores PK">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-04-03 15:47:39 UTC</createdTime>
+<createdTime>2017-04-03 15:43:41 UTC</createdTime>
 <ownerDesignName>ModeloBD.v4</ownerDesignName>
 <engineerTo>
 <item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>96A53AC9-0041-463C-7426-79CF3CECA23B</attributeRef>
+<attributeRef>9C5A30F7-703C-9882-0216-0FAF4F06D2C3</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

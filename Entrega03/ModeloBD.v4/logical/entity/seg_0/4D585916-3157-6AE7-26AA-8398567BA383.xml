@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="56512354-2D26-E292-4411-86C50181887F" name="TiposTurma">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4D585916-3157-6AE7-26AA-8398567BA383" name="Pecas Movimentos">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-30 10:12:09 UTC</createdTime>
-<generatorID>260BF7AA-16BD-B7E1-1AE8-E9C5D313905D</generatorID>
+<createdTime>2017-04-03 15:41:29 UTC</createdTime>
+<generatorID>63547F31-6C64-6890-37FC-8EFBC95A0A0E</generatorID>
 <ownerDesignName>ModeloBD.v4</ownerDesignName>
 <engineerTo>
 <item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
@@ -16,10 +16,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="IdTipoTurma" id="C144F860-9FCF-CD92-88E2-19532DBA0113">
+<Attribute name="IdMovPeca" id="30975CA2-B294-C272-8BB5-E06F71D5DA61">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-30 10:12:09 UTC</createdTime>
-<generatorID>97409BF8-B8DA-0BCD-73BA-325826A18C88</generatorID>
+<createdTime>2017-04-03 15:41:29 UTC</createdTime>
+<generatorID>027142BA-6B97-01EA-9F8D-E4B81097B36A</generatorID>
 <ownerDesignName>ModeloBD.v4</ownerDesignName>
 <engineerTo>
 <item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
@@ -29,27 +29,53 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TipoTurma" id="B926E24F-198B-278C-A7C9-EE7BB81BEE66">
+<Attribute name="DataHora" id="28F754C7-F08D-0E49-DC45-31D9BAAF2EA0">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-30 10:12:09 UTC</createdTime>
-<comment>I - infantil / A - adulto / H - hidroginástica</comment>
-<commentInRDBMS>I - infantil / A - adulto / H - hidroginástica</commentInRDBMS>
-<generatorID>AB426990-EC9A-ADCB-8B74-A584E00B47EF</generatorID>
+<createdTime>2017-04-03 15:41:29 UTC</createdTime>
+<generatorID>2259CDAC-5290-2CC3-10E2-1511CD5FF19E</generatorID>
 <ownerDesignName>ModeloBD.v4</ownerDesignName>
 <engineerTo>
 <item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
 </engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TipoMov" id="33CBA689-709D-9ADD-74CA-D531CCFA0DEC">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 15:41:29 UTC</createdTime>
+<commentInRDBMS>Entrada / Saida (In/Out)</commentInRDBMS>
+<generatorID>33315110-00A7-E0BE-82D3-C165836A5E90</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>1 CHAR</dataTypeSize>
-<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Nivel" id="748DFE8D-43DE-B064-D2AE-89C2B3A7F12F">
+<Attribute name="Qt" id="E8DC0AC5-79CC-7CFF-C857-A1F1DA90C9B4">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-31 14:27:37 UTC</createdTime>
-<comment>1, 2 ,3, ...</comment>
-<commentInRDBMS>1, 2 ,3, ...</commentInRDBMS>
+<createdTime>2017-04-03 15:41:29 UTC</createdTime>
+<generatorID>0A642D6E-613A-4C21-6173-87FC58698DC9</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdProduto" id="6B47A5C0-5DA5-A4B0-E43E-18F05DBEBB23">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 15:41:29 UTC</createdTime>
+<generatorID>36C50AD6-9E4E-DD64-1565-751AEB31DE5F</generatorID>
 <ownerDesignName>ModeloBD.v4</ownerDesignName>
 <engineerTo>
 <item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
@@ -59,39 +85,26 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="LimiteAlunos" id="98B05C5E-D16F-C3C9-14A2-2AA5E2982BE2">
+<Attribute name="IdPeca" id="E5C04064-12BA-A313-B9BC-05E2256E42DD">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-30 10:12:09 UTC</createdTime>
-<comment>[infantil 10]&lt;br/&gt;[adulto 20]&lt;br/&gt;[hidroginástica 15]</comment>
-<commentInRDBMS>[infantil 10]&lt;br/&gt;[adulto 20]&lt;br/&gt;[hidroginástica 15]</commentInRDBMS>
-<generatorID>5EAF060B-1652-10CE-9347-978F5D538554</generatorID>
+<createdTime>2017-04-03 15:42:16 UTC</createdTime>
+<generatorID>BC691B87-12EA-D5C1-3F52-C6C7C74BCF97</generatorID>
 <ownerDesignName>ModeloBD.v4</ownerDesignName>
 <engineerTo>
 <item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
 </engineerTo>
+<referedAttribute>A31E68F3-F6E6-4244-0CE7-9B64CC4336E5</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Activa" id="361241E9-6D13-70D9-CFBB-CAED971ACC79">
-<createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-31 14:29:22 UTC</createdTime>
-<ownerDesignName>ModeloBD.v4</ownerDesignName>
-<engineerTo>
-<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="1840EB32-E4EB-28B4-8E9C-F55EEB3F61CA" name="TiposTurma PK">
+<identifier id="24E92726-5975-A6DA-542B-2E488F954E50" name="MovProdutos PK">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-30 10:12:09 UTC</createdTime>
-<generatorID>59634E13-EB82-328D-9F86-403E7D0C6BEA</generatorID>
+<createdTime>2017-04-03 15:41:29 UTC</createdTime>
+<generatorID>516A4953-BC17-2782-8711-09A27F156B3E</generatorID>
 <ownerDesignName>ModeloBD.v4</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
@@ -99,7 +112,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>C144F860-9FCF-CD92-88E2-19532DBA0113</attributeRef>
+<attributeRef>30975CA2-B294-C272-8BB5-E06F71D5DA61</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

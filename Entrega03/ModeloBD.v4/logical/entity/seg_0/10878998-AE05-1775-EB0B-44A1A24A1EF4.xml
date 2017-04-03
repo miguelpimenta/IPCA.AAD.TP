@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="IdMov" id="3836B2F4-92D4-4363-0483-A4734075AFF8">
+<Attribute name="IdMovProd" id="3836B2F4-92D4-4363-0483-A4734075AFF8">
 <createdBy>Miguel Pimenta</createdBy>
 <createdTime>2017-03-30 10:12:09 UTC</createdTime>
 <generatorID>027142BA-6B97-01EA-9F8D-E4B81097B36A</generatorID>
@@ -67,20 +67,6 @@
 <item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Colaboradores IdColaborador" id="F783D5D2-A42D-0C49-9BB1-4365D20C881C">
-<createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-30 10:12:09 UTC</createdTime>
-<generatorID>C19BC7F3-EBC3-62E4-4218-3B751A33CB5F</generatorID>
-<ownerDesignName>ModeloBD.v4</ownerDesignName>
-<engineerTo>
-<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
-</engineerTo>
-<referedAttribute>612005CC-6A8D-79DC-2019-D15CA7CA4E44</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BB6CACB4-140E-D1F1-00D8-C2046F08069E" name="Pecas">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="925AEDD9-2EE4-B911-C276-DD3B40D20A69" name="Acessos Utentes">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-31 15:38:54 UTC</createdTime>
+<createdTime>2017-04-03 15:26:01 UTC</createdTime>
 <ownerDesignName>ModeloBD.v4</ownerDesignName>
 <engineerTo>
 <item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
@@ -14,11 +14,11 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<shortName>Pecas</shortName>
+<shortName>Acessos Utentes</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="IdPeca" id="E61C75B4-E6C3-22D8-3223-D4064D958D09">
+<Attribute name="IdAcessoUtente" id="F261EAF9-4B61-CECF-A082-358C47E26EDA">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-31 15:39:12 UTC</createdTime>
+<createdTime>2017-04-03 15:26:16 UTC</createdTime>
 <ownerDesignName>ModeloBD.v4</ownerDesignName>
 <engineerTo>
 <item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
@@ -28,18 +28,32 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="IdUtente" id="7234CCA6-DE4F-7C3C-140A-FB0284231EB0">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 15:26:51 UTC</createdTime>
+<generatorID>B32030A8-470C-601F-BC87-FCD540F58D17</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<referedAttribute>A80AA253-4293-3E89-8779-BC020B56880C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="86000F0C-C848-89CD-DD3C-41CD66DE1728" name="Peças PK">
+<identifier id="064599AE-7F79-1E8E-2B89-569B83B0CDC1" name="Acessos Utentes PK">
 <createdBy>Miguel Pimenta</createdBy>
-<createdTime>2017-03-31 15:39:20 UTC</createdTime>
+<createdTime>2017-04-03 15:26:30 UTC</createdTime>
 <ownerDesignName>ModeloBD.v4</ownerDesignName>
 <engineerTo>
 <item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>E61C75B4-E6C3-22D8-3223-D4064D958D09</attributeRef>
+<attributeRef>F261EAF9-4B61-CECF-A082-358C47E26EDA</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

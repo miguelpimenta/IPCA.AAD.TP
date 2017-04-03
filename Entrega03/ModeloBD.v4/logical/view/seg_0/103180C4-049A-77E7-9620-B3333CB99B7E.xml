@@ -62,7 +62,7 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
-<dataType>VARCHAR (254)</dataType>
+<dataType>VARCHAR (100)</dataType>
 <expression>Morada</expression>
 <reference>false</reference>
 <referencedColumn>9AE847A2-6AB8-C290-ECED-1B658EBF48C5</referencedColumn>

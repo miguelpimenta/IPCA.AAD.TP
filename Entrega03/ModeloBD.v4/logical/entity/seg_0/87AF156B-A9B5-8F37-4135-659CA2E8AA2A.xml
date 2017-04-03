@@ -28,7 +28,23 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Produto" id="F93B9185-90D0-D565-90AA-676CFE0F62F3">
+<Attribute name="Tipo" id="ABDE6BF9-9883-06BF-5B8F-6EEF8140A3D9">
+<createdBy>Miguel Pimenta</createdBy>
+<createdTime>2017-04-03 15:45:37 UTC</createdTime>
+<comment>Produto ou Peça</comment>
+<commentInRDBMS>Produto ou Peça</commentInRDBMS>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<engineerTo>
+<item key="521065FC-54C5-6733-34E8-B77C9EF0162A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descricao" id="F93B9185-90D0-D565-90AA-676CFE0F62F3">
 <createdBy>Miguel Pimenta</createdBy>
 <createdTime>2017-03-30 15:42:27 UTC</createdTime>
 <ownerDesignName>ModeloBD.v4</ownerDesignName>
