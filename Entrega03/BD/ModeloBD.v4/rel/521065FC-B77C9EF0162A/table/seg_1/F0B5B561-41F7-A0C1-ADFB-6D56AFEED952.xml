@@ -13,9 +13,9 @@
 <createdTime>2017-04-03 21:13:26 UTC</createdTime>
 <generatorID>8A1D58CC-AC20-982E-5088-35BA84860795</generatorID>
 <ownerDesignName>ModeloBD.v4</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -63,7 +63,7 @@
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <indexColumnUsage>
-<colUsage columnID="B1EFA220-1B49-B555-D2CE-63292EE00974"/>
+<colUsage columnID="5668FC8F-9B86-C74D-7FE6-BA9582DBE40E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

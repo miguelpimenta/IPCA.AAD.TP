@@ -68,6 +68,35 @@
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Compras_ProdutosPecas_IdCompraProdPecas" id="50104810-86AE-2A96-CF11-AE2D3924F884">
+<createdBy>AngeloFerreira</createdBy>
+<createdTime>2017-04-04 21:02:16 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A11F45D-E9F8-5F2D-7106-B41AF384C2C7" referredColumn="707D74B8-5ED2-A533-EEF0-CF0CB47D7F27"/>
+</associations>
+</Column>
+<Column name="Ordens_Compra_ProdutosPecas_IdOrdemCompraProdPeca" id="4A659623-1E23-022D-F9A0-59C7C6348FFE">
+<createdBy>AngeloFerreira</createdBy>
+<createdTime>2017-04-04 21:02:55 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D378420-B91C-4A70-2BFB-E846195D467E" referredColumn="5668FC8F-9B86-C74D-7FE6-BA9582DBE40E"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="D20EB103-365B-7C3F-12B7-A0DC2E036C9A" name="Compras_ProdutosPecas_PK">
@@ -91,6 +120,27 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="3E3CC753-8890-AC79-DC1E-78A13A14F4DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D833A8C-73A0-C81D-E94D-B5E492B769CC" name="Compras_ProdutosPecas_Compras_ProdutosPecas_FK">
+<createdBy>AngeloFerreira</createdBy>
+<createdTime>2017-04-04 21:02:16 UTC</createdTime>
+<generatorID>A67DA40A-1652-DDA9-E65F-D3871ADBAF92</generatorID>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50104810-86AE-2A96-CF11-AE2D3924F884"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93E9BB77-6FC2-81BD-B0F4-3F29EBBD3A26" name="Compras_ProdutosPecas_Ordens_Compra_ProdutosPecas_FK">
+<createdBy>AngeloFerreira</createdBy>
+<createdTime>2017-04-04 21:02:55 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A659623-1E23-022D-F9A0-59C7C6348FFE"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

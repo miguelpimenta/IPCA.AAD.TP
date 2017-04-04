@@ -97,7 +97,7 @@
 <lineWidth>1</lineWidth>
 <centerLabel class="oracle.dbtools.crest.model.design.Label">
 <site>1</site>
-<labelBounds x="-165" y="-41" width="164" height="40"/>
+<labelBounds x="-247" y="-61" width="164" height="40"/>
 <fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
 <FontObject>
 <foType>Not Null</foType>

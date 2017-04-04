@@ -17,9 +17,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="B62D7A59-AD74-6A4E-7174-40C43B048EA4" referredColumn="B1EFA220-1B49-B555-D2CE-63292EE00974"/>
-</associations>
 </Column>
 <Column name="Compras_ProdutosPecas_IdCompraProdPecas" id="8C10B428-4FCD-CE34-1036-546B0EF2CB7E">
 <createdBy>Miguel Pimenta</createdBy>
@@ -33,6 +30,20 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="FADBA40D-E140-835B-2771-EF2C68AFA385" referredColumn="707D74B8-5ED2-A533-EEF0-CF0CB47D7F27"/>
+</associations>
+</Column>
+<Column name="Ordens_Compra_ProdutosPecas_IdOrdemCompraProdPeca" id="B77E5AFD-BAE7-A061-FFFA-E52F452D187D">
+<createdBy>AngeloFerreira</createdBy>
+<createdTime>2017-04-04 20:58:05 UTC</createdTime>
+<ownerDesignName>ModeloBD.v4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B62D7A59-AD74-6A4E-7174-40C43B048EA4" referredColumn="5668FC8F-9B86-C74D-7FE6-BA9582DBE40E"/>
 </associations>
 </Column>
 </columns>
@@ -57,7 +68,7 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6BE30B58-AF2F-64DC-9E09-95B409AC3967"/>
+<colUsage columnID="B77E5AFD-BAE7-A061-FFFA-E52F452D187D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="FD9B40C0-4046-4015-C35E-1CE85AF2D39E" name="FK_ASS_124">
