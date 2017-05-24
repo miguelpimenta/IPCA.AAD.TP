@@ -1,275 +1,275 @@
-Numero;Nome;Data nascimento;Nacionalidade;Freguesia;Concelho;Distrito;Estado Civil;Cônjuge;Morada;Código Postal;Localidade;Telemóvel;Telefone;E-mail;Habilitações Literárias;Cartão de cidadão;N.I.S.S
-1;Stevan Véi;2-10-1990;Portuguesa;Barcelos;Barcelos;Braga;Casado;Florence Bananinha;Rua de Barcelos Nº87;4750;Barcelos;990600185;999129094;Stevan.Véi@piscinasbarcacellos.pb;Secundário;52519685;46997116679
-2;Harrison Jiló;9-11-1993;Portuguesa;Martim;Barcelos;Braga;Solteiro;;Rua de Martim Nº5;4750;Barcelos;920099168;942472067;Harrison.Jiló@piscinasbarcacellos.pb;Secundário;37509313;15268135287
-3;Sulamita Quita;21-8-1970;Portuguesa;Moure;Barcelos;Braga;Solteiro;;Rua de Moure Nº94;4750;Barcelos;936350916;967779381;Sulamita.Quita@piscinasbarcacellos.pb;Licenciatura;91533035;41573392821
-4;Alisha Pretinho;12-12-2000;Portuguesa;Oliveira;Barcelos;Braga;Casado;Jesus Dema;Rua de Oliveira Nº67;4750;Barcelos;934200976;912491263;Alisha.Pretinho@piscinasbarcacellos.pb;Licenciatura;57881439;55719751550
-5;Máximo Mel;18-11-1982;Portuguesa;Palme;Barcelos;Braga;Casado;Lisbon Pica-Pau;Rua de Palme Nº23;4750;Barcelos;984531551;915982832;Máximo.Mel@piscinasbarcacellos.pb;Mestrado;76806682;91747949282
-6;Nuryam Lunga;26-11-1993;Portuguesa;Panque;Barcelos;Braga;Casado;Abrão Juca;Rua de Panque Nº9;4750;Barcelos;940333825;968932462;Nuryam.Lunga@piscinasbarcacellos.pb;Secundário;32613051;84852815393
-7;Juisney Quita;25-7-1974;Portuguesa;Paradela;Barcelos;Braga;Solteiro;;Rua de Paradela Nº50;4750;Barcelos;922374711;915158438;Juisney.Quita@piscinasbarcacellos.pb;Licenciatura;91006530;27176168383
-8;Dora Papa;15-6-1989;Portuguesa;Pereira;Barcelos;Braga;Solteiro;;Rua de Pereira Nº77;4750;Barcelos;941689220;965718502;Dora.Papa@piscinasbarcacellos.pb;Secundário;50927748;61181827006
-9;Bhidan Fofão;16-11-1973;Portuguesa;Perelhal;Barcelos;Braga;Solteiro;;Rua de Perelhal Nº24;4750;Barcelos;956371291;920220368;Bhidan.Fofão@piscinasbarcacellos.pb;Secundário;56462210;32663722826
-10;Yossef Alê;10-2-1974;Portuguesa;Pousa;Barcelos;Braga;Casado;Marthyn Been;Rua de Pousa Nº45;4750;Barcelos;933291296;959291671;Yossef.Alê@piscinasbarcacellos.pb;Secundário;48969218;60421773803
-11;Davron Duquinha;16-6-1976;Portuguesa;Arcozelo;Barcelos;Braga;Casado;Steffany Dida;Rua de Arcozelo Nº65;4750;Barcelos;917665571;998981275;Davron.Duquinha@piscinasbarcacellos.pb;Licenciatura;53423760;80601248499
-12;Leydilson Juca;10-9-1992;Portuguesa;Aborim;Barcelos;Braga;Solteiro;;Rua de Aborim Nº74;4750;Barcelos;953337492;957424319;Leydilson.Juca@piscinasbarcacellos.pb;Secundário;38838937;85300575846
-13;Osvaldo Tico;25-8-1972;Portuguesa;Adães;Barcelos;Braga;Casado;Victória Guinho;Rua de Adães Nº54;4750;Barcelos;958099444;912458479;Osvaldo.Tico@piscinasbarcacellos.pb;Mestrado;75309502;46870657832
-14;Christiane Netinho;9-6-1977;Portuguesa;Airó;Barcelos;Braga;Casado;Gaia Pepê;Rua de Airó Nº5;4750;Barcelos;994372368;949769731;Christiane.Netinho@piscinasbarcacellos.pb;Licenciatura;57922704;44687405699
-15;Mayson Bela;1-6-1998;Portuguesa;Aldreu;Barcelos;Braga;Casado;Tanveen Tica;Rua de Aldreu Nº7;4750;Barcelos;943298397;980645906;Mayson.Bela@piscinasbarcacellos.pb;Mestrado;78764118;25366307246
-16;Nicolae Nik;4-11-1978;Portuguesa;Alvelos;Barcelos;Braga;Casado;Zoé Quinca;Rua de Alvelos Nº74;4750;Barcelos;986278844;946869744;Nicolae.Nik@piscinasbarcacellos.pb;Mestrado;86497742;52960528398
-17;Itamara Xuxa;23-2-1988;Portuguesa;Arcozelo;Barcelos;Braga;Solteiro;;Rua de Arcozelo Nº61;4750;Barcelos;990288102;938603967;Itamara.Xuxa@piscinasbarcacellos.pb;Secundário;41610220;70283332056
-18;Keimilly Benta;13-8-1992;Portuguesa;Balugães;Barcelos;Braga;Solteiro;;Rua de Balugães Nº54;4750;Barcelos;993839285;994946754;Keimilly.Benta@piscinasbarcacellos.pb;Secundário;27288455;12211246181
-19;Lícia Tom;8-7-1975;Portuguesa;Barcelinhos;Barcelos;Braga;Solteiro;;Rua de Barcelinhos Nº93;4750;Barcelos;927267844;997510582;Lícia.Tom@piscinasbarcacellos.pb;Secundário;24270080;80338118688
-20;kevin Chaves;19-3-1995;Portuguesa;Barqueiros;Barcelos;Braga;Casado;Zita Jamanta;Rua de Barqueiros Nº48;4750;Barcelos;957563854;961334651;kevin.Chaves@piscinasbarcacellos.pb;Secundário;89366317;27190260000
-21;Dhiyanshi Piu;23-3-1980;Portuguesa;Cambeses;Barcelos;Braga;Casado;Ion Papa;Rua de Cambeses Nº12;4750;Barcelos;927523378;978652443;Dhiyanshi.Piu@piscinasbarcacellos.pb;Mestrado;96649975;30974791460
-22;Vidhi Sena;10-9-1993;Portuguesa;Carapeços;Barcelos;Braga;Solteiro;;Rua de Carapeços Nº67;4750;Barcelos;946987915;967580496;Vidhi.Sena@piscinasbarcacellos.pb;Licenciatura;20037708;30628901321
-23;Geovana Déca;6-1-1976;Portuguesa;Carvalhal;Barcelos;Braga;Casado;Viktoria Sol;Rua de Carvalhal Nº79;4750;Barcelos;974769487;938193807;Geovana.Déca@piscinasbarcacellos.pb;Licenciatura;39726508;23233067888
-24;Djamal Negão;3-2-1992;Portuguesa;Carvalhas;Barcelos;Braga;Solteiro;;Rua de Carvalhas Nº31;4750;Barcelos;953210485;943467461;Djamal.Negão@piscinasbarcacellos.pb;Licenciatura;81480817;56769160915
-25;Ayla Pipo;5-1-1978;Portuguesa;Cossourado;Barcelos;Braga;Casado;Euridce Kaká;Rua de Cossourado Nº48;4750;Barcelos;939900641;954329450;Ayla.Pipo@piscinasbarcacellos.pb;Mestrado;48875592;76870679659
-26;Tawila Guinho;13-10-1977;Portuguesa;Cristelo;Barcelos;Braga;Solteiro;;Rua de Cristelo Nº69;4750;Barcelos;996801285;943513941;Tawila.Guinho@piscinasbarcacellos.pb;Licenciatura;14482790;48561626495
-27;Emeka Careca;22-6-1982;Portuguesa;Fornelos;Barcelos;Braga;Solteiro;;Rua de Fornelos Nº35;4750;Barcelos;965461638;952701172;Emeka.Careca@piscinasbarcacellos.pb;Secundário;27667906;88860496693
-28;Iego Tatu;6-1-1997;Portuguesa;Fragoso;Barcelos;Braga;Solteiro;;Rua de Fragoso Nº69;4750;Barcelos;939480264;937279192;Iego.Tatu@piscinasbarcacellos.pb;Mestrado;54964199;42530735087
-29;Miroslava Lalinha;25-5-1973;Portuguesa;Gilmonde;Barcelos;Braga;Casado;Dominique Mundinho;Rua de Gilmonde Nº91;4750;Barcelos;927229638;924478959;Miroslava.Lalinha@piscinasbarcacellos.pb;Mestrado;46742601;14454844809
-30;Hermano Pata;17-9-1996;Portuguesa;Lama;Barcelos;Braga;Casado;Elaina Mosca;Rua de Lama Nº58;4750;Barcelos;920519204;945260577;Hermano.Pata@piscinasbarcacellos.pb;Mestrado;45173959;88842038392
-31;Lincoln Peru;5-5-1979;Portuguesa;Lijó;Barcelos;Braga;Solteiro;;Rua de Lijó Nº43;4750;Barcelos;926326729;991465341;Lincoln.Peru@piscinasbarcacellos.pb;Licenciatura;60459695;29942484552
-32;Kendrick Dida;23-8-1986;Portuguesa;Manhente;Barcelos;Braga;Solteiro;;Rua de Manhente Nº2;4750;Barcelos;912667573;935196439;Kendrick.Dida@piscinasbarcacellos.pb;Mestrado;56634927;93141998155
-33;Osvaldeclenia Edinho;22-11-1981;Portuguesa;Martim;Barcelos;Braga;Casado;Renan Nin;Rua de Martim Nº95;4750;Barcelos;951559196;987126991;Osvaldeclenia.Edinho@piscinasbarcacellos.pb;Licenciatura;32505473;46714807638
-34;Luanny Grilo;9-10-1982;Portuguesa;Moure;Barcelos;Braga;Casado;Aylin Lio;Rua de Moure Nº50;4750;Barcelos;962708185;934454269;Luanny.Grilo@piscinasbarcacellos.pb;Mestrado;23046666;16963503143
-35;Raphael Juca;27-5-1978;Portuguesa;Oliveira;Barcelos;Braga;Casado;Aleisa Mia;Rua de Oliveira Nº45;4750;Barcelos;911628208;970479428;Raphael.Juca@piscinasbarcacellos.pb;Licenciatura;23141132;89190073241
-36;Lais Riquinho;6-11-1982;Portuguesa;Palme;Barcelos;Braga;Casado;Flávio Láu;Rua de Palme Nº80;4750;Barcelos;919709827;921281212;Lais.Riquinho@piscinasbarcacellos.pb;Secundário;35503697;64341398281
-37;Rajanbir Furinha;26-10-1981;Portuguesa;Panque;Barcelos;Braga;Solteiro;;Rua de Panque Nº58;4750;Barcelos;950876488;910413183;Rajanbir.Furinha@piscinasbarcacellos.pb;Mestrado;48415393;61520729936
-38;Lancelot Vál;17-3-1984;Portuguesa;Paradela;Barcelos;Braga;Solteiro;;Rua de Paradela Nº93;4750;Barcelos;920356330;925620497;Lancelot.Vál@piscinasbarcacellos.pb;Secundário;28441435;71892942059
-39;Gaspard Cacau;9-11-1972;Portuguesa;Pereira;Barcelos;Braga;Casado;Rubi Duquinha;Rua de Pereira Nº78;4750;Barcelos;964893632;932998063;Gaspard.Cacau@piscinasbarcacellos.pb;Mestrado;53594164;69144619887
-40;Romero Santinha;26-8-1995;Portuguesa;Perelhal;Barcelos;Braga;Solteiro;;Rua de Perelhal Nº56;4750;Barcelos;961862043;920138228;Romero.Santinha@piscinasbarcacellos.pb;Mestrado;45910590;56571651441
-41;Ahnaf Dão;28-1-2000;Portuguesa;Aborim;Barcelos;Braga;Casado;Tyler Gordo;Rua de Aborim Nº91;4750;Barcelos;953606544;987713727;Ahnaf.Dão@piscinasbarcacellos.pb;Secundário;65955952;84045450972
-42;Daniyal Duquinha;21-12-1987;Portuguesa;Adães;Barcelos;Braga;Casado;Eugenia Tampinha;Rua de Adães Nº79;4750;Barcelos;980443724;978025710;Daniyal.Duquinha@piscinasbarcacellos.pb;Licenciatura;94830545;33005767366
-43;Volodymyr Belo;22-12-1998;Portuguesa;Airó;Barcelos;Braga;Casado;Luísa Bob;Rua de Airó Nº43;4750;Barcelos;996928291;965665977;Volodymyr.Belo@piscinasbarcacellos.pb;Mestrado;50650552;54253422672
-44;Lasilis Falcão;7-8-2000;Portuguesa;Aldreu;Barcelos;Braga;Solteiro;;Rua de Aldreu Nº18;4750;Barcelos;924045593;916373671;Lasilis.Falcão@piscinasbarcacellos.pb;Secundário;77288097;50090633299
-45;Emma Gordo;15-10-1979;Portuguesa;Alvelos;Barcelos;Braga;Casado;Kyan Beto;Rua de Alvelos Nº83;4750;Barcelos;977372227;978655622;Emma.Gordo@piscinasbarcacellos.pb;Mestrado;67859211;95737024229
-46;Ilídio Gina;;28-8-1986;Portuguesa;Arcozelo;Barcelos;Braga;Solteiro;;Rua de Arcozelo Nº28;4750;Barcelos;993911154;981778293;Ilídio.Gina@piscinasbarcacellos.pb;Secundário;18516505;67204437617
-47;Talia Losa;25-6-1991;Portuguesa;Balugães;Barcelos;Braga;Solteiro;;Rua de Balugães Nº61;4750;Barcelos;927559685;955532657;Talia.Losa@piscinasbarcacellos.pb;Secundário;52686039;86634738239
-48;Gabrieli Fofão;26-3-1995;Portuguesa;Barcelinhos;Barcelos;Braga;Solteiro;;Rua de Barcelinhos Nº10;4750;Barcelos;932697254;931760667;Gabrieli.Fofão@piscinasbarcacellos.pb;Secundário;93873397;39024965784
-49;Andrea Peleco;6-5-1972;Portuguesa;Barqueiros;Barcelos;Braga;Solteiro;;Rua de Barqueiros Nº51;4750;Barcelos;911134942;983663364;Andrea.Peleco@piscinasbarcacellos.pb;Mestrado;52151268;96834118573
-50;Edjailzen Nenê;9-7-1974;Portuguesa;Cambeses;Barcelos;Braga;Casado;Rouguiatou Duduzinho;Rua de Cambeses Nº38;4750;Barcelos;983187151;960501404;Edjailzen.Nenê@piscinasbarcacellos.pb;Mestrado;15253073;88761191250
-51;Zexuan Peu;9-12-2000;Portuguesa;Carapeços;Barcelos;Braga;Casado;Micaela Jujú;Rua de Carapeços Nº20;4750;Barcelos;910058178;938889673;Zexuan.Peu@piscinasbarcacellos.pb;Secundário;86151793;16953570647
-52;Vitor Sula;17-8-1974;Portuguesa;Carvalhal;Barcelos;Braga;Solteiro;;Rua de Carvalhal Nº4;4750;Barcelos;968156326;963025525;Vitor.Sula@piscinasbarcacellos.pb;Licenciatura;60852033;71486676595
-53;Chuyi Jacaré;28-3-1971;Portuguesa;Carvalhas;Barcelos;Braga;Solteiro;;Rua de Carvalhas Nº58;4750;Barcelos;968573087;916136308;Chuyi.Jacaré@piscinasbarcacellos.pb;Mestrado;24934538;34082751259
-55;Mame Chiquinha;8-6-1971;Portuguesa;Cossourado;Barcelos;Braga;Solteiro;;Rua de Cossourado Nº7;4750;Barcelos;983097514;964585868;Mame.Chiquinha@piscinasbarcacellos.pb;Secundário;12097362;68054707915
-55;Gisola Lobão;27-8-1981;Portuguesa;Cristelo;Barcelos;Braga;Solteiro;;Rua de Cristelo Nº33;4750;Barcelos;969652739;982340808;Gisola.Lobão@piscinasbarcacellos.pb;Mestrado;91717718;48911157314
-56;Freddie Nél;8-2-1997;Portuguesa;Fornelos;Barcelos;Braga;Solteiro;;Rua de Fornelos Nº44;4750;Barcelos;957361292;923237183;Freddie.Nél@piscinasbarcacellos.pb;Mestrado;26536002;30501128429
-57;Jeovana Japa;23-6-1992;Portuguesa;Fragoso;Barcelos;Braga;Solteiro;;Rua de Fragoso Nº88;4750;Barcelos;983137582;967706006;Jeovana.Japa@piscinasbarcacellos.pb;Licenciatura;54696935;59640983174
-58;Ramsés Melão;18-6-1974;Portuguesa;Gilmonde;Barcelos;Braga;Solteiro;;Rua de Gilmonde Nº67;4750;Barcelos;954651693;994577278;Ramsés.Melão@piscinasbarcacellos.pb;Licenciatura;68727806;80418520256
-59;Zhiqi Guinho;10-9-1974;Portuguesa;Lama;Barcelos;Braga;Casado;Jairson Pata;Rua de Lama Nº90;4750;Barcelos;951451133;964318131;Zhiqi.Guinho@piscinasbarcacellos.pb;Licenciatura;30926361;22059505690
-60;Maya Neném;28-12-1990;Portuguesa;Lijó;Barcelos;Braga;Casado;Lania Quil;Rua de Lijó Nº92;4750;Barcelos;984989275;935575125;Maya.Neném@piscinasbarcacellos.pb;Licenciatura;74451446;78425292156
-61;Ramires Dida;15-3-1986;Portuguesa;Manhente;Barcelos;Braga;Solteiro;;Rua de Manhente Nº39;4750;Barcelos;978809536;931643114;Ramires.Dida@piscinasbarcacellos.pb;Licenciatura;62854261;37475977684
-62;Rafaela Losa;11-1-1971;Portuguesa;Martim;Barcelos;Braga;Casado;Leydilson Guta;Rua de Martim Nº67;4750;Barcelos;957765841;981562874;Rafaela.Losa@piscinasbarcacellos.pb;Secundário;93458838;16657048893
-63;Lorenza Papa;13-10-1978;Portuguesa;Moure;Barcelos;Braga;Casado;Hérmen Beto;Rua de Moure Nº8;4750;Barcelos;938595981;919901511;Lorenza.Papa@piscinasbarcacellos.pb;Secundário;45117823;71207696519
-64;Ísis Quél;26-4-1973;Portuguesa;Oliveira;Barcelos;Braga;Solteiro;;Rua de Oliveira Nº19;4750;Barcelos;956496387;971785119;Ísis.Quél@piscinasbarcacellos.pb;Licenciatura;94081313;30823882837
-65;Gonçalo Binho;5-11-1990;Portuguesa;Palme;Barcelos;Braga;Casado;Marcel Dudinha;Rua de Palme Nº82;4750;Barcelos;995224259;949299726;Gonçalo.Binho@piscinasbarcacellos.pb;Licenciatura;57072263;71318273743
-66;Helene Pipoca;15-7-1977;Portuguesa;Panque;Barcelos;Braga;Solteiro;;Rua de Panque Nº53;4750;Barcelos;959577661;956110386;Helene.Pipoca@piscinasbarcacellos.pb;Licenciatura;30967423;93548272927
-67;Rhoda Quita;6-7-1982;Portuguesa;Paradela;Barcelos;Braga;Solteiro;;Rua de Paradela Nº92;4750;Barcelos;930959401;967933663;Rhoda.Quita@piscinasbarcacellos.pb;Secundário;54538179;30261435186
-68;Morayooluwa Gui;9-3-1980;Portuguesa;Aborim;Barcelos;Braga;Solteiro;;Rua de Aborim Nº75;4750;Barcelos;917484165;950133022;Morayooluwa.Gui@piscinasbarcacellos.pb;Secundário;44349406;68724033253
-69;Jubin Zeca;18-9-1971;Portuguesa;Adães;Barcelos;Braga;Casado;Defence Mosca;Rua de Adães Nº93;4750;Barcelos;988871340;919507005;Jubin.Zeca@piscinasbarcacellos.pb;Mestrado;29024092;76924051973
-70;Mayline Capela;9-10-1973;Portuguesa;Airó;Barcelos;Braga;Casado;Heluísa Anjinha;Rua de Airó Nº41;4750;Barcelos;944951627;918256507;Mayline.Capela@piscinasbarcacellos.pb;Mestrado;57685788;52023060232
-71;Ayana Alê;5-8-1973;Portuguesa;Aldreu;Barcelos;Braga;Casado;Umaro Peru;Rua de Aldreu Nº36;4750;Barcelos;911802989;993547510;Ayana.Alê@piscinasbarcacellos.pb;Secundário;46798329;20756167393
-72;Andy Pretinho;24-6-1998;Portuguesa;Alvelos;Barcelos;Braga;Solteiro;;Rua de Alvelos Nº7;4750;Barcelos;941148471;915302458;Andy.Pretinho@piscinasbarcacellos.pb;Licenciatura;11490863;96055332065
-73;Edna Duda;27-7-1970;Portuguesa;Arcozelo;Barcelos;Braga;Solteiro;;Rua de Arcozelo Nº28;4750;Barcelos;971533597;937922647;Edna.Duda@piscinasbarcacellos.pb;Secundário;66028022;38324646576
-74;Aléxis Sabiá;8-2-1993;Portuguesa;Balugães;Barcelos;Braga;Solteiro;;Rua de Balugães Nº44;4750;Barcelos;992587012;987443288;Aléxis.Sabiá@piscinasbarcacellos.pb;Licenciatura;15893239;80061750668
-75;Tshayene Tampinha;14-7-1976;Portuguesa;Barcelinhos;Barcelos;Braga;Solteiro;;Rua de Barcelinhos Nº76;4750;Barcelos;982180030;971361379;Tshayene.Tampinha@piscinasbarcacellos.pb;Mestrado;69236889;53296428095
-76;Phelix Loro;19-2-1997;Portuguesa;Barqueiros;Barcelos;Braga;Solteiro;;Rua de Barqueiros Nº74;4750;Barcelos;992052351;968932883;Phelix.Loro@piscinasbarcacellos.pb;Mestrado;80993839;51336509833
-77;Ciro Peuzinha;2-5-1997;Portuguesa;Cambeses;Barcelos;Braga;Solteiro;;Rua de Cambeses Nº34;4750;Barcelos;930213430;979282226;Ciro.Peuzinha@piscinasbarcacellos.pb;Mestrado;93329663;55496709603
-78;Dailson Chicó;22-8-1976;Portuguesa;Carapeços;Barcelos;Braga;Solteiro;;Rua de Carapeços Nº10;4750;Barcelos;916790301;951824472;Dailson.Chicó@piscinasbarcacellos.pb;Secundário;71278356;70099199817
-79;Nirjala Nininho;11-2-1971;Portuguesa;Carvalhal;Barcelos;Braga;Casado;Emaan Alê;Rua de Carvalhal Nº62;4750;Barcelos;919619288;961918492;Nirjala.Nininho@piscinasbarcacellos.pb;Licenciatura;46870048;82196530397
-80;Chisom Nôh;19-11-1980;Portuguesa;Carvalhas;Barcelos;Braga;Solteiro;;Rua de Carvalhas Nº43;4750;Barcelos;965558601;972999964;Chisom.Nôh@piscinasbarcacellos.pb;Mestrado;93519121;46993908649
-81;Avonlea Dida;28-2-1970;Portuguesa;Cossourado;Barcelos;Braga;Casado;Niriani Guri;Rua de Cossourado Nº11;4750;Barcelos;969983994;956890218;Avonlea.Dida@piscinasbarcacellos.pb;Mestrado;91518692;46529526783
-82;Núbia Guta;11-7-1992;Portuguesa;Cristelo;Barcelos;Braga;Casado;Aksinia Quita;Rua de Cristelo Nº38;4750;Barcelos;968265186;930494500;Núbia.Guta@piscinasbarcacellos.pb;Licenciatura;76895507;58679366921
-83;Mahakdip Painho;12-2-1975;Portuguesa;Fornelos;Barcelos;Braga;Solteiro;;Rua de Fornelos Nº74;4750;Barcelos;937123397;963441601;Mahakdip.Painho@piscinasbarcacellos.pb;Secundário;66884416;77715599088
-84;Geisa Boy;17-3-1988;Portuguesa;Fragoso;Barcelos;Braga;Casado;Debra Binho;Rua de Fragoso Nº59;4750;Barcelos;934031669;938751809;Geisa.Boy@piscinasbarcacellos.pb;Mestrado;46689057;39442855183
-85;Ruthnney Furinha;24-5-2000;Portuguesa;Gilmonde;Barcelos;Braga;Casado;Chisom Beto;Rua de Gilmonde Nº7;4750;Barcelos;980633952;948681071;Ruthnney.Furinha@piscinasbarcacellos.pb;Mestrado;94172336;49501800994
-86;Gurmehek Lilico;8-3-1984;Portuguesa;Lama;Barcelos;Braga;Solteiro;;Rua de Lama Nº43;4750;Barcelos;993673993;943233593;Gurmehek.Lilico@piscinasbarcacellos.pb;Licenciatura;89267710;39343114484
-87;Mouctar Cafú;4-6-1972;Portuguesa;Lijó;Barcelos;Braga;Casado;Janira Pezão;Rua de Lijó Nº11;4750;Barcelos;957153370;933810109;Mouctar.Cafú@piscinasbarcacellos.pb;Secundário;58267355;32416672531
-88;Eddie Sena;21-11-1995;Portuguesa;Manhente;Barcelos;Braga;Casado;Denilson Alê;Rua de Manhente Nº28;4750;Barcelos;954880290;933717932;Eddie.Sena@piscinasbarcacellos.pb;Licenciatura;67437228;20201591508
-89;Sejal Dado;14-1-1994;Portuguesa;Martim;Barcelos;Braga;Casado;Nicolly Dinha;Rua de Martim Nº71;4750;Barcelos;993100055;924231528;Sejal.Dado@piscinasbarcacellos.pb;Secundário;57231866;79329439605
-90;Talia Géu;2-2-1988;Portuguesa;Moure;Barcelos;Braga;Casado;Nataniel Furinha;Rua de Moure Nº44;4750;Barcelos;912204946;943920257;Talia.Géu@piscinasbarcacellos.pb;Secundário;67639948;77074119784
-91;Júlia Cecéu;2-1-1998;Braga;Solteiro;;Rua de Oliveira Nº54;4750;Barcelos;969567559;924200548;Júlia.Cecéu@piscinasbarcacellos.pb;Licenciatura;19297257;22804161465
-92;Skylar Quinca;27-3-1999;Portuguesa;Palme;Barcelos;Braga;Casado;Casimiro Gil;Rua de Palme Nº65;4750;Barcelos;924233565;956753995;Skylar.Quinca@piscinasbarcacellos.pb;Licenciatura;18620034;90740068985
-93;Issa Dedé;12-5-1988;Portuguesa;Panque;Barcelos;Braga;Casado;Destiny Pata;Rua de Panque Nº67;4750;Barcelos;914505783;929494865;Issa.Dedé@piscinasbarcacellos.pb;Secundário;82587759;85336191508
-94;Damião Leléo;21-8-1999;Portuguesa;Paradela;Barcelos;Braga;Casado;Marbin Ganso;Rua de Paradela Nº78;4750;Barcelos;950481800;951458034;Damião.Leléo@piscinasbarcacellos.pb;Mestrado;50224744;83445089020
-95;Rania Galego;5-12-1983;Portuguesa;Pereira;Barcelos;Braga;Solteiro;;Rua de Pereira Nº18;4750;Barcelos;925437195;926824972;Rania.Galego@piscinasbarcacellos.pb;Licenciatura;73583460;58990443609
-96;Sarina Guinho;12-7-1970;Portuguesa;Perelhal;Barcelos;Braga;Solteiro;;Rua de Perelhal Nº51;4750;Barcelos;910255360;975727368;Sarina.Guinho@piscinasbarcacellos.pb;Secundário;44158511;35320277088
-97;Zhen Losa;14-12-1976;Portuguesa;Pousa;Barcelos;Braga;Solteiro;;Rua de Pousa Nº41;4750;Barcelos;942715538;934122307;Zhen.Losa@piscinasbarcacellos.pb;Secundário;95316591;75499810170
-98;Prinsha Dinha;17-2-1996;Portuguesa;Moure;Barcelos;Braga;Casado;Salvio Leléo;Rua de Moure Nº20;4750;Barcelos;954336237;951435087;Prinsha.Dinha@piscinasbarcacellos.pb;Licenciatura;45889571;61367730521
-99;Kiezi Pipo;8-5-1982;Portuguesa;Oliveira;Barcelos;Braga;Casado;Khloé Huck;Rua de Oliveira Nº43;4750;Barcelos;968905180;988881526;Kiezi.Pipo@piscinasbarcacellos.pb;Licenciatura;48674180;15363060467
-100;Tawila Dál;15-6-1971;Portuguesa;Palme;Barcelos;Braga;Casado;Malia Flor;Rua de Palme Nº8;4750;Barcelos;981598851;980010509;Tawila.Dál@piscinasbarcacellos.pb;Mestrado;69542798;98031647125
-101;Jerykson Belo;27-12-1984;Portuguesa;Panque;Barcelos;Braga;Casado;Cristóvão Tico;Rua de Panque Nº15;4750;Barcelos;920623622;912056522;Jerykson.Belo@piscinasbarcacellos.pb;Mestrado;92844186;49334470941
-102;Kendall Linda;21-3-1990;Portuguesa;Paradela;Barcelos;Braga;Solteiro;;Rua de Paradela Nº36;4750;Barcelos;949114502;920893306;Kendall.Linda@piscinasbarcacellos.pb;Secundário;69345697;75845043106
-103;Maxim Bina;28-12-1977;Portuguesa;Pereira;Barcelos;Braga;Solteiro;;Rua de Pereira Nº5;4750;Barcelos;940094459;965515666;Maxim.Bina@piscinasbarcacellos.pb;Secundário;95390143;58557436879
-104;César Cecéu;17-12-1974;Portuguesa;Perelhal;Barcelos;Braga;Casado;Estefany Dinha;Rua de Perelhal Nº17;4750;Barcelos;947430698;988588294;César.Cecéu@piscinasbarcacellos.pb;Secundário;55721194;10121136296
-105;Rania Láu;27-10-1998;Portuguesa;Aborim;Barcelos;Braga;Solteiro;;Rua de Aborim Nº88;4750;Barcelos;995791466;921110869;Rania.Láu@piscinasbarcacellos.pb;Licenciatura;68428488;86805736764
-106;Nuño Dedé;6-7-1989;Portuguesa;Adães;Barcelos;Braga;Solteiro;;Rua de Adães Nº59;4750;Barcelos;975622388;950051659;Nuño.Dedé@piscinasbarcacellos.pb;Licenciatura;95175405;92313472232
-107;Jayssan Tita;18-1-1972;Portuguesa;Airó;Barcelos;Braga;Casado;Shyom Chiquinha;Rua de Airó Nº79;4750;Barcelos;972177872;977850583;Jayssan.Tita@piscinasbarcacellos.pb;Secundário;74411803;69716844414
-108;Xénon Sena;5-7-1973;Portuguesa;Aldreu;Barcelos;Braga;Solteiro;;Rua de Aldreu Nº15;4750;Barcelos;924905048;946983601;Xénon.Sena@piscinasbarcacellos.pb;Mestrado;68937742;23341339611
-109;Rosário Duda;11-7-1972;Portuguesa;Alvelos;Barcelos;Braga;Solteiro;;Rua de Alvelos Nº23;4750;Barcelos;974623711;911601649;Rosário.Duda@piscinasbarcacellos.pb;Mestrado;84254660;64751497745
-100;Timéo Dão;3-1-2000;Portuguesa;Arcozelo;Barcelos;Braga;Solteiro;;Rua de Arcozelo Nº81;4750;Barcelos;931007753;983154571;Timéo.Dão@piscinasbarcacellos.pb;Mestrado;64400530;46576464061
-111;Adonias Netinho;26-4-1980;Portuguesa;Balugães;Barcelos;Braga;Solteiro;;Rua de Balugães Nº75;4750;Barcelos;916028282;952524320;Adonias.Netinho@piscinasbarcacellos.pb;Licenciatura;44249944;73845318376
-112;Adame Milu;24-12-1988;Portuguesa;Barcelinhos;Barcelos;Braga;Casado;Jagger Lalinha;Rua de Barcelinhos Nº31;4750;Barcelos;997440372;954147064;Adame.Milu@piscinasbarcacellos.pb;Licenciatura;43047541;54256223558
-113;Otília Xuxa;11-4-1985;Portuguesa;Barqueiros;Barcelos;Braga;Casado;Aleck Bél;Rua de Barqueiros Nº24;4750;Barcelos;996145313;974537874;Otília.Xuxa@piscinasbarcacellos.pb;Licenciatura;51692725;10680284864
-114;Reneckson Gil;25-12-1989;Portuguesa;Cambeses;Barcelos;Braga;Casado;Junior Bola;Rua de Cambeses Nº10;4750;Barcelos;927689990;955974718;Reneckson.Gil@piscinasbarcacellos.pb;Secundário;78616797;68005106295
-115;Kiuma Déo;6-6-1974;Portuguesa;Carapeços;Barcelos;Braga;Solteiro;;Rua de Carapeços Nº88;4750;Barcelos;935783559;927346147;Kiuma.Déo@piscinasbarcacellos.pb;Licenciatura;19499326;87335748549
-116;Dhavid Alê;9-9-1982;Portuguesa;Carvalhal;Barcelos;Braga;Casado;Malu Jujú;Rua de Carvalhal Nº8;4750;Barcelos;995749028;997655871;Dhavid.Alê@piscinasbarcacellos.pb;Mestrado;28495641;10106356549
-117;Wayamy Papa;7-11-1987;Portuguesa;Carvalhas;Barcelos;Braga;Solteiro;;Rua de Carvalhas Nº58;4750;Barcelos;942978667;991510998;Wayamy.Papa@piscinasbarcacellos.pb;Mestrado;41823216;86227363368
-118;Juan Xica;13-11-1970;Portuguesa;Cossourado;Barcelos;Braga;Solteiro;;Rua de Cossourado Nº85;4750;Barcelos;999305415;943030768;Juan.Xica@piscinasbarcacellos.pb;Secundário;46234815;56344583959
-119;Joliam Bananinha;10-5-1973;Portuguesa;Cristelo;Barcelos;Braga;Casado;Áurea Capela;Rua de Cristelo Nº42;4750;Barcelos;945837750;912967124;Joliam.Bananinha@piscinasbarcacellos.pb;Mestrado;43116579;75977070464
-120;Shayana Docinho;13-12-1980;Portuguesa;Fornelos;Barcelos;Braga;Casado;Emanuel Dóia;Rua de Fornelos Nº84;4750;Barcelos;997495829;944499280;Shayana.Docinho@piscinasbarcacellos.pb;Mestrado;11524725;27930601982
-121;Vanessa Neto;13-5-1983;Portuguesa;Fragoso;Barcelos;Braga;Solteiro;;Rua de Fragoso Nº8;4750;Barcelos;967481918;987266261;Vanessa.Neto@piscinasbarcacellos.pb;Secundário;22036961;77200592091
-122;Hamad Kaká;15-3-1992;Portuguesa;Gilmonde;Barcelos;Braga;Casado;Eiman JP;Rua de Gilmonde Nº18;4750;Barcelos;956657510;952828250;Hamad.Kaká@piscinasbarcacellos.pb;Licenciatura;84774711;59809808837
-123;Enrique Teco;25-4-1990;Portuguesa;Lama;Barcelos;Braga;Solteiro;;Rua de Lama Nº36;4750;Barcelos;963205591;910262694;Enrique.Teco@piscinasbarcacellos.pb;Secundário;90072621;69109002365
-124;Sejal Careca;9/12/1988;Portuguesa;Lijó;Barcelos;Braga;Casado;Ayhane Maluquinho;Rua de Lijó Nº71;4750;Barcelos;947597281;997554457;Sejal.Careca@piscinasbarcacellos.pb;Licenciatura;79191544;13043937701
-125;Délia Riquinho;10-2-1974;Portuguesa;Manhente;Barcelos;Braga;Casado;Aaliyah Loro;Rua de Manhente Nº86;4750;Barcelos;916127931;978729738;Délia.Riquinho@piscinasbarcacellos.pb;Mestrado;20332309;32942804175
-126;Madison Tonho;27-11-1986;Portuguesa;Martim;Barcelos;Braga;Solteiro;;Rua de Martim Nº1;4750;Barcelos;969970263;986910683;Madison.Tonho@piscinasbarcacellos.pb;Mestrado;48718355;18978357652
-127;Enzo Tozinho;24-6-1973;Portuguesa;Moure;Barcelos;Braga;Solteiro;;Rua de Moure Nº39;4750;Barcelos;965745943;935818204;Enzo.Tozinho@piscinasbarcacellos.pb;Licenciatura;75106459;81435824997
-128;Zafar Piu;24-6-1975;Portuguesa;Oliveira;Barcelos;Braga;Solteiro;;Rua de Oliveira Nº13;4750;Barcelos;972819853;972225252;Zafar.Piu@piscinasbarcacellos.pb;Licenciatura;71302444;24310912937
-129;Márcia Quil;23-12-1994;Portuguesa;Palme;Barcelos;Braga;Solteiro;;Rua de Palme Nº52;4750;Barcelos;937785289;939341193;Márcia.Quil@piscinasbarcacellos.pb;Licenciatura;10302282;12397145995
-130;Wayamy Ratinho;22-3-1977;Portuguesa;Panque;Barcelos;Braga;Casado;Ivana Boy;Rua de Panque Nº78;4750;Barcelos;921653046;940412713;Wayamy.Ratinho@piscinasbarcacellos.pb;Secundário;68032472;36284588178
-131;Aayan Biu;2-1-1985;Portuguesa;Paradela;Barcelos;Braga;Solteiro;;Rua de Paradela Nº23;4750;Barcelos;920099308;986296253;Aayan.Biu@piscinasbarcacellos.pb;Secundário;19918591;65801178058
-132;Jayden Jacaré;18-2-1973;Portuguesa;Pereira;Barcelos;Braga;Solteiro;;Rua de Pereira Nº65;4750;Barcelos;928381670;971158082;Jayden.Jacaré@piscinasbarcacellos.pb;Secundário;24753254;11474622400
-133;Cheng Lio;21-9-1978;Portuguesa;Perelhal;Barcelos;Braga;Casado;Caelan Losa;Rua de Perelhal Nº72;4750;Barcelos;929458003;984653153;Cheng.Lio@piscinasbarcacellos.pb;Mestrado;69169424;74036558084
-134;Kimi Doquinha;12-5-1977;Portuguesa;Pousa;Barcelos;Braga;Solteiro;;Rua de Pousa Nº63;4750;Barcelos;961911542;935797243;Kimi.Doquinha@piscinasbarcacellos.pb;Licenciatura;40047685;12126859474
-135;Daniel Branca;28-10-1972;Portuguesa;Carapeços;Barcelos;Braga;Solteiro;;Rua de Carapeços Nº15;4750;Barcelos;912095916;958180962;Daniel.Branca@piscinasbarcacellos.pb;Mestrado;25079067;25913136395
-136;Luiza Leléo;12-10-1990;Portuguesa;Carvalhal;Barcelos;Braga;Solteiro;;Rua de Carvalhal Nº25;4750;Barcelos;952253562;983372166;Luiza.Leléo@piscinasbarcacellos.pb;Licenciatura;21329103;64416643252
-137;Melisa Vic;20-8-1991;Portuguesa;Carvalhas;Barcelos;Braga;Solteiro;;Rua de Carvalhas Nº94;4750;Barcelos;933964198;970410391;Melisa.Vic@piscinasbarcacellos.pb;Licenciatura;67224421;94943624077
-13x;Ericson Bar;3-1-1975;Portuguesa;Cossourado;Barcelos;Braga;Solteiro;;Rua de Cossourado Nº7;4750;Barcelos;997787355;934704499;Ericson.Bar@piscinasbarcacellos.pb;Licenciatura;56044785;52983599844
-139;Nour Teco;5-10-1982;Portuguesa;Cristelo;Barcelos;Braga;Solteiro;;Rua de Cristelo Nº93;4750;Barcelos;916779052;947320110;Nour.Teco@piscinasbarcacellos.pb;Secundário;31135708;16750588876
-140;N'Nasta Lobão;19-11-1985;Portuguesa;Fornelos;Barcelos;Braga;Casado;Yuran Belinha;Rua de Fornelos Nº55;4750;Barcelos;993175339;963018670;N'Nasta.Lobão@piscinasbarcacellos.pb;Mestrado;84130820;29466740595
-141;Ícaro Capela;6-5-1981;Portuguesa;Fragoso;Barcelos;Braga;Solteiro;;Rua de Fragoso Nº49;4750;Barcelos;989008463;979881708;Ícaro.Capela@piscinasbarcacellos.pb;Secundário;57713674;61337193003
-142;Nidhi Chiquinha;17-6-1985;Portuguesa;Gilmonde;Barcelos;Braga;Casado;Almerinda Pépe;Rua de Gilmonde Nº8;4750;Barcelos;916911251;942079668;Nidhi.Chiquinha@piscinasbarcacellos.pb;Licenciatura;59449006;71169007622
-143;Chelse Jamanta;16-4-1976;Portuguesa;Lama;Barcelos;Braga;Casado;Josiel Pingo;Rua de Lama Nº4;4750;Barcelos;912969883;958297206;Chelse.Jamanta@piscinasbarcacellos.pb;Mestrado;76193751;11625855949
-144;Ábda Chibinha;23-1-1996;Portuguesa;Lijó;Barcelos;Braga;Casado;Kawame Duda;Rua de Lijó Nº87;4750;Braga;933265325;930033389;Ábda.Chibinha@piscinasbarcacellos.pb;Secundário;17185829;16364976198
-145;Skylar Neto;27-10-1992;Portuguesa;Manhente;Barcelos;Braga;Solteiro;;Rua de Manhente Nº12;4750;Barcelos;951838473;940022182;Skylar.Neto@piscinasbarcacellos.pb;Secundário;19567745;88395618183
-146;Denil Juca;27-6-1991;Portuguesa;Martim;Barcelos;Braga;Casado;Ali Fofa;Rua de Martim Nº29;4750;Barcelos;953556368;929399752;Denil.Juca@piscinasbarcacellos.pb;Mestrado;56097640;91744784900
-147;Cheng Gúh;12-12-1997;Portuguesa;Moure;Barcelos;Braga;Casado;Jivreet Geno;Rua de Moure Nº8;4750;Barcelos;921233394;989186399;Cheng.Gúh@piscinasbarcacellos.pb;Licenciatura;37578753;82844100441
-148;Dillon Quél;18-11-1992;Portuguesa;Oliveira;Barcelos;Braga;Casado;Nair Tita;Rua de Oliveira Nº31;4750;Barcelos;940066765;947419985;Dillon.Quél@piscinasbarcacellos.pb;Mestrado;66170671;99474217581
-149;Henrique Quil;16-6-1986;Portuguesa;Palme;Barcelos;Braga;Casado;Cherry Vavá;Rua de Palme Nº65;4750;Barcelos;964890685;932032100;Henrique.Quil@piscinasbarcacellos.pb;Secundário;20477506;30440086605
-150;Anaís Tonton;11-8-1992;Portuguesa;Panque;Barcelos;Braga;Casado;Aram Benta;Rua de Panque Nº74;4750;Barcelos;987025346;957937881;Anaís.Tonton@piscinasbarcacellos.pb;Mestrado;25342078;71756492814
-151;Juli Maninho;5-4-2000;Portuguesa;Paradela;Barcelos;Braga;Casado;Michele Tatinha;Rua de Paradela Nº77;4750;Barcelos;975883240;945546516;Juli.Maninho@piscinasbarcacellos.pb;Secundário;60699456;77347165863
-152;Hala Beto;22-4-1992;Portuguesa;Pereira;Barcelos;Braga;Casado;Pregua Beta;Rua de Pereira Nº24;4750;Barcelos;953533549;919571537;Hala.Beto@piscinasbarcacellos.pb;Mestrado;38935044;91275748715
-153;Josué Furinha;14-12-1970;Portuguesa;Aborim;Barcelos;Braga;Solteiro;;Rua de Aborim Nº83;4750;Barcelos;937044437;974690058;Josué.Furinha@piscinasbarcacellos.pb;Secundário;27269161;80638272315
-154;Tamára Belo;17-9-1989;Portuguesa;Adães;Barcelos;Braga;Casado;Jack Loro;Rua de Adães Nº17;4750;Barcelos;962810506;910178166;Tamára.Belo@piscinasbarcacellos.pb;Secundário;45716142;36646197634
-155;Ieva Nôh;18-11-1992;Portuguesa;Airó;Barcelos;Braga;Casado;Andres Bob;Rua de Airó Nº74;4750;Barcelos;942783828;962320264;Ieva.Nôh@piscinasbarcacellos.pb;Licenciatura;10599278;62829179305
-156;Brandon Docinho;8-10-1988;Portuguesa;Aldreu;Barcelos;Braga;Solteiro;;Rua de Aldreu Nº75;4750;Barcelos;919522249;971939872;Brandon.Docinho@piscinasbarcacellos.pb;Licenciatura;62408927;61534133361
-157;Tayanni Mascote;15-2-1991;Portuguesa;Alvelos;Barcelos;Braga;Casado;Alcilane Guta;Rua de Alvelos Nº47;4750;Barcelos;935770437;943665018;Tayanni.Mascote@piscinasbarcacellos.pb;Mestrado;66437432;48412604375
-158;Lyra Tita;28-3-1975;Portuguesa;Arcozelo;Barcelos;Braga;Solteiro;;Rua de Arcozelo Nº17;4750;Barcelos;927124677;914037306;Lyra.Tita@piscinasbarcacellos.pb;Mestrado;62944347;11276825863
-159;Aliyah Binho;8-11-1971;Portuguesa;Balugães;Barcelos;Braga;Casado;Alison Cebolinha;Rua de Balugães Nº50;4750;Barcelos;918171719;910505360;Aliyah.Binho@piscinasbarcacellos.pb;Mestrado;85675058;99584492190
-160;Luan Peleco;28-4-1975;Portuguesa;Barcelinhos;Barcelos;Braga;Solteiro;;Rua de Barcelinhos Nº28;4750;Barcelos;938381117;962642047;Luan.Peleco@piscinasbarcacellos.pb;Licenciatura;19597708;69891546415
-161;Elson Melão;21/3/1981;Portuguesa;Barqueiros;Barcelos;Braga;Casado;Dinica Ratinho;Rua de Barqueiros Nº83;4750;Barcelos;937432509;911642754;Elson.Melão@piscinasbarcacellos.pb;Mestrado;29949767;25464256162
-162;Arian Bola;4-11-1991;Portuguesa;Cambeses;Barcelos;Braga;Solteiro;;Rua de Cambeses Nº20;4750;Barcelos;956758519;966554830;Arian.Bola@piscinasbarcacellos.pb;Licenciatura;27639776;73302428369
-163;Noah Tina;17-12-1994;Portuguesa;Carapeços;Barcelos;Braga;Casado;Oriel Chiquinha;Rua de Carapeços Nº19;4750;Barcelos;987643070;953228666;Noah.Tina@piscinasbarcacellos.pb;Secundário;51273949;55066823492
-164;Elisa Duda;17-12-1970;Portuguesa;Fraião;Barcelos;Braga;Solteiro;;Rua de Carvalhal Nº76;4750;Barcelos;959076933;987851844;Elisa.Duda@piscinasbarcacellos.pb;Mestrado;52650324;42711520289
-165;Lais Bina;8-12-1985;Portuguesa;Carvalhas;Barcelos;Braga;Solteiro;;Rua de Carvalhas Nº33;4750;Barcelos;960466568;967965723;Lais.Bina@piscinasbarcacellos.pb;Secundário;87869911;76952227437
-166;Ersílio Preto;22-6-1975;Portuguesa;Cossourado;Barcelos;Braga;Solteiro;;Rua de Cossourado Nº54;4750;Barcelos;968295236;948823590;Ersílio.Preto@piscinasbarcacellos.pb;Secundário;19351435;45026370951
-167;Harkirat Fofão;13-12-1982;Portuguesa;Cristelo;Barcelos;Braga;Casado;Vida Sol;Rua de Cristelo Nº16;4750;Barcelos;936640447;979489150;Harkirat.Fofão@piscinasbarcacellos.pb;Licenciatura;10601336;18369236998
-168;Jasleen Quél;25-1-1984;Portuguesa;Fornelos;Barcelos;Braga;Casado;Cael Neguinho;Rua de Fornelos Nº35;4750;Barcelos;947386985;988912321;Jasleen.Quél@piscinasbarcacellos.pb;Licenciatura;73167756;83843003801
-169;Liliia Macarrão;8-5-1992;Portuguesa;Fragoso;Barcelos;Braga;Casado;Valdemar Pipo;Rua de Fragoso Nº97;4750;Barcelos;986057689;962507115;Liliia.Macarrão@piscinasbarcacellos.pb;Mestrado;24709195;74799989619
-170;Ivânia Pica-Pau;7-7-1972;Portuguesa;Gilmonde;Barcelos;Braga;Solteiro;;Rua de Gilmonde Nº64;4750;Barcelos;949383726;959359366;Ivânia.Pica-Pau@piscinasbarcacellos.pb;Mestrado;26541622;66761932636
-171;Gael Galego;26-2-1984;Portuguesa;Lama;Barcelos;Braga;Casado;Maia Fred;Rua de Lama Nº69;4750;Barcelos;947208088;929186098;Gael.Galego@piscinasbarcacellos.pb;Licenciatura;71690902;35483044151
-172;Shanzay Jamanta;12-12-1971;Portuguesa;Lijó;Barcelos;Braga;Solteiro;;Rua de Lijó Nº67;4750;Barcelos;963292055;928036557;Shanzay.Jamanta@piscinasbarcacellos.pb;Mestrado;78850713;42296616402
-173;Deep Pipo;19-9-1972;Portuguesa;Manhente;Barcelos;Braga;Casado;Libânia Quita;Rua de Manhente Nº82;4750;Barcelos;940834024;986602930;Deep.Pipo@piscinasbarcacellos.pb;Secundário;65850557;36882283735
-174;Rivan Pezão;24-10-1986;Portuguesa;Martim;Barcelos;Braga;Casado;Iana Bad;Rua de Martim Nº20;4750;Barcelos;992761247;992193056;Rivan.Pezão@piscinasbarcacellos.pb;Licenciatura;21710795;39375256893
-175;Dália Tatinha;1-5-1988;Portuguesa;Moure;Barcelos;Braga;Solteiro;;Rua de Moure Nº88;4750;Barcelos;924890486;986841789;Dália.Tatinha@piscinasbarcacellos.pb;Mestrado;41062176;65275051919
-176;Madeha Léo;5-7-1991;Portuguesa;Oliveira;Barcelos;Braga;Solteiro;;Rua de Oliveira Nº22;4750;Barcelos;912114924;982426363;Madeha.Léo@piscinasbarcacellos.pb;Licenciatura;32885464;15983318964
-177;Adriane Gui;21-4-1980;Portuguesa;Palme;Barcelos;Braga;Casado;Melina Furinha;Rua de Palme Nº4;4750;Barcelos;925454219;942652186;Adriane.Gui@piscinasbarcacellos.pb;Secundário;74383948;28401052394
-178;Mathilde Bél;1-9-1998;Portuguesa;Panque;Barcelos;Braga;Casado;Lucca Grilo;Rua de Panque Nº5;4750;Barcelos;934423712;950997376;Mathilde.Bél@piscinasbarcacellos.pb;Licenciatura;19177126;69318308181
-179;Esmeralda Duduzinho;15-12-1992;Portuguesa;Paradela;Barcelos;Braga;Solteiro;;Rua de Paradela Nº92;4750;Barcelos;920929933;920143676;Esmeralda.Duduzinho@piscinasbarcacellos.pb;Licenciatura;94239194;72246005929
-180;Ewa Drica;27-11-1993;Portuguesa;Pereira;Barcelos;Braga;Solteiro;;Rua de Pereira Nº91;4750;Barcelos;945471165;987686290;Ewa.Drica@piscinasbarcacellos.pb;Licenciatura;40668711;84138256649
-181;Malik Lilico;8-6-1976;Portuguesa;Perelhal;Barcelos;Braga;Casado;Theo Tozinho;Rua de Perelhal Nº23;4750;Barcelos;959569822;928681073;Malik.Lilico@piscinasbarcacellos.pb;Mestrado;76478920;46518946916
-182;Rosana Dinho;1-8-1998;Portuguesa;Pousa;Barcelos;Braga;Casado;Hyrningur Cebolinha;Rua de Pousa Nº65;4750;Barcelos;984796328;995479627;Rosana.Dinho@piscinasbarcacellos.pb;Secundário;92377598;19216171226
-183;Laurent Geno;19-11-1986;Portuguesa;Carapeços;Barcelos;Braga;Solteiro;;Rua de Carapeços Nº63;4750;Barcelos;997838082;977110488;Laurent.Geno@piscinasbarcacellos.pb;Mestrado;52872863;37543875641
-184;Benjamín Verinha;4-8-1987;Portuguesa;Carvalhal;Barcelos;Braga;Solteiro;;Rua de Carvalhal Nº61;4750;Barcelos;949027258;948515001;Benjamín.Verinha@piscinasbarcacellos.pb;Secundário;63126599;89790671503
-185;Leví Tampinha;3-4-1989;Portuguesa;Carvalhas;Barcelos;Braga;Casado;Kenzo Anjinha;Rua de Carvalhas Nº76;4750;Barcelos;994645539;968688690;Leví.Tampinha@piscinasbarcacellos.pb;Secundário;74112691;91075833713
-186;Jason Vavá;21-2-1986;Portuguesa;Cossourado;Barcelos;Braga;Solteiro;;Rua de Cossourado Nº69;4750;Barcelos;977564807;924582406;Jason.Vavá@piscinasbarcacellos.pb;Secundário;19875003;59040311491
-187;Mélyssa Tonho;3-4-1983;Portuguesa;Cristelo;Barcelos;Braga;Solteiro;;Rua de Cristelo Nº22;4750;Barcelos;971976523;949898169;Mélyssa.Tonho@piscinasbarcacellos.pb;Mestrado;66629833;64004472555
-188;Kaleb Flor;22-2-1985;Portuguesa;Fornelos;Barcelos;Braga;Solteiro;;Rua de Fornelos Nº60;4750;Barcelos;972944863;965577202;Kaleb.Flor@piscinasbarcacellos.pb;Mestrado;81060122;55000479194
-189;Aynoah Ganso;7-1-1971;Portuguesa;Fragoso;Barcelos;Braga;Casado;Juliano Huck;Rua de Fragoso Nº93;4750;Barcelos;963439630;926838192;Aynoah.Ganso@piscinasbarcacellos.pb;Mestrado;67179288;43560444701
-190;Zalia Quinho;11-2-1985;Portuguesa;Gilmonde;Barcelos;Braga;Solteiro;;Rua de Gilmonde Nº91;4750;Barcelos;954710509;917374458;Zalia.Quinho@piscinasbarcacellos.pb;Mestrado;36882157;51556790557
-191;Jerónimo Pipoca;27-5-1974;Portuguesa;Lama;Barcelos;Braga;Casado;Délia Neto;Rua de Lama Nº13;4750;Barcelos;958858312;983134118;Jerónimo.Pipoca@piscinasbarcacellos.pb;Licenciatura;57810069;47529093265
-192;Saico Pezão;3-5-1973;Portuguesa;Lijó;Barcelos;Braga;Casado;Afonsina Duda;Rua de Lijó Nº93;4750;Barcelos;936482088;980702006;Saico.Pezão@piscinasbarcacellos.pb;Secundário;91480779;71510691425
-193;Franziska Mosca;4-2-2000;Portuguesa;Manhente;Barcelos;Braga;Solteiro;;Rua de Manhente Nº70;4750;Barcelos;982978917;997044813;Franziska.Mosca@piscinasbarcacellos.pb;Mestrado;85850496;25926551874
-194;Ayla Tonton;24-4-1977;Portuguesa;Martim;Barcelos;Braga;Solteiro;;Rua de Martim Nº50;4750;Barcelos;912311447;957466067;Ayla.Tonton@piscinasbarcacellos.pb;Licenciatura;21627728;25186889650
-195;Petra Maninho;15-7-1998;Portuguesa;Moure;Barcelos;Braga;Solteiro;;Rua de Moure Nº22;4750;Barcelos;936409236;913869345;Petra.Maninho@piscinasbarcacellos.pb;Secundário;65631265;53483649933
-196;Júlio Ninha;17-9-1999;Portuguesa;Oliveira;Barcelos;Braga;Casado;Evelina Cacau;Rua de Oliveira Nº72;4750;Barcelos;972023142;979311510;Júlio.Ninha@piscinasbarcacellos.pb;Licenciatura;56185047;23160135012
-197;Petru Tulio;18-10-1972;Portuguesa;Palme;Barcelos;Braga;Solteiro;;Rua de Palme Nº52;4750;Barcelos;949241755;971536498;Petru.Tulio@piscinasbarcacellos.pb;Mestrado;52512082;18563204844
-198;Yafei Dadá;3-5-1972;Portuguesa;Panque;Barcelos;Braga;Solteiro;;Rua de Panque Nº46;4750;Barcelos;961710389;932889856;Yafei.Dadá@piscinasbarcacellos.pb;Licenciatura;86724973;34291751541
-199;Bebiana Vivi;20/2/1997;Portuguesa;Aborim;Barcelos;Braga;Solteiro;;Rua de Aborim Nº24;4750;Barcelos;935442481;964166776;Bebiana.Vivi@piscinasbarcacellos.pb;Mestrado;45825629;25970320926
-200;Daiana Pepê;15-9-1998;Portuguesa;Adães;Barcelos;Braga;Casado;Kelton Capela;Rua de Adães Nº47;4750;Barcelos;930241097;965472325;Daiana.Pepê@piscinasbarcacellos.pb;Secundário;96881393;60368433832
-201;Yanni Dóia;8-4-1996;Portuguesa;Airó;Barcelos;Braga;Casado;Isadora Duca;Rua de Airó Nº44;4750;Barcelos;986382234;992652990;Yanni.Dóia@piscinasbarcacellos.pb;Mestrado;55410253;94072261855
-202;Nair Dinho;5-12-1974;Portuguesa;Aldreu;Barcelos;Braga;Casado;Sahibdeep Fafá;Rua de Aldreu Nº5;4750;Barcelos;919945801;946858343;Nair.Dinho@piscinasbarcacellos.pb;Mestrado;28746229;91377174163
-203;Daniely Quil;23-3-1989;Portuguesa;Alvelos;Barcelos;Braga;Casado;Jaciara Jota;Rua de Alvelos Nº75;4750;Barcelos;943174169;911681796;Daniely.Quil@piscinasbarcacellos.pb;Secundário;24576536;63609576250
-204;Laércia Pretinho;22-2-1983;Portuguesa;Arcozelo;Barcelos;Braga;Casado;Mushtaribonu Gordo;Rua de Arcozelo Nº100;4750;Barcelos;944113678;940908709;Laércia.Pretinho@piscinasbarcacellos.pb;Secundário;39511030;71482579629
-205;Alessandro Preto;9-5-1971;Portuguesa;Balugães;Barcelos;Braga;Casado;Betânia Guri;Rua de Balugães Nº43;4750;Barcelos;947065056;986396633;Alessandro.Preto@piscinasbarcacellos.pb;Secundário;25176307;96413632891
-206;Yanxi Dedé;21-7-1989;Portuguesa;Barcelinhos;Barcelos;Braga;Solteiro;;Rua de Barcelinhos Nº37;4750;Barcelos;927701935;990878146;Yanxi.Dedé@piscinasbarcacellos.pb;Mestrado;61949020;49229884869
-207;Yafei Nininho;4-9-1974;Portuguesa;Barqueiros;Barcelos;Braga;Casado;Dolores Beto;Rua de Barqueiros Nº61;4750;Barcelos;952973371;919703306;Yafei.Nininho@piscinasbarcacellos.pb;Secundário;43411116;20292678923
-208;Clayton Bél;9-2-1970;Portuguesa;Cambeses;Barcelos;Braga;Solteiro;;Rua de Cambeses Nº11;4750;Barcelos;928084522;941321662;Clayton.Bél@piscinasbarcacellos.pb;Licenciatura;64578955;32801096133
-209;Namaaha Dudú;14-11-1989;Portuguesa;Carapeços;Barcelos;Braga;Solteiro;;Rua de Carapeços Nº90;4750;Barcelos;921433538;920622418;Namaaha.Dudú@piscinasbarcacellos.pb;Secundário;19439807;44946097313
-210;Hélcia Jiló;24-6-1973;Portuguesa;Carvalhal;Barcelos;Braga;Solteiro;;Rua de Carvalhal Nº27;4750;Barcelos;910721811;924852762;Hélcia.Jiló@piscinasbarcacellos.pb;Mestrado;72745939;58659963242
-211;Guido Guri;13-8-1989;Portuguesa;Carvalhas;Barcelos;Braga;Solteiro;;Rua de Carvalhas Nº44;4750;Barcelos;946414194;946818844;Guido.Guri@piscinasbarcacellos.pb;Licenciatura;34252454;21489842621
-212;Ieva Tica;20-3-1978;Portuguesa;Cossourado;Barcelos;Braga;Casado;Mila Riquinho;Rua de Cossourado Nº81;4750;Barcelos;952349286;939864711;Ieva.Tica@piscinasbarcacellos.pb;Secundário;41996118;66953823037
-213;Simão Láu;22-10-1982;Portuguesa;Cristelo;Barcelos;Braga;Casado;Andy Tonton;Rua de Cristelo Nº66;4750;Barcelos;979155106;940171928;Simão.Láu@piscinasbarcacellos.pb;Licenciatura;42818459;62714607122
-214;Júlio Gui;27-12-1978;Portuguesa;Fornelos;Barcelos;Braga;Solteiro;;Rua de Fornelos Nº27;4750;Barcelos;986718631;921480505;Júlio.Gui@piscinasbarcacellos.pb;Licenciatura;19479291;24348342181
-215;Ezekiel Bananinha;16-8-1978;Portuguesa;Fragoso;Barcelos;Braga;Casado;Jingxuan Véi;Rua de Fragoso Nº7;4750;Barcelos;973398354;986266145;Ezekiel.Bananinha@piscinasbarcacellos.pb;Mestrado;83000192;61617807455
-216;Tayna Lio;10-1-1990;Portuguesa;Gilmonde;Barcelos;Braga;Solteiro;;Rua de Gilmonde Nº64;4750;Barcelos;994360204;917835193;Tayna.Lio@piscinasbarcacellos.pb;Secundário;32931526;69068186123
-217;Sadiya Painho;17-11-2000;Portuguesa;Lama;Barcelos;Braga;Solteiro;;Rua de Lama Nº94;4750;Barcelos;969144389;980942910;Sadiya.Painho@piscinasbarcacellos.pb;Licenciatura;32118729;93474208048
-218;Ion Tatá;14-7-1988;Portuguesa;Lijó;Barcelos;Braga;Casado;Houssainatou Benta;Rua de Lijó Nº14;4750;Barcelos;929319546;926147432;Ion.Tatá@piscinasbarcacellos.pb;Secundário;90721865;56686957781
-219;Khaleesi Belo;19-1-1983;Portuguesa;Manhente;Barcelos;Braga;Casado;Lyah Mila-milu;Rua de Manhente Nº94;4750;Barcelos;978633957;951090508;Khaleesi.Belo@piscinasbarcacellos.pb;Licenciatura;31956507;10664615538
-220;Kyomara Flor;27-1-1975;Portuguesa;Martim;Barcelos;Braga;Casado;Andrea Pipo;Rua de Martim Nº98;4750;Barcelos;955681437;922208963;Kyomara.Flor@piscinasbarcacellos.pb;Licenciatura;31121493;52580263502
-221;Yelissa Lilico;1-7-2000;Portuguesa;Moure;Barcelos;Braga;Solteiro;;Rua de Moure Nº15;4750;Barcelos;968285199;942057509;Yelissa.Lilico@piscinasbarcacellos.pb;Secundário;98697942;65034817118
-222;Julieth Pica-Pau;4-12-1980;Portuguesa;Oliveira;Barcelos;Braga;Solteiro;;Rua de Oliveira Nº64;4750;Barcelos;983631215;915402593;Julieth.Pica-Pau@piscinasbarcacellos.pb;Licenciatura;70669327;66229655833
-223;Melany Rob;11-1-1975;Portuguesa;Palme;Barcelos;Braga;Casado;Lorenza Láu;Rua de Palme Nº65;4750;Barcelos;994854507;981112029;Melany.Rob@piscinasbarcacellos.pb;Mestrado;54027596;92554992787
-224;Yussuf Léo;11-5-2000;Portuguesa;Panque;Barcelos;Braga;Solteiro;Joana Garcia;Rua de Panque Nº57;4750;Barcelos;998893612;947826631;Yussuf.Léo@piscinasbarcacellos.pb;Secundário;52757359;57562411712
-225;Rajanbir Filó;5-11-1997;Portuguesa;Paradela;Barcelos;Braga;Casado;Romario Ninha;Rua de Paradela Nº61;4750;Barcelos;992617087;958709766;Rajanbir.Filó@piscinasbarcacellos.pb;Mestrado;98315473;78672413288
-226;Petro Beto;4-10-1986;Portuguesa;Pereira;Barcelos;Braga;Casado;Khiiara Boneco;Rua de Pereira Nº17;4750;Barcelos;945900228;914583473;Petro.Beto@piscinasbarcacellos.pb;Licenciatura;35365922;80361106377
-227;Dien Guri;11-10-1983;Portuguesa;Perelhal;Barcelos;Braga;Casado;Kiluanji Pépe;Rua de Perelhal Nº23;4750;Barcelos;953522548;950055726;Dien.Guri@piscinasbarcacellos.pb;Mestrado;45098096;62526265141
-228;Tércio Biau;8-4-2000;Portuguesa;Pousa;Barcelos;Braga;Solteiro;;Rua de Pousa Nº44;4750;Barcelos;929388595;993241239;Tércio.Biau@piscinasbarcacellos.pb;Mestrado;66582743;44881443786
-229;Silke Zézinho;3-4-1981;Portuguesa;Fragoso;Barcelos;Braga;Solteiro;;Rua de Fragoso Nº28;4750;Barcelos;910900584;975730991;Silke.Zézinho@piscinasbarcacellos.pb;Secundário;99679089;56632908227
-230;Russell Edinho;20-6-1990;Portuguesa;Gilmonde;Barcelos;Braga;Solteiro;;Rua de Gilmonde Nº44;4750;Barcelos;940264907;979128517;Russell.Edinho@piscinasbarcacellos.pb;Mestrado;37303591;87987143744
-231;Magalie Jacaré;24-3-1987;Portuguesa;Lama;Barcelos;Braga;Casado;Gelila Ritinha;Rua de Lama Nº23;4750;Barcelos;965825689;932292603;Magalie.Jacaré@piscinasbarcacellos.pb;Secundário;90753357;15244943064
-232;Aicha Sabiá;3-4-1983;Portuguesa;Lijó;Barcelos;Braga;Solteiro;;Rua de Lijó Nº9;4750;Barcelos;931431685;943960430;Aicha.Sabiá@piscinasbarcacellos.pb;Mestrado;75818465;89996954157
-233;Dillon Bela;10-2-1983;Portuguesa;Manhente;Barcelos;Braga;Casado;Bubacar Júh;Rua de Manhente Nº37;4750;Barcelos;977506031;946054085;Dillon.Bela@piscinasbarcacellos.pb;Secundário;98572162;96235713422
-234;Kellyson Duda;12-1-1971;Portuguesa;Martim;Barcelos;Braga;Casado;Naylah Duca;Rua de Martim Nº48;4750;Barcelos;995276667;915232698;Kellyson.Duda@piscinasbarcacellos.pb;Secundário;35605639;46497028998
-235;Sergiu Jiló;4-10-1984;Portuguesa;Moure;Barcelos;Braga;Casado;Lovleen Drica;Rua de Moure Nº88;4750;Barcelos;942924252;954995699;Sergiu.Jiló@piscinasbarcacellos.pb;Secundário;39645599;90086578379
-236;Anaïs Pezão;24-6-1995;Portuguesa;Oliveira;Barcelos;Braga;Solteiro;;Rua de Oliveira Nº57;4750;Barcelos;948064652;926947310;Anaïs.Pezão@piscinasbarcacellos.pb;Secundário;92501422;53871032648
-237;Kendrick Mila-milu;12-4-1996;Portuguesa;Palme;Barcelos;Braga;Solteiro;;Rua de Palme Nº30;4750;Barcelos;980985526;965708006;Kendrick.Mila-milu@piscinasbarcacellos.pb;Licenciatura;67895749;97896230136
-238;Thayla Duca;8-12-1976;Portuguesa;Panque;Barcelos;Braga;Solteiro;;Rua de Panque Nº54;4750;Barcelos;920514256;974696288;Thayla.Duca@piscinasbarcacellos.pb;Secundário;17855794;78949055811
-239;Jassira Filó;28-1-1998;Portuguesa;Paradela;Barcelos;Braga;Solteiro;;Rua de Paradela Nº19;4750;Barcelos;912364601;959314220;Jassira.Filó@piscinasbarcacellos.pb;Secundário;77979833;16907180370
-240;Jessica Branca;14-7-1979;Portuguesa;Aborim;Barcelos;Braga;Solteiro;;Rua de Aborim Nº25;4750;Barcelos;942044807;948067862;Jessica.Branca@piscinasbarcacellos.pb;Mestrado;69320201;84596726089
-241;Rúbia Tudão;28-11-1997;Portuguesa;Adães;Barcelos;Braga;Casado;Kledilson Boneca;Rua de Adães Nº58;4750;Barcelos;956236316;964157559;Rúbia.Tudão@piscinasbarcacellos.pb;Mestrado;59632359;27323140609
-242;Maia Val;20-4-1988;Portuguesa;Airó;Barcelos;Braga;Solteiro;;Rua de Airó Nº59;4750;Barcelos;921783415;928144823;Maia.Val@piscinasbarcacellos.pb;Secundário;64640067;72546429441
-243;Irina Ninha;9-1-2000;Portuguesa;Aldreu;Barcelos;Braga;Solteiro;;Rua de Aldreu Nº27;4750;Barcelos;966541560;960557840;Irina.Ninha@piscinasbarcacellos.pb;Licenciatura;38042058;78958278483
-244;Efim Bob;2-1-1987;Portuguesa;Alvelos;Barcelos;Braga;Solteiro;;Rua de Alvelos Nº88;4750;Barcelos;943664221;933775940;Efim.Bob@piscinasbarcacellos.pb;Secundário;98246985;60226484356
-245;Belle Vál;8-3-2000;Portuguesa;Arcozelo;Barcelos;Braga;Casado;Aminata Mel;Rua de Arcozelo Nº23;4750;Barcelos;921999102;930642426;Belle.Vál@piscinasbarcacellos.pb;Licenciatura;57516391;75012028565
-246;Cathrionna Duda;6-8-1986;Portuguesa;Balugães;Barcelos;Braga;Casado;Emaan Loro;Rua de Balugães Nº49;4750;Barcelos;944194092;975970942;Cathrionna.Duda@piscinasbarcacellos.pb;Licenciatura;55736172;37500007849
-247;Timeea Chiquinha;24-9-1981;Portuguesa;Barcelinhos;Barcelos;Braga;Solteiro;;Rua de Barcelinhos Nº27;4750;Barcelos;938958993;997980208;Timeea.Chiquinha@piscinasbarcacellos.pb;Secundário;28213311;47562516378
-248;Bento Xica;3-6-1990;Portuguesa;Barqueiros;Barcelos;Braga;Casado;Niah Pipo;Rua de Barqueiros Nº39;4750;Barcelos;969225234;912578360;Bento.Xica@piscinasbarcacellos.pb;Mestrado;13881997;56865941419
-249;Ehinonmen Geno;8-2-1977;Portuguesa;Cambeses;Barcelos;Braga;Casado;Dani Cebolinha;Rua de Cambeses Nº36;4750;Barcelos;946244385;927847420;Ehinonmen.Geno@piscinasbarcacellos.pb;Licenciatura;26087754;88166298830
-250;Pascoal Dunga;6-3-1998;Portuguesa;Carapeços;Barcelos;Braga;Casado;Markiyan Bananinha;Rua de Carapeços Nº37;4750;Barcelos;987954792;966472870;Pascoal.Dunga@piscinasbarcacellos.pb;Licenciatura;98166244;42285467912
-251;Oscár Mel;26-2-1971;Portuguesa;Carvalhal;Barcelos;Braga;Casado;Owen Tonton;Rua de Carvalhal Nº70;4750;Barcelos;979772421;981000615;Oscár.Mel@piscinasbarcacellos.pb;Mestrado;91053886;18022546420
-252;Vitória Negão;3-11-1983;Portuguesa;Carvalhas;Barcelos;Braga;Casado;Xica Neto;Rua de Carvalhas Nº11;4750;Barcelos;981471458;966860453;Vitória.Negão@piscinasbarcacellos.pb;Licenciatura;15137745;49024026185
-253;Zilda Dema;9-4-1997;Portuguesa;Cossourado;Barcelos;Braga;Casado;Cristina Pica-Pau;Rua de Cossourado Nº69;4750;Barcelos;915882950;983133108;Zilda.Dema@piscinasbarcacellos.pb;Secundário;98823719;41564062602
-254;Apolo Cacau;2-5-1985;Portuguesa;Cristelo;Barcelos;Braga;Solteiro;;Rua de Cristelo Nº33;4750;Barcelos;926136510;960565345;Apolo.Cacau@piscinasbarcacellos.pb;Secundário;67050928;85812953182
-255;Gina Lia;7-1-1973;Portuguesa;Fornelos;Barcelos;Braga;Solteiro;;Rua de Fornelos Nº80;4750;Barcelos;928450808;978423154;Gina.Lia@piscinasbarcacellos.pb;Licenciatura;91855602;26812788443
-256;Artur Tampinha;26-9-1980;Portuguesa;Fragoso;Barcelos;Braga;Casado;Danilo Nininho;Rua de Fragoso Nº71;4750;Barcelos;963255300;918839388;Artur.Tampinha@piscinasbarcacellos.pb;Mestrado;74917090;68271311079
-257;Suria Beto;10-10-1994;Portuguesa;Gilmonde;Barcelos;Braga;Casado;Ni Ratinho;Rua de Gilmonde Nº85;4750;Barcelos;931236237;951818641;Suria.Beto@piscinasbarcacellos.pb;Secundário;92528827;47805249685
-258;Runi Maluquinho;17-11-1980;Portuguesa;Lama;Barcelos;Braga;Solteiro;;Rua de Lama Nº54;4750;Barcelos;945724809;973703341;Runi.Maluquinho@piscinasbarcacellos.pb;Secundário;87718705;12643841941
-259;Jaziel Sol;28-10-1985;Portuguesa;Lijó;Barcelos;Braga;Casado;Dafny Peuzinha;Rua de Lijó Nº50;4750;Barcelos;997772648;937718017;Jaziel.Sol@piscinasbarcacellos.pb;Mestrado;72382713;90957436436
-260;Kelvin Verinha;21-5-1974;Portuguesa;Manhente;Barcelos;Braga;Casado;Nirbhay Lobão;Rua de Manhente Nº55;4750;Barcelos;958376392;990017932;Kelvin.Verinha@piscinasbarcacellos.pb;Mestrado;68837955;51905230178
-261;Salomão Nôh;1-7-1978;Portuguesa;Martim;Barcelos;Braga;Solteiro;;Rua de Martim Nº30;4750;Barcelos;911208187;946848147;Salomão.Nôh@piscinasbarcacellos.pb;Mestrado;44768319;69594333307
-262;Dominique Pity;7-5-2000;Portuguesa;Moure;Barcelos;Braga;Casado;Émilly Xuxa;Rua de Moure Nº96;4750;Barcelos;986083639;963915172;Dominique.Pity@piscinasbarcacellos.pb;Licenciatura;18377064;28974260168
-263;Skylar Pretinho;20-3-1974;Portuguesa;Oliveira;Barcelos;Braga;Casado;Ismael Gáu;Rua de Oliveira Nº99;4750;Barcelos;955117374;915133696;Skylar.Pretinho@piscinasbarcacellos.pb;Secundário;10047146;20200984475
-264;Ellen Sabiá;18-3-2000;Portuguesa;Palme;Barcelos;Braga;Solteiro;;Rua de Palme Nº45;4750;Barcelos;933384824;913676474;Ellen.Sabiá@piscinasbarcacellos.pb;Secundário;31437113;36373247174
-265;Kaela Tita;23-12-1985;Portuguesa;Panque;Barcelos;Braga;Solteiro;;Rua de Panque Nº19;4750;Barcelos;951352848;962995399;Kaela.Tita@piscinasbarcacellos.pb;Secundário;38032558;50620052002
-266;Katie Déca;2-6-1989;Portuguesa;Paradela;Barcelos;Braga;Solteiro;;Rua de Paradela Nº52;4750;Barcelos;975109244;938448634;Katie.Déca@piscinasbarcacellos.pb;Secundário;60068107;83923013457
-267;Lavonne Nél;18-8-1998;Portuguesa;Pereira;Barcelos;Braga;Casado;Silmery Neguinho;Rua de Pereira Nº32;4750;Barcelos;926500497;972241016;Lavonne.Nél@piscinasbarcacellos.pb;Secundário;24950341;33910444240
-268;Aimeé Bar;6-6-1987;Portuguesa;Perelhal;Barcelos;Braga;Casado;Ilídio Peuzinha;Rua de Perelhal Nº28;4750;Barcelos;951170512;920314480;Aimeé.Bar@piscinasbarcacellos.pb;Mestrado;33140010;23742035295
-269;Alina Galego;28-9-1978;Portuguesa;Pousa;Barcelos;Braga;Solteiro;;Rua de Pousa Nº79;4750;Barcelos;955588385;929738857;Alina.Galego@piscinasbarcacellos.pb;Secundário;65146697;26432718766
-270;Bella Gordo;25-9-1970;Portuguesa;Cambeses;Barcelos;Braga;Casado;Abdul Japa;Rua de Cambeses Nº87;4750;Barcelos;991600171;991773619;Bella.Gordo@piscinasbarcacellos.pb;Secundário;74544256;40844551186
-271;Gurnoor Flor;23-2-1993;Portuguesa;Carapeços;Barcelos;Braga;Solteiro;;Rua de Carapeços Nº40;4750;Barcelos;997915488;924376342;Gurnoor.Flor@piscinasbarcacellos.pb;Secundário;41877133;38625351891
-272;Ioan Dunga;9-5-1997;Portuguesa;Carvalhal;Barcelos;Braga;Solteiro;;Rua de Carvalhal Nº78;4750;Barcelos;935725478;990413099;Ioan.Dunga@piscinasbarcacellos.pb;Licenciatura;53939431;68532574059
-273;Maisha Pica-Pau;5-10-1992;Portuguesa;Carvalhas;Barcelos;Braga;Casado;Ciro Mila-milu;Rua de Carvalhas Nº13;4750;Barcelos;956615594;943020432;Maisha.Pica-Pau@piscinasbarcacellos.pb;Licenciatura;59117866;52071563454
-274;Túlipa Fofão;2-1-1983;Portuguesa;Cossourado;Barcelos;Braga;Casado;Jofrania Melão;Rua de Cossourado Nº36;4750;Barcelos;959037541;999956029;Túlipa.Fofão@piscinasbarcacellos.pb;Mestrado;56020194;48046684548
+Numero;Nome;Data nascimento;Nacionalidade;Freguesia;Concelho;Distrito;Estado Civil;Cônjuge;Morada;Código Postal;Localidade;Telemóvel;Telefone;E-mail;Habilitações Literárias;Cartão de cidadão;N.I.S.S;
+1;Stevan Véi;02/10/1990;Portuguesa;Barcelos;Barcelos;Braga;Casado;Florence Bananinha;Rua de Barcelos Nº87;4750;Barcelos;990600185;999129094;Stevan.Véi@piscinasbarcacellos.pb;Secundário;52519685;46997116679;
+2;Harrison Jiló;09/11/1993;Portuguesa;Martim;Barcelos;Braga;Solteiro;;Rua de Martim Nº5;4750;Barcelos;920099168;942472067;Harrison.Jiló@piscinasbarcacellos.pb;Secundário;37509313;15268135287;
+3;Sulamita Quita;21/08/1970;Portuguesa;Moure;Barcelos;Braga;Solteiro;;Rua de Moure Nº94;4750;Barcelos;936350916;967779381;Sulamita.Quita@piscinasbarcacellos.pb;Licenciatura;91533035;41573392821;
+4;Alisha Pretinho;12/12/2000;Portuguesa;Oliveira;Barcelos;Braga;Casado;Jesus Dema;Rua de Oliveira Nº67;4750;Barcelos;934200976;912491263;Alisha.Pretinho@piscinasbarcacellos.pb;Licenciatura;57881439;55719751550;
+5;Máximo Mel;18/11/1982;Portuguesa;Palme;Barcelos;Braga;Casado;Lisbon Pica-Pau;Rua de Palme Nº23;4750;Barcelos;984531551;915982832;Máximo.Mel@piscinasbarcacellos.pb;Mestrado;76806682;91747949282;
+6;Nuryam Lunga;26/11/1993;Portuguesa;Panque;Barcelos;Braga;Casado;Abrão Juca;Rua de Panque Nº9;4750;Barcelos;940333825;968932462;Nuryam.Lunga@piscinasbarcacellos.pb;Secundário;32613051;84852815393;
+7;Juisney Quita;25/07/1974;Portuguesa;Paradela;Barcelos;Braga;Solteiro;;Rua de Paradela Nº50;4750;Barcelos;922374711;915158438;Juisney.Quita@piscinasbarcacellos.pb;Licenciatura;91006530;27176168383;
+8;Dora Papa;15/06/1989;Portuguesa;Pereira;Barcelos;Braga;Solteiro;;Rua de Pereira Nº77;4750;Barcelos;941689220;965718502;Dora.Papa@piscinasbarcacellos.pb;Secundário;50927748;61181827006;
+9;Bhidan Fofão;16/11/1973;Portuguesa;Perelhal;Barcelos;Braga;Solteiro;;Rua de Perelhal Nº24;4750;Barcelos;956371291;920220368;Bhidan.Fofão@piscinasbarcacellos.pb;Secundário;56462210;32663722826;
+10;Yossef Alê;10/02/1974;Portuguesa;Pousa;Barcelos;Braga;Casado;Marthyn Been;Rua de Pousa Nº45;4750;Barcelos;933291296;959291671;Yossef.Alê@piscinasbarcacellos.pb;Secundário;48969218;60421773803;
+11;Davron Duquinha;16/06/1976;Portuguesa;Arcozelo;Barcelos;Braga;Casado;Steffany Dida;Rua de Arcozelo Nº65;4750;Barcelos;917665571;998981275;Davron.Duquinha@piscinasbarcacellos.pb;Licenciatura;53423760;80601248499;
+12;Leydilson Juca;10/09/1992;Portuguesa;Aborim;Barcelos;Braga;Solteiro;;Rua de Aborim Nº74;4750;Barcelos;953337492;957424319;Leydilson.Juca@piscinasbarcacellos.pb;Secundário;38838937;85300575846;
+13;Osvaldo Tico;25/08/1972;Portuguesa;Adães;Barcelos;Braga;Casado;Victória Guinho;Rua de Adães Nº54;4750;Barcelos;958099444;912458479;Osvaldo.Tico@piscinasbarcacellos.pb;Mestrado;75309502;46870657832;
+14;Christiane Netinho;09/06/1977;Portuguesa;Airó;Barcelos;Braga;Casado;Gaia Pepê;Rua de Airó Nº5;4750;Barcelos;994372368;949769731;Christiane.Netinho@piscinasbarcacellos.pb;Licenciatura;57922704;44687405699;
+15;Mayson Bela;01/06/1998;Portuguesa;Aldreu;Barcelos;Braga;Casado;Tanveen Tica;Rua de Aldreu Nº7;4750;Barcelos;943298397;980645906;Mayson.Bela@piscinasbarcacellos.pb;Mestrado;78764118;25366307246;
+16;Nicolae Nik;04/11/1978;Portuguesa;Alvelos;Barcelos;Braga;Casado;Zoé Quinca;Rua de Alvelos Nº74;4750;Barcelos;986278844;946869744;Nicolae.Nik@piscinasbarcacellos.pb;Mestrado;86497742;52960528398;
+17;Itamara Xuxa;23/02/1988;Portuguesa;Arcozelo;Barcelos;Braga;Solteiro;;Rua de Arcozelo Nº61;4750;Barcelos;990288102;938603967;Itamara.Xuxa@piscinasbarcacellos.pb;Secundário;41610220;70283332056;
+18;Keimilly Benta;13/08/1992;Portuguesa;Balugães;Barcelos;Braga;Solteiro;;Rua de Balugães Nº54;4750;Barcelos;993839285;994946754;Keimilly.Benta@piscinasbarcacellos.pb;Secundário;27288455;12211246181;
+19;Lícia Tom;08/07/1975;Portuguesa;Barcelinhos;Barcelos;Braga;Solteiro;;Rua de Barcelinhos Nº93;4750;Barcelos;927267844;997510582;Lícia.Tom@piscinasbarcacellos.pb;Secundário;24270080;80338118688;
+20;kevin Chaves;19/03/1995;Portuguesa;Barqueiros;Barcelos;Braga;Casado;Zita Jamanta;Rua de Barqueiros Nº48;4750;Barcelos;957563854;961334651;kevin.Chaves@piscinasbarcacellos.pb;Secundário;89366317;27190260000;
+21;Dhiyanshi Piu;23/03/1980;Portuguesa;Cambeses;Barcelos;Braga;Casado;Ion Papa;Rua de Cambeses Nº12;4750;Barcelos;927523378;978652443;Dhiyanshi.Piu@piscinasbarcacellos.pb;Mestrado;96649975;30974791460;
+22;Vidhi Sena;10/09/1993;Portuguesa;Carapeços;Barcelos;Braga;Solteiro;;Rua de Carapeços Nº67;4750;Barcelos;946987915;967580496;Vidhi.Sena@piscinasbarcacellos.pb;Licenciatura;20037708;30628901321;
+23;Geovana Déca;06/01/1976;Portuguesa;Carvalhal;Barcelos;Braga;Casado;Viktoria Sol;Rua de Carvalhal Nº79;4750;Barcelos;974769487;938193807;Geovana.Déca@piscinasbarcacellos.pb;Licenciatura;39726508;23233067888;
+24;Djamal Negão;03/02/1992;Portuguesa;Carvalhas;Barcelos;Braga;Solteiro;;Rua de Carvalhas Nº31;4750;Barcelos;953210485;943467461;Djamal.Negão@piscinasbarcacellos.pb;Licenciatura;81480817;56769160915;
+25;Ayla Pipo;05/01/1978;Portuguesa;Cossourado;Barcelos;Braga;Casado;Euridce Kaká;Rua de Cossourado Nº48;4750;Barcelos;939900641;954329450;Ayla.Pipo@piscinasbarcacellos.pb;Mestrado;48875592;76870679659;
+26;Tawila Guinho;13/10/1977;Portuguesa;Cristelo;Barcelos;Braga;Solteiro;;Rua de Cristelo Nº69;4750;Barcelos;996801285;943513941;Tawila.Guinho@piscinasbarcacellos.pb;Licenciatura;14482790;48561626495;
+27;Emeka Careca;22/06/1982;Portuguesa;Fornelos;Barcelos;Braga;Solteiro;;Rua de Fornelos Nº35;4750;Barcelos;965461638;952701172;Emeka.Careca@piscinasbarcacellos.pb;Secundário;27667906;88860496693;
+28;Iego Tatu;06/01/1997;Portuguesa;Fragoso;Barcelos;Braga;Solteiro;;Rua de Fragoso Nº69;4750;Barcelos;939480264;937279192;Iego.Tatu@piscinasbarcacellos.pb;Mestrado;54964199;42530735087;
+29;Miroslava Lalinha;25/05/1973;Portuguesa;Gilmonde;Barcelos;Braga;Casado;Dominique Mundinho;Rua de Gilmonde Nº91;4750;Barcelos;927229638;924478959;Miroslava.Lalinha@piscinasbarcacellos.pb;Mestrado;46742601;14454844809;
+30;Hermano Pata;17/09/1996;Portuguesa;Lama;Barcelos;Braga;Casado;Elaina Mosca;Rua de Lama Nº58;4750;Barcelos;920519204;945260577;Hermano.Pata@piscinasbarcacellos.pb;Mestrado;45173959;88842038392;
+31;Lincoln Peru;05/05/1979;Portuguesa;Lijó;Barcelos;Braga;Solteiro;;Rua de Lijó Nº43;4750;Barcelos;926326729;991465341;Lincoln.Peru@piscinasbarcacellos.pb;Licenciatura;60459695;29942484552;
+32;Kendrick Dida;23/08/1986;Portuguesa;Manhente;Barcelos;Braga;Solteiro;;Rua de Manhente Nº2;4750;Barcelos;912667573;935196439;Kendrick.Dida@piscinasbarcacellos.pb;Mestrado;56634927;93141998155;
+33;Osvaldeclenia Edinho;22/11/1981;Portuguesa;Martim;Barcelos;Braga;Casado;Renan Nin;Rua de Martim Nº95;4750;Barcelos;951559196;987126991;Osvaldeclenia.Edinho@piscinasbarcacellos.pb;Licenciatura;32505473;46714807638;
+34;Luanny Grilo;09/10/1982;Portuguesa;Moure;Barcelos;Braga;Casado;Aylin Lio;Rua de Moure Nº50;4750;Barcelos;962708185;934454269;Luanny.Grilo@piscinasbarcacellos.pb;Mestrado;23046666;16963503143;
+35;Raphael Juca;27/05/1978;Portuguesa;Oliveira;Barcelos;Braga;Casado;Aleisa Mia;Rua de Oliveira Nº45;4750;Barcelos;911628208;970479428;Raphael.Juca@piscinasbarcacellos.pb;Licenciatura;23141132;89190073241;
+36;Lais Riquinho;06/11/1982;Portuguesa;Palme;Barcelos;Braga;Casado;Flávio Láu;Rua de Palme Nº80;4750;Barcelos;919709827;921281212;Lais.Riquinho@piscinasbarcacellos.pb;Secundário;35503697;64341398281;
+37;Rajanbir Furinha;26/10/1981;Portuguesa;Panque;Barcelos;Braga;Solteiro;;Rua de Panque Nº58;4750;Barcelos;950876488;910413183;Rajanbir.Furinha@piscinasbarcacellos.pb;Mestrado;48415393;61520729936;
+38;Lancelot Vál;17/03/1984;Portuguesa;Paradela;Barcelos;Braga;Solteiro;;Rua de Paradela Nº93;4750;Barcelos;920356330;925620497;Lancelot.Vál@piscinasbarcacellos.pb;Secundário;28441435;71892942059;
+39;Gaspard Cacau;09/11/1972;Portuguesa;Pereira;Barcelos;Braga;Casado;Rubi Duquinha;Rua de Pereira Nº78;4750;Barcelos;964893632;932998063;Gaspard.Cacau@piscinasbarcacellos.pb;Mestrado;53594164;69144619887;
+40;Romero Santinha;26/08/1995;Portuguesa;Perelhal;Barcelos;Braga;Solteiro;;Rua de Perelhal Nº56;4750;Barcelos;961862043;920138228;Romero.Santinha@piscinasbarcacellos.pb;Mestrado;45910590;56571651441;
+41;Ahnaf Dão;28/01/2000;Portuguesa;Aborim;Barcelos;Braga;Casado;Tyler Gordo;Rua de Aborim Nº91;4750;Barcelos;953606544;987713727;Ahnaf.Dão@piscinasbarcacellos.pb;Secundário;65955952;84045450972;
+42;Daniyal Duquinha;21/12/1987;Portuguesa;Adães;Barcelos;Braga;Casado;Eugenia Tampinha;Rua de Adães Nº79;4750;Barcelos;980443724;978025710;Daniyal.Duquinha@piscinasbarcacellos.pb;Licenciatura;94830545;33005767366;
+43;Volodymyr Belo;22/12/1998;Portuguesa;Airó;Barcelos;Braga;Casado;Luísa Bob;Rua de Airó Nº43;4750;Barcelos;996928291;965665977;Volodymyr.Belo@piscinasbarcacellos.pb;Mestrado;50650552;54253422672;
+44;Lasilis Falcão;07/08/2000;Portuguesa;Aldreu;Barcelos;Braga;Solteiro;;Rua de Aldreu Nº18;4750;Barcelos;924045593;916373671;Lasilis.Falcão@piscinasbarcacellos.pb;Secundário;77288097;50090633299;
+45;Emma Gordo;15/10/1979;Portuguesa;Alvelos;Barcelos;Braga;Casado;Kyan Beto;Rua de Alvelos Nº83;4750;Barcelos;977372227;978655622;Emma.Gordo@piscinasbarcacellos.pb;Mestrado;67859211;95737024229;
+46;Ilídio Gina;;28/08/1986;Portuguesa;Arcozelo;Barcelos;Braga;Solteiro;;Rua de Arcozelo Nº28;4750;Barcelos;993911154;981778293;Ilídio.Gina@piscinasbarcacellos.pb;Secundário;18516505;67204437617
+47;Talia Losa;25/06/1991;Portuguesa;Balugães;Barcelos;Braga;Solteiro;;Rua de Balugães Nº61;4750;Barcelos;927559685;955532657;Talia.Losa@piscinasbarcacellos.pb;Secundário;52686039;86634738239;
+48;Gabrieli Fofão;26/03/1995;Portuguesa;Barcelinhos;Barcelos;Braga;Solteiro;;Rua de Barcelinhos Nº10;4750;Barcelos;932697254;931760667;Gabrieli.Fofão@piscinasbarcacellos.pb;Secundário;93873397;39024965784;
+49;Andrea Peleco;06/05/1972;Portuguesa;Barqueiros;Barcelos;Braga;Solteiro;;Rua de Barqueiros Nº51;4750;Barcelos;911134942;983663364;Andrea.Peleco@piscinasbarcacellos.pb;Mestrado;52151268;96834118573;
+50;Edjailzen Nenê;09/07/1974;Portuguesa;Cambeses;Barcelos;Braga;Casado;Rouguiatou Duduzinho;Rua de Cambeses Nº38;4750;Barcelos;983187151;960501404;Edjailzen.Nenê@piscinasbarcacellos.pb;Mestrado;15253073;88761191250;
+51;Zexuan Peu;09/12/2000;Portuguesa;Carapeços;Barcelos;Braga;Casado;Micaela Jujú;Rua de Carapeços Nº20;4750;Barcelos;910058178;938889673;Zexuan.Peu@piscinasbarcacellos.pb;Secundário;86151793;16953570647;
+52;Vitor Sula;17/08/1974;Portuguesa;Carvalhal;Barcelos;Braga;Solteiro;;Rua de Carvalhal Nº4;4750;Barcelos;968156326;963025525;Vitor.Sula@piscinasbarcacellos.pb;Licenciatura;60852033;71486676595;
+53;Chuyi Jacaré;28/03/1971;Portuguesa;Carvalhas;Barcelos;Braga;Solteiro;;Rua de Carvalhas Nº58;4750;Barcelos;968573087;916136308;Chuyi.Jacaré@piscinasbarcacellos.pb;Mestrado;24934538;34082751259;
+55;Mame Chiquinha;08/06/1971;Portuguesa;Cossourado;Barcelos;Braga;Solteiro;;Rua de Cossourado Nº7;4750;Barcelos;983097514;964585868;Mame.Chiquinha@piscinasbarcacellos.pb;Secundário;12097362;68054707915;
+55;Gisola Lobão;27/08/1981;Portuguesa;Cristelo;Barcelos;Braga;Solteiro;;Rua de Cristelo Nº33;4750;Barcelos;969652739;982340808;Gisola.Lobão@piscinasbarcacellos.pb;Mestrado;91717718;48911157314;
+56;Freddie Nél;08/02/1997;Portuguesa;Fornelos;Barcelos;Braga;Solteiro;;Rua de Fornelos Nº44;4750;Barcelos;957361292;923237183;Freddie.Nél@piscinasbarcacellos.pb;Mestrado;26536002;30501128429;
+57;Jeovana Japa;23/06/1992;Portuguesa;Fragoso;Barcelos;Braga;Solteiro;;Rua de Fragoso Nº88;4750;Barcelos;983137582;967706006;Jeovana.Japa@piscinasbarcacellos.pb;Licenciatura;54696935;59640983174;
+58;Ramsés Melão;18/06/1974;Portuguesa;Gilmonde;Barcelos;Braga;Solteiro;;Rua de Gilmonde Nº67;4750;Barcelos;954651693;994577278;Ramsés.Melão@piscinasbarcacellos.pb;Licenciatura;68727806;80418520256;
+59;Zhiqi Guinho;10/09/1974;Portuguesa;Lama;Barcelos;Braga;Casado;Jairson Pata;Rua de Lama Nº90;4750;Barcelos;951451133;964318131;Zhiqi.Guinho@piscinasbarcacellos.pb;Licenciatura;30926361;22059505690;
+60;Maya Neném;28/12/1990;Portuguesa;Lijó;Barcelos;Braga;Casado;Lania Quil;Rua de Lijó Nº92;4750;Barcelos;984989275;935575125;Maya.Neném@piscinasbarcacellos.pb;Licenciatura;74451446;78425292156;
+61;Ramires Dida;15/03/1986;Portuguesa;Manhente;Barcelos;Braga;Solteiro;;Rua de Manhente Nº39;4750;Barcelos;978809536;931643114;Ramires.Dida@piscinasbarcacellos.pb;Licenciatura;62854261;37475977684;
+62;Rafaela Losa;11/01/1971;Portuguesa;Martim;Barcelos;Braga;Casado;Leydilson Guta;Rua de Martim Nº67;4750;Barcelos;957765841;981562874;Rafaela.Losa@piscinasbarcacellos.pb;Secundário;93458838;16657048893;
+63;Lorenza Papa;13/10/1978;Portuguesa;Moure;Barcelos;Braga;Casado;Hérmen Beto;Rua de Moure Nº8;4750;Barcelos;938595981;919901511;Lorenza.Papa@piscinasbarcacellos.pb;Secundário;45117823;71207696519;
+64;Ísis Quél;26/04/1973;Portuguesa;Oliveira;Barcelos;Braga;Solteiro;;Rua de Oliveira Nº19;4750;Barcelos;956496387;971785119;Ísis.Quél@piscinasbarcacellos.pb;Licenciatura;94081313;30823882837;
+65;Gonçalo Binho;05/11/1990;Portuguesa;Palme;Barcelos;Braga;Casado;Marcel Dudinha;Rua de Palme Nº82;4750;Barcelos;995224259;949299726;Gonçalo.Binho@piscinasbarcacellos.pb;Licenciatura;57072263;71318273743;
+66;Helene Pipoca;15/07/1977;Portuguesa;Panque;Barcelos;Braga;Solteiro;;Rua de Panque Nº53;4750;Barcelos;959577661;956110386;Helene.Pipoca@piscinasbarcacellos.pb;Licenciatura;30967423;93548272927;
+67;Rhoda Quita;06/07/1982;Portuguesa;Paradela;Barcelos;Braga;Solteiro;;Rua de Paradela Nº92;4750;Barcelos;930959401;967933663;Rhoda.Quita@piscinasbarcacellos.pb;Secundário;54538179;30261435186;
+68;Morayooluwa Gui;09/03/1980;Portuguesa;Aborim;Barcelos;Braga;Solteiro;;Rua de Aborim Nº75;4750;Barcelos;917484165;950133022;Morayooluwa.Gui@piscinasbarcacellos.pb;Secundário;44349406;68724033253;
+69;Jubin Zeca;18/09/1971;Portuguesa;Adães;Barcelos;Braga;Casado;Defence Mosca;Rua de Adães Nº93;4750;Barcelos;988871340;919507005;Jubin.Zeca@piscinasbarcacellos.pb;Mestrado;29024092;76924051973;
+70;Mayline Capela;09/10/1973;Portuguesa;Airó;Barcelos;Braga;Casado;Heluísa Anjinha;Rua de Airó Nº41;4750;Barcelos;944951627;918256507;Mayline.Capela@piscinasbarcacellos.pb;Mestrado;57685788;52023060232;
+71;Ayana Alê;05/08/1973;Portuguesa;Aldreu;Barcelos;Braga;Casado;Umaro Peru;Rua de Aldreu Nº36;4750;Barcelos;911802989;993547510;Ayana.Alê@piscinasbarcacellos.pb;Secundário;46798329;20756167393;
+72;Andy Pretinho;24/06/1998;Portuguesa;Alvelos;Barcelos;Braga;Solteiro;;Rua de Alvelos Nº7;4750;Barcelos;941148471;915302458;Andy.Pretinho@piscinasbarcacellos.pb;Licenciatura;11490863;96055332065;
+73;Edna Duda;27/07/1970;Portuguesa;Arcozelo;Barcelos;Braga;Solteiro;;Rua de Arcozelo Nº28;4750;Barcelos;971533597;937922647;Edna.Duda@piscinasbarcacellos.pb;Secundário;66028022;38324646576;
+74;Aléxis Sabiá;08/02/1993;Portuguesa;Balugães;Barcelos;Braga;Solteiro;;Rua de Balugães Nº44;4750;Barcelos;992587012;987443288;Aléxis.Sabiá@piscinasbarcacellos.pb;Licenciatura;15893239;80061750668;
+75;Tshayene Tampinha;14/07/1976;Portuguesa;Barcelinhos;Barcelos;Braga;Solteiro;;Rua de Barcelinhos Nº76;4750;Barcelos;982180030;971361379;Tshayene.Tampinha@piscinasbarcacellos.pb;Mestrado;69236889;53296428095;
+76;Phelix Loro;19/02/1997;Portuguesa;Barqueiros;Barcelos;Braga;Solteiro;;Rua de Barqueiros Nº74;4750;Barcelos;992052351;968932883;Phelix.Loro@piscinasbarcacellos.pb;Mestrado;80993839;51336509833;
+77;Ciro Peuzinha;02/05/1997;Portuguesa;Cambeses;Barcelos;Braga;Solteiro;;Rua de Cambeses Nº34;4750;Barcelos;930213430;979282226;Ciro.Peuzinha@piscinasbarcacellos.pb;Mestrado;93329663;55496709603;
+78;Dailson Chicó;22/08/1976;Portuguesa;Carapeços;Barcelos;Braga;Solteiro;;Rua de Carapeços Nº10;4750;Barcelos;916790301;951824472;Dailson.Chicó@piscinasbarcacellos.pb;Secundário;71278356;70099199817;
+79;Nirjala Nininho;11/02/1971;Portuguesa;Carvalhal;Barcelos;Braga;Casado;Emaan Alê;Rua de Carvalhal Nº62;4750;Barcelos;919619288;961918492;Nirjala.Nininho@piscinasbarcacellos.pb;Licenciatura;46870048;82196530397;
+80;Chisom Nôh;19/11/1980;Portuguesa;Carvalhas;Barcelos;Braga;Solteiro;;Rua de Carvalhas Nº43;4750;Barcelos;965558601;972999964;Chisom.Nôh@piscinasbarcacellos.pb;Mestrado;93519121;46993908649;
+81;Avonlea Dida;28/02/1970;Portuguesa;Cossourado;Barcelos;Braga;Casado;Niriani Guri;Rua de Cossourado Nº11;4750;Barcelos;969983994;956890218;Avonlea.Dida@piscinasbarcacellos.pb;Mestrado;91518692;46529526783;
+82;Núbia Guta;11/07/1992;Portuguesa;Cristelo;Barcelos;Braga;Casado;Aksinia Quita;Rua de Cristelo Nº38;4750;Barcelos;968265186;930494500;Núbia.Guta@piscinasbarcacellos.pb;Licenciatura;76895507;58679366921;
+83;Mahakdip Painho;12/02/1975;Portuguesa;Fornelos;Barcelos;Braga;Solteiro;;Rua de Fornelos Nº74;4750;Barcelos;937123397;963441601;Mahakdip.Painho@piscinasbarcacellos.pb;Secundário;66884416;77715599088;
+84;Geisa Boy;17/03/1988;Portuguesa;Fragoso;Barcelos;Braga;Casado;Debra Binho;Rua de Fragoso Nº59;4750;Barcelos;934031669;938751809;Geisa.Boy@piscinasbarcacellos.pb;Mestrado;46689057;39442855183;
+85;Ruthnney Furinha;24/05/2000;Portuguesa;Gilmonde;Barcelos;Braga;Casado;Chisom Beto;Rua de Gilmonde Nº7;4750;Barcelos;980633952;948681071;Ruthnney.Furinha@piscinasbarcacellos.pb;Mestrado;94172336;49501800994;
+86;Gurmehek Lilico;08/03/1984;Portuguesa;Lama;Barcelos;Braga;Solteiro;;Rua de Lama Nº43;4750;Barcelos;993673993;943233593;Gurmehek.Lilico@piscinasbarcacellos.pb;Licenciatura;89267710;39343114484;
+87;Mouctar Cafú;04/06/1972;Portuguesa;Lijó;Barcelos;Braga;Casado;Janira Pezão;Rua de Lijó Nº11;4750;Barcelos;957153370;933810109;Mouctar.Cafú@piscinasbarcacellos.pb;Secundário;58267355;32416672531;
+88;Eddie Sena;21/11/1995;Portuguesa;Manhente;Barcelos;Braga;Casado;Denilson Alê;Rua de Manhente Nº28;4750;Barcelos;954880290;933717932;Eddie.Sena@piscinasbarcacellos.pb;Licenciatura;67437228;20201591508;
+89;Sejal Dado;14/01/1994;Portuguesa;Martim;Barcelos;Braga;Casado;Nicolly Dinha;Rua de Martim Nº71;4750;Barcelos;993100055;924231528;Sejal.Dado@piscinasbarcacellos.pb;Secundário;57231866;79329439605;
+90;Talia Géu;02/02/1988;Portuguesa;Moure;Barcelos;Braga;Casado;Nataniel Furinha;Rua de Moure Nº44;4750;Barcelos;912204946;943920257;Talia.Géu@piscinasbarcacellos.pb;Secundário;67639948;77074119784;
+91;Júlia Cecéu;02/01/1998;Braga;Solteiro;;Rua de Oliveira Nº54;4750;Barcelos;969567559;924200548;Júlia.Cecéu@piscinasbarcacellos.pb;Licenciatura;19297257;22804161465;;;;
+92;Skylar Quinca;27/03/1999;Portuguesa;Palme;Barcelos;Braga;Casado;Casimiro Gil;Rua de Palme Nº65;4750;Barcelos;924233565;956753995;Skylar.Quinca@piscinasbarcacellos.pb;Licenciatura;18620034;90740068985;
+93;Issa Dedé;12/05/1988;Portuguesa;Panque;Barcelos;Braga;Casado;Destiny Pata;Rua de Panque Nº67;4750;Barcelos;914505783;929494865;Issa.Dedé@piscinasbarcacellos.pb;Secundário;82587759;85336191508;
+94;Damião Leléo;21/08/1999;Portuguesa;Paradela;Barcelos;Braga;Casado;Marbin Ganso;Rua de Paradela Nº78;4750;Barcelos;950481800;951458034;Damião.Leléo@piscinasbarcacellos.pb;Mestrado;50224744;83445089020;
+95;Rania Galego;05/12/1983;Portuguesa;Pereira;Barcelos;Braga;Solteiro;;Rua de Pereira Nº18;4750;Barcelos;925437195;926824972;Rania.Galego@piscinasbarcacellos.pb;Licenciatura;73583460;58990443609;
+96;Sarina Guinho;12/07/1970;Portuguesa;Perelhal;Barcelos;Braga;Solteiro;;Rua de Perelhal Nº51;4750;Barcelos;910255360;975727368;Sarina.Guinho@piscinasbarcacellos.pb;Secundário;44158511;35320277088;
+97;Zhen Losa;14/12/1976;Portuguesa;Pousa;Barcelos;Braga;Solteiro;;Rua de Pousa Nº41;4750;Barcelos;942715538;934122307;Zhen.Losa@piscinasbarcacellos.pb;Secundário;95316591;75499810170;
+98;Prinsha Dinha;17/02/1996;Portuguesa;Moure;Barcelos;Braga;Casado;Salvio Leléo;Rua de Moure Nº20;4750;Barcelos;954336237;951435087;Prinsha.Dinha@piscinasbarcacellos.pb;Licenciatura;45889571;61367730521;
+99;Kiezi Pipo;08/05/1982;Portuguesa;Oliveira;Barcelos;Braga;Casado;Khloé Huck;Rua de Oliveira Nº43;4750;Barcelos;968905180;988881526;Kiezi.Pipo@piscinasbarcacellos.pb;Licenciatura;48674180;15363060467;
+100;Tawila Dál;15/06/1971;Portuguesa;Palme;Barcelos;Braga;Casado;Malia Flor;Rua de Palme Nº8;4750;Barcelos;981598851;980010509;Tawila.Dál@piscinasbarcacellos.pb;Mestrado;69542798;98031647125;
+101;Jerykson Belo;27/12/1984;Portuguesa;Panque;Barcelos;Braga;Casado;Cristóvão Tico;Rua de Panque Nº15;4750;Barcelos;920623622;912056522;Jerykson.Belo@piscinasbarcacellos.pb;Mestrado;92844186;49334470941;
+102;Kendall Linda;21/03/1990;Portuguesa;Paradela;Barcelos;Braga;Solteiro;;Rua de Paradela Nº36;4750;Barcelos;949114502;920893306;Kendall.Linda@piscinasbarcacellos.pb;Secundário;69345697;75845043106;
+103;Maxim Bina;28/12/1977;Portuguesa;Pereira;Barcelos;Braga;Solteiro;;Rua de Pereira Nº5;4750;Barcelos;940094459;965515666;Maxim.Bina@piscinasbarcacellos.pb;Secundário;95390143;58557436879;
+104;César Cecéu;17/12/1974;Portuguesa;Perelhal;Barcelos;Braga;Casado;Estefany Dinha;Rua de Perelhal Nº17;4750;Barcelos;947430698;988588294;César.Cecéu@piscinasbarcacellos.pb;Secundário;55721194;10121136296;
+105;Rania Láu;27/10/1998;Portuguesa;Aborim;Barcelos;Braga;Solteiro;;Rua de Aborim Nº88;4750;Barcelos;995791466;921110869;Rania.Láu@piscinasbarcacellos.pb;Licenciatura;68428488;86805736764;
+106;Nuño Dedé;06/07/1989;Portuguesa;Adães;Barcelos;Braga;Solteiro;;Rua de Adães Nº59;4750;Barcelos;975622388;950051659;Nuño.Dedé@piscinasbarcacellos.pb;Licenciatura;95175405;92313472232;
+107;Jayssan Tita;18/01/1972;Portuguesa;Airó;Barcelos;Braga;Casado;Shyom Chiquinha;Rua de Airó Nº79;4750;Barcelos;972177872;977850583;Jayssan.Tita@piscinasbarcacellos.pb;Secundário;74411803;69716844414;
+108;Xénon Sena;05/07/1973;Portuguesa;Aldreu;Barcelos;Braga;Solteiro;;Rua de Aldreu Nº15;4750;Barcelos;924905048;946983601;Xénon.Sena@piscinasbarcacellos.pb;Mestrado;68937742;23341339611;
+109;Rosário Duda;11/07/1972;Portuguesa;Alvelos;Barcelos;Braga;Solteiro;;Rua de Alvelos Nº23;4750;Barcelos;974623711;911601649;Rosário.Duda@piscinasbarcacellos.pb;Mestrado;84254660;64751497745;
+100;Timéo Dão;03/01/2000;Portuguesa;Arcozelo;Barcelos;Braga;Solteiro;;Rua de Arcozelo Nº81;4750;Barcelos;931007753;983154571;Timéo.Dão@piscinasbarcacellos.pb;Mestrado;64400530;46576464061;
+111;Adonias Netinho;26/04/1980;Portuguesa;Balugães;Barcelos;Braga;Solteiro;;Rua de Balugães Nº75;4750;Barcelos;916028282;952524320;Adonias.Netinho@piscinasbarcacellos.pb;Licenciatura;44249944;73845318376;
+112;Adame Milu;24/12/1988;Portuguesa;Barcelinhos;Barcelos;Braga;Casado;Jagger Lalinha;Rua de Barcelinhos Nº31;4750;Barcelos;997440372;954147064;Adame.Milu@piscinasbarcacellos.pb;Licenciatura;43047541;54256223558;
+113;Otília Xuxa;11/04/1985;Portuguesa;Barqueiros;Barcelos;Braga;Casado;Aleck Bél;Rua de Barqueiros Nº24;4750;Barcelos;996145313;974537874;Otília.Xuxa@piscinasbarcacellos.pb;Licenciatura;51692725;10680284864;
+114;Reneckson Gil;25/12/1989;Portuguesa;Cambeses;Barcelos;Braga;Casado;Junior Bola;Rua de Cambeses Nº10;4750;Barcelos;927689990;955974718;Reneckson.Gil@piscinasbarcacellos.pb;Secundário;78616797;68005106295;
+115;Kiuma Déo;06/06/1974;Portuguesa;Carapeços;Barcelos;Braga;Solteiro;;Rua de Carapeços Nº88;4750;Barcelos;935783559;927346147;Kiuma.Déo@piscinasbarcacellos.pb;Licenciatura;19499326;87335748549;
+116;Dhavid Alê;09/09/1982;Portuguesa;Carvalhal;Barcelos;Braga;Casado;Malu Jujú;Rua de Carvalhal Nº8;4750;Barcelos;995749028;997655871;Dhavid.Alê@piscinasbarcacellos.pb;Mestrado;28495641;10106356549;
+117;Wayamy Papa;07/11/1987;Portuguesa;Carvalhas;Barcelos;Braga;Solteiro;;Rua de Carvalhas Nº58;4750;Barcelos;942978667;991510998;Wayamy.Papa@piscinasbarcacellos.pb;Mestrado;41823216;86227363368;
+118;Juan Xica;13/11/1970;Portuguesa;Cossourado;Barcelos;Braga;Solteiro;;Rua de Cossourado Nº85;4750;Barcelos;999305415;943030768;Juan.Xica@piscinasbarcacellos.pb;Secundário;46234815;56344583959;
+119;Joliam Bananinha;10/05/1973;Portuguesa;Cristelo;Barcelos;Braga;Casado;Áurea Capela;Rua de Cristelo Nº42;4750;Barcelos;945837750;912967124;Joliam.Bananinha@piscinasbarcacellos.pb;Mestrado;43116579;75977070464;
+120;Shayana Docinho;13/12/1980;Portuguesa;Fornelos;Barcelos;Braga;Casado;Emanuel Dóia;Rua de Fornelos Nº84;4750;Barcelos;997495829;944499280;Shayana.Docinho@piscinasbarcacellos.pb;Mestrado;11524725;27930601982;
+121;Vanessa Neto;13/05/1983;Portuguesa;Fragoso;Barcelos;Braga;Solteiro;;Rua de Fragoso Nº8;4750;Barcelos;967481918;987266261;Vanessa.Neto@piscinasbarcacellos.pb;Secundário;22036961;77200592091;
+122;Hamad Kaká;15/03/1992;Portuguesa;Gilmonde;Barcelos;Braga;Casado;Eiman JP;Rua de Gilmonde Nº18;4750;Barcelos;956657510;952828250;Hamad.Kaká@piscinasbarcacellos.pb;Licenciatura;84774711;59809808837;
+123;Enrique Teco;25/04/1990;Portuguesa;Lama;Barcelos;Braga;Solteiro;;Rua de Lama Nº36;4750;Barcelos;963205591;910262694;Enrique.Teco@piscinasbarcacellos.pb;Secundário;90072621;69109002365;
+124;Sejal Careca;09/12/1988;Portuguesa;Lijó;Barcelos;Braga;Casado;Ayhane Maluquinho;Rua de Lijó Nº71;4750;Barcelos;947597281;997554457;Sejal.Careca@piscinasbarcacellos.pb;Licenciatura;79191544;13043937701;
+125;Délia Riquinho;10/02/1974;Portuguesa;Manhente;Barcelos;Braga;Casado;Aaliyah Loro;Rua de Manhente Nº86;4750;Barcelos;916127931;978729738;Délia.Riquinho@piscinasbarcacellos.pb;Mestrado;20332309;32942804175;
+126;Madison Tonho;27/11/1986;Portuguesa;Martim;Barcelos;Braga;Solteiro;;Rua de Martim Nº1;4750;Barcelos;969970263;986910683;Madison.Tonho@piscinasbarcacellos.pb;Mestrado;48718355;18978357652;
+127;Enzo Tozinho;24/06/1973;Portuguesa;Moure;Barcelos;Braga;Solteiro;;Rua de Moure Nº39;4750;Barcelos;965745943;935818204;Enzo.Tozinho@piscinasbarcacellos.pb;Licenciatura;75106459;81435824997;
+128;Zafar Piu;24/06/1975;Portuguesa;Oliveira;Barcelos;Braga;Solteiro;;Rua de Oliveira Nº13;4750;Barcelos;972819853;972225252;Zafar.Piu@piscinasbarcacellos.pb;Licenciatura;71302444;24310912937;
+129;Márcia Quil;23/12/1994;Portuguesa;Palme;Barcelos;Braga;Solteiro;;Rua de Palme Nº52;4750;Barcelos;937785289;939341193;Márcia.Quil@piscinasbarcacellos.pb;Licenciatura;10302282;12397145995;
+130;Wayamy Ratinho;22/03/1977;Portuguesa;Panque;Barcelos;Braga;Casado;Ivana Boy;Rua de Panque Nº78;4750;Barcelos;921653046;940412713;Wayamy.Ratinho@piscinasbarcacellos.pb;Secundário;68032472;36284588178;
+131;Aayan Biu;02/01/1985;Portuguesa;Paradela;Barcelos;Braga;Solteiro;;Rua de Paradela Nº23;4750;Barcelos;920099308;986296253;Aayan.Biu@piscinasbarcacellos.pb;Secundário;19918591;65801178058;
+132;Jayden Jacaré;18/02/1973;Portuguesa;Pereira;Barcelos;Braga;Solteiro;;Rua de Pereira Nº65;4750;Barcelos;928381670;971158082;Jayden.Jacaré@piscinasbarcacellos.pb;Secundário;24753254;11474622400;
+133;Cheng Lio;21/09/1978;Portuguesa;Perelhal;Barcelos;Braga;Casado;Caelan Losa;Rua de Perelhal Nº72;4750;Barcelos;929458003;984653153;Cheng.Lio@piscinasbarcacellos.pb;Mestrado;69169424;74036558084;
+134;Kimi Doquinha;12/05/1977;Portuguesa;Pousa;Barcelos;Braga;Solteiro;;Rua de Pousa Nº63;4750;Barcelos;961911542;935797243;Kimi.Doquinha@piscinasbarcacellos.pb;Licenciatura;40047685;12126859474;
+135;Daniel Branca;28/10/1972;Portuguesa;Carapeços;Barcelos;Braga;Solteiro;;Rua de Carapeços Nº15;4750;Barcelos;912095916;958180962;Daniel.Branca@piscinasbarcacellos.pb;Mestrado;25079067;25913136395;
+136;Luiza Leléo;12/10/1990;Portuguesa;Carvalhal;Barcelos;Braga;Solteiro;;Rua de Carvalhal Nº25;4750;Barcelos;952253562;983372166;Luiza.Leléo@piscinasbarcacellos.pb;Licenciatura;21329103;64416643252;
+137;Melisa Vic;20/08/1991;Portuguesa;Carvalhas;Barcelos;Braga;Solteiro;;Rua de Carvalhas Nº94;4750;Barcelos;933964198;970410391;Melisa.Vic@piscinasbarcacellos.pb;Licenciatura;67224421;94943624077;
+13x;Ericson Bar;03/01/1975;Portuguesa;Cossourado;Barcelos;Braga;Solteiro;;Rua de Cossourado Nº7;4750;Barcelos;997787355;934704499;Ericson.Bar@piscinasbarcacellos.pb;Licenciatura;56044785;52983599844;
+139;Nour Teco;05/10/1982;Portuguesa;Cristelo;Barcelos;Braga;Solteiro;;Rua de Cristelo Nº93;4750;Barcelos;916779052;947320110;Nour.Teco@piscinasbarcacellos.pb;Secundário;31135708;16750588876;
+140;N'Nasta Lobão;19/11/1985;Portuguesa;Fornelos;Barcelos;Braga;Casado;Yuran Belinha;Rua de Fornelos Nº55;4750;Barcelos;993175339;963018670;N'Nasta.Lobão@piscinasbarcacellos.pb;Mestrado;84130820;29466740595;
+141;Ícaro Capela;06/05/1981;Portuguesa;Fragoso;Barcelos;Braga;Solteiro;;Rua de Fragoso Nº49;4750;Barcelos;989008463;979881708;Ícaro.Capela@piscinasbarcacellos.pb;Secundário;57713674;61337193003;
+142;Nidhi Chiquinha;17/06/1985;Portuguesa;Gilmonde;Barcelos;Braga;Casado;Almerinda Pépe;Rua de Gilmonde Nº8;4750;Barcelos;916911251;942079668;Nidhi.Chiquinha@piscinasbarcacellos.pb;Licenciatura;59449006;71169007622;
+143;Chelse Jamanta;16/04/1976;Portuguesa;Lama;Barcelos;Braga;Casado;Josiel Pingo;Rua de Lama Nº4;4750;Barcelos;912969883;958297206;Chelse.Jamanta@piscinasbarcacellos.pb;Mestrado;76193751;11625855949;
+144;Ábda Chibinha;23/01/1996;Portuguesa;Lijó;Barcelos;Braga;Casado;Kawame Duda;Rua de Lijó Nº87;4750;Braga;933265325;930033389;Ábda.Chibinha@piscinasbarcacellos.pb;Secundário;17185829;16364976198;
+145;Skylar Neto;27/10/1992;Portuguesa;Manhente;Barcelos;Braga;Solteiro;;Rua de Manhente Nº12;4750;Barcelos;951838473;940022182;Skylar.Neto@piscinasbarcacellos.pb;Secundário;19567745;88395618183;
+146;Denil Juca;27/06/1991;Portuguesa;Martim;Barcelos;Braga;Casado;Ali Fofa;Rua de Martim Nº29;4750;Barcelos;953556368;929399752;Denil.Juca@piscinasbarcacellos.pb;Mestrado;56097640;91744784900;
+147;Cheng Gúh;12/12/1997;Portuguesa;Moure;Barcelos;Braga;Casado;Jivreet Geno;Rua de Moure Nº8;4750;Barcelos;921233394;989186399;Cheng.Gúh@piscinasbarcacellos.pb;Licenciatura;37578753;82844100441;
+148;Dillon Quél;18/11/1992;Portuguesa;Oliveira;Barcelos;Braga;Casado;Nair Tita;Rua de Oliveira Nº31;4750;Barcelos;940066765;947419985;Dillon.Quél@piscinasbarcacellos.pb;Mestrado;66170671;99474217581;
+149;Henrique Quil;16/06/1986;Portuguesa;Palme;Barcelos;Braga;Casado;Cherry Vavá;Rua de Palme Nº65;4750;Barcelos;964890685;932032100;Henrique.Quil@piscinasbarcacellos.pb;Secundário;20477506;30440086605;
+150;Anaís Tonton;11/08/1992;Portuguesa;Panque;Barcelos;Braga;Casado;Aram Benta;Rua de Panque Nº74;4750;Barcelos;987025346;957937881;Anaís.Tonton@piscinasbarcacellos.pb;Mestrado;25342078;71756492814;
+151;Juli Maninho;05/04/2000;Portuguesa;Paradela;Barcelos;Braga;Casado;Michele Tatinha;Rua de Paradela Nº77;4750;Barcelos;975883240;945546516;Juli.Maninho@piscinasbarcacellos.pb;Secundário;60699456;77347165863;
+152;Hala Beto;22/04/1992;Portuguesa;Pereira;Barcelos;Braga;Casado;Pregua Beta;Rua de Pereira Nº24;4750;Barcelos;953533549;919571537;Hala.Beto@piscinasbarcacellos.pb;Mestrado;38935044;91275748715;
+153;Josué Furinha;14/12/1970;Portuguesa;Aborim;Barcelos;Braga;Solteiro;;Rua de Aborim Nº83;4750;Barcelos;937044437;974690058;Josué.Furinha@piscinasbarcacellos.pb;Secundário;27269161;80638272315;
+154;Tamára Belo;17/09/1989;Portuguesa;Adães;Barcelos;Braga;Casado;Jack Loro;Rua de Adães Nº17;4750;Barcelos;962810506;910178166;Tamára.Belo@piscinasbarcacellos.pb;Secundário;45716142;36646197634;
+155;Ieva Nôh;18/11/1992;Portuguesa;Airó;Barcelos;Braga;Casado;Andres Bob;Rua de Airó Nº74;4750;Barcelos;942783828;962320264;Ieva.Nôh@piscinasbarcacellos.pb;Licenciatura;10599278;62829179305;
+156;Brandon Docinho;08/10/1988;Portuguesa;Aldreu;Barcelos;Braga;Solteiro;;Rua de Aldreu Nº75;4750;Barcelos;919522249;971939872;Brandon.Docinho@piscinasbarcacellos.pb;Licenciatura;62408927;61534133361;
+157;Tayanni Mascote;15/02/1991;Portuguesa;Alvelos;Barcelos;Braga;Casado;Alcilane Guta;Rua de Alvelos Nº47;4750;Barcelos;935770437;943665018;Tayanni.Mascote@piscinasbarcacellos.pb;Mestrado;66437432;48412604375;
+158;Lyra Tita;28/03/1975;Portuguesa;Arcozelo;Barcelos;Braga;Solteiro;;Rua de Arcozelo Nº17;4750;Barcelos;927124677;914037306;Lyra.Tita@piscinasbarcacellos.pb;Mestrado;62944347;11276825863;
+159;Aliyah Binho;08/11/1971;Portuguesa;Balugães;Barcelos;Braga;Casado;Alison Cebolinha;Rua de Balugães Nº50;4750;Barcelos;918171719;910505360;Aliyah.Binho@piscinasbarcacellos.pb;Mestrado;85675058;99584492190;
+160;Luan Peleco;28/04/1975;Portuguesa;Barcelinhos;Barcelos;Braga;Solteiro;;Rua de Barcelinhos Nº28;4750;Barcelos;938381117;962642047;Luan.Peleco@piscinasbarcacellos.pb;Licenciatura;19597708;69891546415;
+161;Elson Melão;21/03/1981;Portuguesa;Barqueiros;Barcelos;Braga;Casado;Dinica Ratinho;Rua de Barqueiros Nº83;4750;Barcelos;937432509;911642754;Elson.Melão@piscinasbarcacellos.pb;Mestrado;29949767;25464256162;
+162;Arian Bola;04/11/1991;Portuguesa;Cambeses;Barcelos;Braga;Solteiro;;Rua de Cambeses Nº20;4750;Barcelos;956758519;966554830;Arian.Bola@piscinasbarcacellos.pb;Licenciatura;27639776;73302428369;
+163;Noah Tina;17/12/1994;Portuguesa;Carapeços;Barcelos;Braga;Casado;Oriel Chiquinha;Rua de Carapeços Nº19;4750;Barcelos;987643070;953228666;Noah.Tina@piscinasbarcacellos.pb;Secundário;51273949;55066823492;
+164;Elisa Duda;17/12/1970;Portuguesa;Fraião;Barcelos;Braga;Solteiro;;Rua de Carvalhal Nº76;4750;Barcelos;959076933;987851844;Elisa.Duda@piscinasbarcacellos.pb;Mestrado;52650324;42711520289;
+165;Lais Bina;08/12/1985;Portuguesa;Carvalhas;Barcelos;Braga;Solteiro;;Rua de Carvalhas Nº33;4750;Barcelos;960466568;967965723;Lais.Bina@piscinasbarcacellos.pb;Secundário;87869911;76952227437;
+166;Ersílio Preto;22/06/1975;Portuguesa;Cossourado;Barcelos;Braga;Solteiro;;Rua de Cossourado Nº54;4750;Barcelos;968295236;948823590;Ersílio.Preto@piscinasbarcacellos.pb;Secundário;19351435;45026370951;
+167;Harkirat Fofão;13/12/1982;Portuguesa;Cristelo;Barcelos;Braga;Casado;Vida Sol;Rua de Cristelo Nº16;4750;Barcelos;936640447;979489150;Harkirat.Fofão@piscinasbarcacellos.pb;Licenciatura;10601336;18369236998;
+168;Jasleen Quél;25/01/1984;Portuguesa;Fornelos;Barcelos;Braga;Casado;Cael Neguinho;Rua de Fornelos Nº35;4750;Barcelos;947386985;988912321;Jasleen.Quél@piscinasbarcacellos.pb;Licenciatura;73167756;83843003801;
+169;Liliia Macarrão;08/05/1992;Portuguesa;Fragoso;Barcelos;Braga;Casado;Valdemar Pipo;Rua de Fragoso Nº97;4750;Barcelos;986057689;962507115;Liliia.Macarrão@piscinasbarcacellos.pb;Mestrado;24709195;74799989619;
+170;Ivânia Pica-Pau;07/07/1972;Portuguesa;Gilmonde;Barcelos;Braga;Solteiro;;Rua de Gilmonde Nº64;4750;Barcelos;949383726;959359366;Ivânia.Pica-Pau@piscinasbarcacellos.pb;Mestrado;26541622;66761932636;
+171;Gael Galego;26/02/1984;Portuguesa;Lama;Barcelos;Braga;Casado;Maia Fred;Rua de Lama Nº69;4750;Barcelos;947208088;929186098;Gael.Galego@piscinasbarcacellos.pb;Licenciatura;71690902;35483044151;
+172;Shanzay Jamanta;12/12/1971;Portuguesa;Lijó;Barcelos;Braga;Solteiro;;Rua de Lijó Nº67;4750;Barcelos;963292055;928036557;Shanzay.Jamanta@piscinasbarcacellos.pb;Mestrado;78850713;42296616402;
+173;Deep Pipo;19/09/1972;Portuguesa;Manhente;Barcelos;Braga;Casado;Libânia Quita;Rua de Manhente Nº82;4750;Barcelos;940834024;986602930;Deep.Pipo@piscinasbarcacellos.pb;Secundário;65850557;36882283735;
+174;Rivan Pezão;24/10/1986;Portuguesa;Martim;Barcelos;Braga;Casado;Iana Bad;Rua de Martim Nº20;4750;Barcelos;992761247;992193056;Rivan.Pezão@piscinasbarcacellos.pb;Licenciatura;21710795;39375256893;
+175;Dália Tatinha;01/05/1988;Portuguesa;Moure;Barcelos;Braga;Solteiro;;Rua de Moure Nº88;4750;Barcelos;924890486;986841789;Dália.Tatinha@piscinasbarcacellos.pb;Mestrado;41062176;65275051919;
+176;Madeha Léo;05/07/1991;Portuguesa;Oliveira;Barcelos;Braga;Solteiro;;Rua de Oliveira Nº22;4750;Barcelos;912114924;982426363;Madeha.Léo@piscinasbarcacellos.pb;Licenciatura;32885464;15983318964;
+177;Adriane Gui;21/04/1980;Portuguesa;Palme;Barcelos;Braga;Casado;Melina Furinha;Rua de Palme Nº4;4750;Barcelos;925454219;942652186;Adriane.Gui@piscinasbarcacellos.pb;Secundário;74383948;28401052394;
+178;Mathilde Bél;01/09/1998;Portuguesa;Panque;Barcelos;Braga;Casado;Lucca Grilo;Rua de Panque Nº5;4750;Barcelos;934423712;950997376;Mathilde.Bél@piscinasbarcacellos.pb;Licenciatura;19177126;69318308181;
+179;Esmeralda Duduzinho;15/12/1992;Portuguesa;Paradela;Barcelos;Braga;Solteiro;;Rua de Paradela Nº92;4750;Barcelos;920929933;920143676;Esmeralda.Duduzinho@piscinasbarcacellos.pb;Licenciatura;94239194;72246005929;
+180;Ewa Drica;27/11/1993;Portuguesa;Pereira;Barcelos;Braga;Solteiro;;Rua de Pereira Nº91;4750;Barcelos;945471165;987686290;Ewa.Drica@piscinasbarcacellos.pb;Licenciatura;40668711;84138256649;
+181;Malik Lilico;08/06/1976;Portuguesa;Perelhal;Barcelos;Braga;Casado;Theo Tozinho;Rua de Perelhal Nº23;4750;Barcelos;959569822;928681073;Malik.Lilico@piscinasbarcacellos.pb;Mestrado;76478920;46518946916;
+182;Rosana Dinho;01/08/1998;Portuguesa;Pousa;Barcelos;Braga;Casado;Hyrningur Cebolinha;Rua de Pousa Nº65;4750;Barcelos;984796328;995479627;Rosana.Dinho@piscinasbarcacellos.pb;Secundário;92377598;19216171226;
+183;Laurent Geno;19/11/1986;Portuguesa;Carapeços;Barcelos;Braga;Solteiro;;Rua de Carapeços Nº63;4750;Barcelos;997838082;977110488;Laurent.Geno@piscinasbarcacellos.pb;Mestrado;52872863;37543875641;
+184;Benjamín Verinha;04/08/1987;Portuguesa;Carvalhal;Barcelos;Braga;Solteiro;;Rua de Carvalhal Nº61;4750;Barcelos;949027258;948515001;Benjamín.Verinha@piscinasbarcacellos.pb;Secundário;63126599;89790671503;
+185;Leví Tampinha;03/04/1989;Portuguesa;Carvalhas;Barcelos;Braga;Casado;Kenzo Anjinha;Rua de Carvalhas Nº76;4750;Barcelos;994645539;968688690;Leví.Tampinha@piscinasbarcacellos.pb;Secundário;74112691;91075833713;
+186;Jason Vavá;21/02/1986;Portuguesa;Cossourado;Barcelos;Braga;Solteiro;;Rua de Cossourado Nº69;4750;Barcelos;977564807;924582406;Jason.Vavá@piscinasbarcacellos.pb;Secundário;19875003;59040311491;
+187;Mélyssa Tonho;03/04/1983;Portuguesa;Cristelo;Barcelos;Braga;Solteiro;;Rua de Cristelo Nº22;4750;Barcelos;971976523;949898169;Mélyssa.Tonho@piscinasbarcacellos.pb;Mestrado;66629833;64004472555;
+188;Kaleb Flor;22/02/1985;Portuguesa;Fornelos;Barcelos;Braga;Solteiro;;Rua de Fornelos Nº60;4750;Barcelos;972944863;965577202;Kaleb.Flor@piscinasbarcacellos.pb;Mestrado;81060122;55000479194;
+189;Aynoah Ganso;07/01/1971;Portuguesa;Fragoso;Barcelos;Braga;Casado;Juliano Huck;Rua de Fragoso Nº93;4750;Barcelos;963439630;926838192;Aynoah.Ganso@piscinasbarcacellos.pb;Mestrado;67179288;43560444701;
+190;Zalia Quinho;11/02/1985;Portuguesa;Gilmonde;Barcelos;Braga;Solteiro;;Rua de Gilmonde Nº91;4750;Barcelos;954710509;917374458;Zalia.Quinho@piscinasbarcacellos.pb;Mestrado;36882157;51556790557;
+191;Jerónimo Pipoca;27/05/1974;Portuguesa;Lama;Barcelos;Braga;Casado;Délia Neto;Rua de Lama Nº13;4750;Barcelos;958858312;983134118;Jerónimo.Pipoca@piscinasbarcacellos.pb;Licenciatura;57810069;47529093265;
+192;Saico Pezão;03/05/1973;Portuguesa;Lijó;Barcelos;Braga;Casado;Afonsina Duda;Rua de Lijó Nº93;4750;Barcelos;936482088;980702006;Saico.Pezão@piscinasbarcacellos.pb;Secundário;91480779;71510691425;
+193;Franziska Mosca;04/02/2000;Portuguesa;Manhente;Barcelos;Braga;Solteiro;;Rua de Manhente Nº70;4750;Barcelos;982978917;997044813;Franziska.Mosca@piscinasbarcacellos.pb;Mestrado;85850496;25926551874;
+194;Ayla Tonton;24/04/1977;Portuguesa;Martim;Barcelos;Braga;Solteiro;;Rua de Martim Nº50;4750;Barcelos;912311447;957466067;Ayla.Tonton@piscinasbarcacellos.pb;Licenciatura;21627728;25186889650;
+195;Petra Maninho;15/07/1998;Portuguesa;Moure;Barcelos;Braga;Solteiro;;Rua de Moure Nº22;4750;Barcelos;936409236;913869345;Petra.Maninho@piscinasbarcacellos.pb;Secundário;65631265;53483649933;
+196;Júlio Ninha;17/09/1999;Portuguesa;Oliveira;Barcelos;Braga;Casado;Evelina Cacau;Rua de Oliveira Nº72;4750;Barcelos;972023142;979311510;Júlio.Ninha@piscinasbarcacellos.pb;Licenciatura;56185047;23160135012;
+197;Petru Tulio;18/10/1972;Portuguesa;Palme;Barcelos;Braga;Solteiro;;Rua de Palme Nº52;4750;Barcelos;949241755;971536498;Petru.Tulio@piscinasbarcacellos.pb;Mestrado;52512082;18563204844;
+198;Yafei Dadá;03/05/1972;Portuguesa;Panque;Barcelos;Braga;Solteiro;;Rua de Panque Nº46;4750;Barcelos;961710389;932889856;Yafei.Dadá@piscinasbarcacellos.pb;Licenciatura;86724973;34291751541;
+199;Bebiana Vivi;20/02/1997;Portuguesa;Aborim;Barcelos;Braga;Solteiro;;Rua de Aborim Nº24;4750;Barcelos;935442481;964166776;Bebiana.Vivi@piscinasbarcacellos.pb;Mestrado;45825629;25970320926;
+200;Daiana Pepê;15/09/1998;Portuguesa;Adães;Barcelos;Braga;Casado;Kelton Capela;Rua de Adães Nº47;4750;Barcelos;930241097;965472325;Daiana.Pepê@piscinasbarcacellos.pb;Secundário;96881393;60368433832;
+201;Yanni Dóia;08/04/1996;Portuguesa;Airó;Barcelos;Braga;Casado;Isadora Duca;Rua de Airó Nº44;4750;Barcelos;986382234;992652990;Yanni.Dóia@piscinasbarcacellos.pb;Mestrado;55410253;94072261855;
+202;Nair Dinho;05/12/1974;Portuguesa;Aldreu;Barcelos;Braga;Casado;Sahibdeep Fafá;Rua de Aldreu Nº5;4750;Barcelos;919945801;946858343;Nair.Dinho@piscinasbarcacellos.pb;Mestrado;28746229;91377174163;
+203;Daniely Quil;23/03/1989;Portuguesa;Alvelos;Barcelos;Braga;Casado;Jaciara Jota;Rua de Alvelos Nº75;4750;Barcelos;943174169;911681796;Daniely.Quil@piscinasbarcacellos.pb;Secundário;24576536;63609576250;
+204;Laércia Pretinho;22/02/1983;Portuguesa;Arcozelo;Barcelos;Braga;Casado;Mushtaribonu Gordo;Rua de Arcozelo Nº100;4750;Barcelos;944113678;940908709;Laércia.Pretinho@piscinasbarcacellos.pb;Secundário;39511030;71482579629;
+205;Alessandro Preto;09/05/1971;Portuguesa;Balugães;Barcelos;Braga;Casado;Betânia Guri;Rua de Balugães Nº43;4750;Barcelos;947065056;986396633;Alessandro.Preto@piscinasbarcacellos.pb;Secundário;25176307;96413632891;
+206;Yanxi Dedé;21/07/1989;Portuguesa;Barcelinhos;Barcelos;Braga;Solteiro;;Rua de Barcelinhos Nº37;4750;Barcelos;927701935;990878146;Yanxi.Dedé@piscinasbarcacellos.pb;Mestrado;61949020;49229884869;
+207;Yafei Nininho;04/09/1974;Portuguesa;Barqueiros;Barcelos;Braga;Casado;Dolores Beto;Rua de Barqueiros Nº61;4750;Barcelos;952973371;919703306;Yafei.Nininho@piscinasbarcacellos.pb;Secundário;43411116;20292678923;
+208;Clayton Bél;09/02/1970;Portuguesa;Cambeses;Barcelos;Braga;Solteiro;;Rua de Cambeses Nº11;4750;Barcelos;928084522;941321662;Clayton.Bél@piscinasbarcacellos.pb;Licenciatura;64578955;32801096133;
+209;Namaaha Dudú;14/11/1989;Portuguesa;Carapeços;Barcelos;Braga;Solteiro;;Rua de Carapeços Nº90;4750;Barcelos;921433538;920622418;Namaaha.Dudú@piscinasbarcacellos.pb;Secundário;19439807;44946097313;
+210;Hélcia Jiló;24/06/1973;Portuguesa;Carvalhal;Barcelos;Braga;Solteiro;;Rua de Carvalhal Nº27;4750;Barcelos;910721811;924852762;Hélcia.Jiló@piscinasbarcacellos.pb;Mestrado;72745939;58659963242;
+211;Guido Guri;13/08/1989;Portuguesa;Carvalhas;Barcelos;Braga;Solteiro;;Rua de Carvalhas Nº44;4750;Barcelos;946414194;946818844;Guido.Guri@piscinasbarcacellos.pb;Licenciatura;34252454;21489842621;
+212;Ieva Tica;20/03/1978;Portuguesa;Cossourado;Barcelos;Braga;Casado;Mila Riquinho;Rua de Cossourado Nº81;4750;Barcelos;952349286;939864711;Ieva.Tica@piscinasbarcacellos.pb;Secundário;41996118;66953823037;
+213;Simão Láu;22/10/1982;Portuguesa;Cristelo;Barcelos;Braga;Casado;Andy Tonton;Rua de Cristelo Nº66;4750;Barcelos;979155106;940171928;Simão.Láu@piscinasbarcacellos.pb;Licenciatura;42818459;62714607122;
+214;Júlio Gui;27/12/1978;Portuguesa;Fornelos;Barcelos;Braga;Solteiro;;Rua de Fornelos Nº27;4750;Barcelos;986718631;921480505;Júlio.Gui@piscinasbarcacellos.pb;Licenciatura;19479291;24348342181;
+215;Ezekiel Bananinha;16/08/1978;Portuguesa;Fragoso;Barcelos;Braga;Casado;Jingxuan Véi;Rua de Fragoso Nº7;4750;Barcelos;973398354;986266145;Ezekiel.Bananinha@piscinasbarcacellos.pb;Mestrado;83000192;61617807455;
+216;Tayna Lio;10/01/1990;Portuguesa;Gilmonde;Barcelos;Braga;Solteiro;;Rua de Gilmonde Nº64;4750;Barcelos;994360204;917835193;Tayna.Lio@piscinasbarcacellos.pb;Secundário;32931526;69068186123;
+217;Sadiya Painho;17/11/2000;Portuguesa;Lama;Barcelos;Braga;Solteiro;;Rua de Lama Nº94;4750;Barcelos;969144389;980942910;Sadiya.Painho@piscinasbarcacellos.pb;Licenciatura;32118729;93474208048;
+218;Ion Tatá;14/07/1988;Portuguesa;Lijó;Barcelos;Braga;Casado;Houssainatou Benta;Rua de Lijó Nº14;4750;Barcelos;929319546;926147432;Ion.Tatá@piscinasbarcacellos.pb;Secundário;90721865;56686957781;
+219;Khaleesi Belo;19/01/1983;Portuguesa;Manhente;Barcelos;Braga;Casado;Lyah Mila-milu;Rua de Manhente Nº94;4750;Barcelos;978633957;951090508;Khaleesi.Belo@piscinasbarcacellos.pb;Licenciatura;31956507;10664615538;
+220;Kyomara Flor;27/01/1975;Portuguesa;Martim;Barcelos;Braga;Casado;Andrea Pipo;Rua de Martim Nº98;4750;Barcelos;955681437;922208963;Kyomara.Flor@piscinasbarcacellos.pb;Licenciatura;31121493;52580263502;
+221;Yelissa Lilico;01/07/2000;Portuguesa;Moure;Barcelos;Braga;Solteiro;;Rua de Moure Nº15;4750;Barcelos;968285199;942057509;Yelissa.Lilico@piscinasbarcacellos.pb;Secundário;98697942;65034817118;
+222;Julieth Pica-Pau;04/12/1980;Portuguesa;Oliveira;Barcelos;Braga;Solteiro;;Rua de Oliveira Nº64;4750;Barcelos;983631215;915402593;Julieth.Pica-Pau@piscinasbarcacellos.pb;Licenciatura;70669327;66229655833;
+223;Melany Rob;11/01/1975;Portuguesa;Palme;Barcelos;Braga;Casado;Lorenza Láu;Rua de Palme Nº65;4750;Barcelos;994854507;981112029;Melany.Rob@piscinasbarcacellos.pb;Mestrado;54027596;92554992787;
+224;Yussuf Léo;11/05/2000;Portuguesa;Panque;Barcelos;Braga;Solteiro;Joana Garcia;Rua de Panque Nº57;4750;Barcelos;998893612;947826631;Yussuf.Léo@piscinasbarcacellos.pb;Secundário;52757359;57562411712;
+225;Rajanbir Filó;05/11/1997;Portuguesa;Paradela;Barcelos;Braga;Casado;Romario Ninha;Rua de Paradela Nº61;4750;Barcelos;992617087;958709766;Rajanbir.Filó@piscinasbarcacellos.pb;Mestrado;98315473;78672413288;
+226;Petro Beto;04/10/1986;Portuguesa;Pereira;Barcelos;Braga;Casado;Khiiara Boneco;Rua de Pereira Nº17;4750;Barcelos;945900228;914583473;Petro.Beto@piscinasbarcacellos.pb;Licenciatura;35365922;80361106377;
+227;Dien Guri;11/10/1983;Portuguesa;Perelhal;Barcelos;Braga;Casado;Kiluanji Pépe;Rua de Perelhal Nº23;4750;Barcelos;953522548;950055726;Dien.Guri@piscinasbarcacellos.pb;Mestrado;45098096;62526265141;
+228;Tércio Biau;08/04/2000;Portuguesa;Pousa;Barcelos;Braga;Solteiro;;Rua de Pousa Nº44;4750;Barcelos;929388595;993241239;Tércio.Biau@piscinasbarcacellos.pb;Mestrado;66582743;44881443786;
+229;Silke Zézinho;03/04/1981;Portuguesa;Fragoso;Barcelos;Braga;Solteiro;;Rua de Fragoso Nº28;4750;Barcelos;910900584;975730991;Silke.Zézinho@piscinasbarcacellos.pb;Secundário;99679089;56632908227;
+230;Russell Edinho;20/06/1990;Portuguesa;Gilmonde;Barcelos;Braga;Solteiro;;Rua de Gilmonde Nº44;4750;Barcelos;940264907;979128517;Russell.Edinho@piscinasbarcacellos.pb;Mestrado;37303591;87987143744;
+231;Magalie Jacaré;24/03/1987;Portuguesa;Lama;Barcelos;Braga;Casado;Gelila Ritinha;Rua de Lama Nº23;4750;Barcelos;965825689;932292603;Magalie.Jacaré@piscinasbarcacellos.pb;Secundário;90753357;15244943064;
+232;Aicha Sabiá;03/04/1983;Portuguesa;Lijó;Barcelos;Braga;Solteiro;;Rua de Lijó Nº9;4750;Barcelos;931431685;943960430;Aicha.Sabiá@piscinasbarcacellos.pb;Mestrado;75818465;89996954157;
+233;Dillon Bela;10/02/1983;Portuguesa;Manhente;Barcelos;Braga;Casado;Bubacar Júh;Rua de Manhente Nº37;4750;Barcelos;977506031;946054085;Dillon.Bela@piscinasbarcacellos.pb;Secundário;98572162;96235713422;
+234;Kellyson Duda;12/01/1971;Portuguesa;Martim;Barcelos;Braga;Casado;Naylah Duca;Rua de Martim Nº48;4750;Barcelos;995276667;915232698;Kellyson.Duda@piscinasbarcacellos.pb;Secundário;35605639;46497028998;
+235;Sergiu Jiló;04/10/1984;Portuguesa;Moure;Barcelos;Braga;Casado;Lovleen Drica;Rua de Moure Nº88;4750;Barcelos;942924252;954995699;Sergiu.Jiló@piscinasbarcacellos.pb;Secundário;39645599;90086578379;
+236;Anaïs Pezão;24/06/1995;Portuguesa;Oliveira;Barcelos;Braga;Solteiro;;Rua de Oliveira Nº57;4750;Barcelos;948064652;926947310;Anaïs.Pezão@piscinasbarcacellos.pb;Secundário;92501422;53871032648;
+237;Kendrick Mila-milu;12/04/1996;Portuguesa;Palme;Barcelos;Braga;Solteiro;;Rua de Palme Nº30;4750;Barcelos;980985526;965708006;Kendrick.Mila-milu@piscinasbarcacellos.pb;Licenciatura;67895749;97896230136;
+238;Thayla Duca;08/12/1976;Portuguesa;Panque;Barcelos;Braga;Solteiro;;Rua de Panque Nº54;4750;Barcelos;920514256;974696288;Thayla.Duca@piscinasbarcacellos.pb;Secundário;17855794;78949055811;
+239;Jassira Filó;28/01/1998;Portuguesa;Paradela;Barcelos;Braga;Solteiro;;Rua de Paradela Nº19;4750;Barcelos;912364601;959314220;Jassira.Filó@piscinasbarcacellos.pb;Secundário;77979833;16907180370;
+240;Jessica Branca;14/07/1979;Portuguesa;Aborim;Barcelos;Braga;Solteiro;;Rua de Aborim Nº25;4750;Barcelos;942044807;948067862;Jessica.Branca@piscinasbarcacellos.pb;Mestrado;69320201;84596726089;
+241;Rúbia Tudão;28/11/1997;Portuguesa;Adães;Barcelos;Braga;Casado;Kledilson Boneca;Rua de Adães Nº58;4750;Barcelos;956236316;964157559;Rúbia.Tudão@piscinasbarcacellos.pb;Mestrado;59632359;27323140609;
+242;Maia Val;20/04/1988;Portuguesa;Airó;Barcelos;Braga;Solteiro;;Rua de Airó Nº59;4750;Barcelos;921783415;928144823;Maia.Val@piscinasbarcacellos.pb;Secundário;64640067;72546429441;
+243;Irina Ninha;09/01/2000;Portuguesa;Aldreu;Barcelos;Braga;Solteiro;;Rua de Aldreu Nº27;4750;Barcelos;966541560;960557840;Irina.Ninha@piscinasbarcacellos.pb;Licenciatura;38042058;78958278483;
+244;Efim Bob;02/01/1987;Portuguesa;Alvelos;Barcelos;Braga;Solteiro;;Rua de Alvelos Nº88;4750;Barcelos;943664221;933775940;Efim.Bob@piscinasbarcacellos.pb;Secundário;98246985;60226484356;
+245;Belle Vál;08/03/2000;Portuguesa;Arcozelo;Barcelos;Braga;Casado;Aminata Mel;Rua de Arcozelo Nº23;4750;Barcelos;921999102;930642426;Belle.Vál@piscinasbarcacellos.pb;Licenciatura;57516391;75012028565;
+246;Cathrionna Duda;06/08/1986;Portuguesa;Balugães;Barcelos;Braga;Casado;Emaan Loro;Rua de Balugães Nº49;4750;Barcelos;944194092;975970942;Cathrionna.Duda@piscinasbarcacellos.pb;Licenciatura;55736172;37500007849;
+247;Timeea Chiquinha;24/09/1981;Portuguesa;Barcelinhos;Barcelos;Braga;Solteiro;;Rua de Barcelinhos Nº27;4750;Barcelos;938958993;997980208;Timeea.Chiquinha@piscinasbarcacellos.pb;Secundário;28213311;47562516378;
+248;Bento Xica;03/06/1990;Portuguesa;Barqueiros;Barcelos;Braga;Casado;Niah Pipo;Rua de Barqueiros Nº39;4750;Barcelos;969225234;912578360;Bento.Xica@piscinasbarcacellos.pb;Mestrado;13881997;56865941419;
+249;Ehinonmen Geno;08/02/1977;Portuguesa;Cambeses;Barcelos;Braga;Casado;Dani Cebolinha;Rua de Cambeses Nº36;4750;Barcelos;946244385;927847420;Ehinonmen.Geno@piscinasbarcacellos.pb;Licenciatura;26087754;88166298830;
+250;Pascoal Dunga;06/03/1998;Portuguesa;Carapeços;Barcelos;Braga;Casado;Markiyan Bananinha;Rua de Carapeços Nº37;4750;Barcelos;987954792;966472870;Pascoal.Dunga@piscinasbarcacellos.pb;Licenciatura;98166244;42285467912;
+251;Oscár Mel;26/02/1971;Portuguesa;Carvalhal;Barcelos;Braga;Casado;Owen Tonton;Rua de Carvalhal Nº70;4750;Barcelos;979772421;981000615;Oscár.Mel@piscinasbarcacellos.pb;Mestrado;91053886;18022546420;
+252;Vitória Negão;03/11/1983;Portuguesa;Carvalhas;Barcelos;Braga;Casado;Xica Neto;Rua de Carvalhas Nº11;4750;Barcelos;981471458;966860453;Vitória.Negão@piscinasbarcacellos.pb;Licenciatura;15137745;49024026185;
+253;Zilda Dema;09/04/1997;Portuguesa;Cossourado;Barcelos;Braga;Casado;Cristina Pica-Pau;Rua de Cossourado Nº69;4750;Barcelos;915882950;983133108;Zilda.Dema@piscinasbarcacellos.pb;Secundário;98823719;41564062602;
+254;Apolo Cacau;02/05/1985;Portuguesa;Cristelo;Barcelos;Braga;Solteiro;;Rua de Cristelo Nº33;4750;Barcelos;926136510;960565345;Apolo.Cacau@piscinasbarcacellos.pb;Secundário;67050928;85812953182;
+255;Gina Lia;07/01/1973;Portuguesa;Fornelos;Barcelos;Braga;Solteiro;;Rua de Fornelos Nº80;4750;Barcelos;928450808;978423154;Gina.Lia@piscinasbarcacellos.pb;Licenciatura;91855602;26812788443;
+256;Artur Tampinha;26/09/1980;Portuguesa;Fragoso;Barcelos;Braga;Casado;Danilo Nininho;Rua de Fragoso Nº71;4750;Barcelos;963255300;918839388;Artur.Tampinha@piscinasbarcacellos.pb;Mestrado;74917090;68271311079;
+257;Suria Beto;10/10/1994;Portuguesa;Gilmonde;Barcelos;Braga;Casado;Ni Ratinho;Rua de Gilmonde Nº85;4750;Barcelos;931236237;951818641;Suria.Beto@piscinasbarcacellos.pb;Secundário;92528827;47805249685;
+258;Runi Maluquinho;17/11/1980;Portuguesa;Lama;Barcelos;Braga;Solteiro;;Rua de Lama Nº54;4750;Barcelos;945724809;973703341;Runi.Maluquinho@piscinasbarcacellos.pb;Secundário;87718705;12643841941;
+259;Jaziel Sol;28/10/1985;Portuguesa;Lijó;Barcelos;Braga;Casado;Dafny Peuzinha;Rua de Lijó Nº50;4750;Barcelos;997772648;937718017;Jaziel.Sol@piscinasbarcacellos.pb;Mestrado;72382713;90957436436;
+260;Kelvin Verinha;21/05/1974;Portuguesa;Manhente;Barcelos;Braga;Casado;Nirbhay Lobão;Rua de Manhente Nº55;4750;Barcelos;958376392;990017932;Kelvin.Verinha@piscinasbarcacellos.pb;Mestrado;68837955;51905230178;
+261;Salomão Nôh;01/07/1978;Portuguesa;Martim;Barcelos;Braga;Solteiro;;Rua de Martim Nº30;4750;Barcelos;911208187;946848147;Salomão.Nôh@piscinasbarcacellos.pb;Mestrado;44768319;69594333307;
+262;Dominique Pity;07/05/2000;Portuguesa;Moure;Barcelos;Braga;Casado;Émilly Xuxa;Rua de Moure Nº96;4750;Barcelos;986083639;963915172;Dominique.Pity@piscinasbarcacellos.pb;Licenciatura;18377064;28974260168;
+263;Skylar Pretinho;20/03/1974;Portuguesa;Oliveira;Barcelos;Braga;Casado;Ismael Gáu;Rua de Oliveira Nº99;4750;Barcelos;955117374;915133696;Skylar.Pretinho@piscinasbarcacellos.pb;Secundário;10047146;20200984475;
+264;Ellen Sabiá;18/03/2000;Portuguesa;Palme;Barcelos;Braga;Solteiro;;Rua de Palme Nº45;4750;Barcelos;933384824;913676474;Ellen.Sabiá@piscinasbarcacellos.pb;Secundário;31437113;36373247174;
+265;Kaela Tita;23/12/1985;Portuguesa;Panque;Barcelos;Braga;Solteiro;;Rua de Panque Nº19;4750;Barcelos;951352848;962995399;Kaela.Tita@piscinasbarcacellos.pb;Secundário;38032558;50620052002;
+266;Katie Déca;02/06/1989;Portuguesa;Paradela;Barcelos;Braga;Solteiro;;Rua de Paradela Nº52;4750;Barcelos;975109244;938448634;Katie.Déca@piscinasbarcacellos.pb;Secundário;60068107;83923013457;
+267;Lavonne Nél;18/08/1998;Portuguesa;Pereira;Barcelos;Braga;Casado;Silmery Neguinho;Rua de Pereira Nº32;4750;Barcelos;926500497;972241016;Lavonne.Nél@piscinasbarcacellos.pb;Secundário;24950341;33910444240;
+268;Aimeé Bar;06/06/1987;Portuguesa;Perelhal;Barcelos;Braga;Casado;Ilídio Peuzinha;Rua de Perelhal Nº28;4750;Barcelos;951170512;920314480;Aimeé.Bar@piscinasbarcacellos.pb;Mestrado;33140010;23742035295;
+269;Alina Galego;28/09/1978;Portuguesa;Pousa;Barcelos;Braga;Solteiro;;Rua de Pousa Nº79;4750;Barcelos;955588385;929738857;Alina.Galego@piscinasbarcacellos.pb;Secundário;65146697;26432718766;
+270;Bella Gordo;25/09/1970;Portuguesa;Cambeses;Barcelos;Braga;Casado;Abdul Japa;Rua de Cambeses Nº87;4750;Barcelos;991600171;991773619;Bella.Gordo@piscinasbarcacellos.pb;Secundário;74544256;40844551186;
+271;Gurnoor Flor;23/02/1993;Portuguesa;Carapeços;Barcelos;Braga;Solteiro;;Rua de Carapeços Nº40;4750;Barcelos;997915488;924376342;Gurnoor.Flor@piscinasbarcacellos.pb;Secundário;41877133;38625351891;
+272;Ioan Dunga;09/05/1997;Portuguesa;Carvalhal;Barcelos;Braga;Solteiro;;Rua de Carvalhal Nº78;4750;Barcelos;935725478;990413099;Ioan.Dunga@piscinasbarcacellos.pb;Licenciatura;53939431;68532574059;
+273;Maisha Pica-Pau;05/10/1992;Portuguesa;Carvalhas;Barcelos;Braga;Casado;Ciro Mila-milu;Rua de Carvalhas Nº13;4750;Barcelos;956615594;943020432;Maisha.Pica-Pau@piscinasbarcacellos.pb;Licenciatura;59117866;52071563454;
+274;Túlipa Fofão;02/01/1983;Portuguesa;Cossourado;Barcelos;Braga;Casado;Jofrania Melão;Rua de Cossourado Nº36;4750;Barcelos;959037541;999956029;Túlipa.Fofão@piscinasbarcacellos.pb;Mestrado;56020194;48046684548;
